@@ -15,7 +15,7 @@
 #import "JZYILabel.h"
 
 #import "JZYIImageView.h"
-#import "UIImageView+JZYICornerRadius.h"
+
 
 
 #import "JZYIWebView.h"

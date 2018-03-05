@@ -51,29 +51,16 @@
                            placeholder:(NSString *)placeholder
                                   text:(NSString *)text
 {
-    JZYITextView *textView = [[JZYITextView alloc] init];
-    textView.backgroundColor = [UIColor clearColor];
-    textView.frame = frame;
-    textView.font = font;
-    textView.textColor = textColor;
-    textView.textAlignment = textAlignment;
-    textView.text = text;
-    textView.placeholder = placeholder;
+    JZYITextView *textView       = [[JZYITextView alloc] init];
+    textView.backgroundColor     = [UIColor clearColor];
+    textView.frame               = frame;
+    textView.font                = font;
+    textView.textColor           = textColor;
+    textView.textAlignment       = textAlignment;
+    textView.text                = text;
+    textView.placeholder         = placeholder;
 
     return textView;
-}
-
-+ (instancetype)setupTextViewWithFont:(UIFont *)font
-                            textColor:(UIColor *)textColor
-                          placeholder:(NSString *)placeholder
-                                 text:(NSString *)text
-{
-    return [JZYITextView setupTextViewWithFrame:CGRectZero
-                                           font:font
-                                      textColor:textColor
-                                  textAlignment:NSTextAlignmentLeft
-                                    placeholder:placeholder
-                                           text:text];
 }
 
 - (void)setupDefautl
@@ -81,7 +68,7 @@
     // 设置默认字体
     self.font = [UIFont systemFontOfSize:14.f];
     // 设置默认颜色
-    self.placeholderColor = [UIColor grayColor];
+    self.placeholderColor = [UIColor colorWithRed:0 green:0 blue:0.0980392 alpha:0.22];
     // 设置默认占位文本
     self.placeholder = nil;
     
@@ -93,15 +80,6 @@
                                              selector:@selector(textDidChange:)
                                                  name:UITextViewTextDidChangeNotification
                                                object:self];
-}
-
-- (void)textDidChange:(NSNotification *)note {
-    self.placeholderLabel.hidden = self.hasText;
-}
-
-- (void)setupCornerRadius:(CGFloat)radius
-{
-    self.layer.cornerRadius = radius;
 }
 
 #pragma mark - setter

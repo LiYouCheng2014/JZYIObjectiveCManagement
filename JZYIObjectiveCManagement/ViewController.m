@@ -32,6 +32,9 @@ NSString *const EOCStringConstant = @"VALUES";
     [self createView];
     [self createLabel];
     [self createImageView];
+    [self createButton];
+    [self createTextField];
+    [self createTextView];
 }
 
 - (void)createView
@@ -70,15 +73,12 @@ NSString *const EOCStringConstant = @"VALUES";
 
 - (void)createImageView
 {
-    JZYIImageView *imageView = [JZYIImageView setupImageViewWithFrame:CGRectZero image:[UIImage imageNamed:@"1"]];
-    imageView.backgroundColor = [UIColor purpleColor];
+    JZYIImageView *imageView = [JZYIImageView setupImageViewWithFrame:CGRectZero image:[UIImage imageNamed:@"1"] cornerRadius:50.f];
+    imageView.backgroundColor = [UIColor clearColor];
     [self.view addSubview:imageView];
     
     //添加手势
     [imageView imageAddTap:self];
-    //设置圆角
-    imageView.aliCornerRadius = 50.f;
-    
     
     [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.size.mas_equalTo(CGSizeMake(100.f, 100.f));
@@ -87,7 +87,49 @@ NSString *const EOCStringConstant = @"VALUES";
     }];
 }
 
+- (void)createButton
+{
+    JZYIButton *button = [JZYIButton setupButtonWithFrame:CGRectZero font:[UIFont systemFontOfSize:13] target:self action:@selector(clickedButton:) borderWidth:1 borderColor:[UIColor redColor] cornerRadius:15];
+    button.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:button];
+    
+    [button mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.size.mas_equalTo(CGSizeMake(100.f, 100.f));
+        make.top.mas_equalTo(200.f);
+        make.right.mas_equalTo(-50.f);
+    }];
+}
+
+- (void)createTextField {
+    JZYITextField *textField = [JZYITextField setupTextFieldWithFrame:CGRectZero font:[UIFont systemFontOfSize:13] textColor:[UIColor blackColor] textAlignment:NSTextAlignmentCenter placeholder:@"请输入您尊贵的名字" text:nil];
+//    textField.backgroundColor = [UIColor purpleColor];
+    [self.view addSubview:textField];
+    
+    [textField mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.size.mas_equalTo(CGSizeMake(100.f, 80.f));
+        make.top.mas_equalTo(320.f);
+        make.left.mas_equalTo(50.f);
+    }];
+}
+
+- (void)createTextView {
+    JZYITextView *textView = [JZYITextView setupTextViewWithFrame:CGRectZero font:[UIFont systemFontOfSize:13] textColor:[UIColor blackColor] textAlignment:NSTextAlignmentCenter placeholder:@"请输入您尊贵的描述" text:nil];
+//    textView.backgroundColor = [UIColor purpleColor];
+    [self.view addSubview:textView];
+    
+    [textView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.size.mas_equalTo(CGSizeMake(100.f, 80.f));
+        make.top.mas_equalTo(320.f);
+        make.right.mas_equalTo(-50.f);
+    }];
+}
+
+
 #pragma mark - JZYIImageViewDelegate
+
+- (void)clickedButton:(JZYIButton *)btn {
+    NSLog(@"点击按钮");
+}
 
 - (void)clickedImageView:(JZYIImageView *)imageView
 {

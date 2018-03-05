@@ -8,6 +8,8 @@
 
 #import "JZYIImageView.h"
 
+#import "UIImageView+JZYICornerRadius.h"
+
 @interface JZYIImageView ()
 
 @property (nonatomic, weak) id<JZYIImageViewDelegate> delegate;
@@ -36,12 +38,20 @@
 
 + (instancetype)setupImageViewWithFrame:(CGRect)frame
                                   image:(UIImage *)image
+//                            borderWidth:(CGFloat)borderWidth
+//                            borderColor:(UIColor *)borderColor
+                           cornerRadius:(CGFloat)cornerRadius
 {
-    JZYIImageView *imageView = [[JZYIImageView alloc] init];
-    imageView.backgroundColor = [UIColor clearColor];
-    imageView.frame = frame;
-    imageView.image = image;
-    imageView.contentMode = UIViewContentModeScaleToFill;
+    JZYIImageView *imageView     = [[JZYIImageView alloc] init];
+    imageView.backgroundColor    = [UIColor clearColor];
+    imageView.frame              = frame;
+    imageView.image              = image;
+//    imageView.layer.borderColor = borderColor.CGColor;
+//    imageView.layer.borderWidth = borderWidth;
+    imageView.contentMode        = UIViewContentModeScaleToFill;
+    imageView.aliCornerRadius    = 50.f;
+//    imageView.layer.cornerRadius = 50.f;
+//    imageView.layer.masksToBounds = true;
     
     return imageView;
 }

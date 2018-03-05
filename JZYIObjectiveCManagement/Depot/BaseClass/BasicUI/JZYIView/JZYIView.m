@@ -40,8 +40,7 @@
     view.layer.borderWidth   = borderWidth;
     view.layer.borderColor   = borderColor.CGColor;
     view.layer.cornerRadius  = cornerRadius;
-//    view.layer.masksToBounds = NO;
-  
+
     return view;
 }
 

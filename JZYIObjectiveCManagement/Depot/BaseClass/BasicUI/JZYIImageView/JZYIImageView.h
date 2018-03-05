@@ -19,7 +19,10 @@
 @interface JZYIImageView : UIImageView
 
 + (instancetype)setupImageViewWithFrame:(CGRect)frame
-                                  image:(UIImage *)image;
+                                  image:(UIImage *)image
+//                            borderWidth:(CGFloat)borderWidth
+//                            borderColor:(UIColor *)borderColor
+                           cornerRadius:(CGFloat)cornerRadius;
 
 /**
  图片添加点击事件

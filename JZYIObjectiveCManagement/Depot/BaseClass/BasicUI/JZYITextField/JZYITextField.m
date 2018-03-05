@@ -35,35 +35,22 @@
                             placeholder:(NSString *)placeholder
                                    text:(NSString *)text
 {
-    JZYITextField *textField = [[JZYITextField alloc] init];
-    textField.backgroundColor = [UIColor clearColor];
-    textField.frame = frame;
-    textField.font = font;
-    textField.textColor = textColor;
-    textField.textAlignment = textAlignment;
-    textField.text = text;
-    textField.placeholder = placeholder;
-    textField.clearButtonMode = UITextFieldViewModeWhileEditing;
-    
+    JZYITextField *textField         = [[JZYITextField alloc] init];
+    textField.backgroundColor        = [UIColor clearColor];
+    textField.frame                  = frame;
+    textField.font                   = font;
+    textField.textColor              = textColor;
+    textField.textAlignment          = textAlignment;
+    textField.text                   = text;
+    textField.placeholder            = placeholder;
+    textField.clearButtonMode        = UITextFieldViewModeWhileEditing;
+
+//    NSMutableDictionary *attDict = [NSMutableDictionary dictionary];
+//    attDict[NSFontAttributeName] = [UIFont systemFontOfSize:14.f];
+//    attDict[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
+//    textField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:placeholder attributes:attDict];
+
     return textField;
-}
-
-+ (instancetype)setupTextFieldWithFont:(UIFont *)font
-                             textColor:(UIColor *)textColor
-                           placeholder:(NSString *)placeholder
-                                  text:(NSString *)text
-{
-    return [JZYITextField setupTextFieldWithFrame:CGRectZero
-                                             font:font
-                                        textColor:textColor
-                                    textAlignment:NSTextAlignmentLeft
-                                      placeholder:placeholder
-                                             text:text];
-}
-
-- (void)setupCornerRadius:(CGFloat)radius
-{
-    self.layer.cornerRadius = radius;
 }
 
 @end
