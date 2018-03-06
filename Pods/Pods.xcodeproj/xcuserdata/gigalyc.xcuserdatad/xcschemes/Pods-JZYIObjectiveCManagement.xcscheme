@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1ECC4EFDBBA807C98E69A820E81D3BBD'
+               BlueprintIdentifier = '19D3B162AADAE15870B76B8E9A18A657'
                BlueprintName = 'Pods-JZYIObjectiveCManagement'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-JZYIObjectiveCManagement.a'>

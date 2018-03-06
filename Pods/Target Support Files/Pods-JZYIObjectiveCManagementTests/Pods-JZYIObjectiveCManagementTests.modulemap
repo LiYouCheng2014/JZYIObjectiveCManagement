@@ -1,0 +1,6 @@
+framework module Pods_JZYIObjectiveCManagementTests {
+  umbrella header "Pods-JZYIObjectiveCManagementTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

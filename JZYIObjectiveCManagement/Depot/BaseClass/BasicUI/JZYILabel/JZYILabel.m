@@ -63,14 +63,14 @@
 
 - (void)refreshUIWithSpace
 {
-    NSDictionary *dict = [self getPragraphStyleDictWithFont:self.font color:self.textColor spacing:self.spacing];
+    NSDictionary *dict = [self p_getPragraphStyleDictWithFont:self.font color:self.textColor spacing:self.spacing];
     NSAttributedString *attributeStr = [[NSAttributedString alloc] initWithString:self.text attributes:dict];
     self.attributedText = attributeStr;
 }
 
 - (CGFloat)getSpaceHeightOfWidth:(CGFloat)width
 {
-    NSDictionary *dict = [self getPragraphStyleDictWithFont:self.font color:self.textColor spacing:self.spacing];
+    NSDictionary *dict = [self p_getPragraphStyleDictWithFont:self.font color:self.textColor spacing:self.spacing];
     CGSize size = [self.text boundingRectWithSize:CGSizeMake(width, CGFLOAT_MAX)
                                      options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading
                                   attributes:dict
@@ -79,7 +79,7 @@
 }
 
 
-- (NSDictionary *)getPragraphStyleDictWithFont:(UIFont *)font color:(UIColor *)color spacing:(CGFloat)spcing{
+- (NSDictionary *)p_getPragraphStyleDictWithFont:(UIFont *)font color:(UIColor *)color spacing:(CGFloat)spcing{
     NSMutableParagraphStyle *paraStyle = [[NSMutableParagraphStyle alloc] init];
     
     paraStyle.lineBreakMode = NSLineBreakByCharWrapping;

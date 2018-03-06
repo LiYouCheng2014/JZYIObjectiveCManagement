@@ -35,13 +35,13 @@
                                  onImage:(UIImage *)onImage
                                 offImage:(UIImage *)offImage
 {
-    JZYISwitch *sw = [[JZYISwitch alloc] init];
-    sw.frame = frame;
-    sw.onTintColor = onTintColor;
-    sw.tintColor = tintColor;
-    sw.thumbTintColor = thumbTintColor;
-    sw.onImage = onImage;
-    sw.offImage = offImage;
+    JZYISwitch *sw               = [[JZYISwitch alloc] init];
+    sw.frame                     = frame;
+    sw.onTintColor               = onTintColor;
+    sw.tintColor                 = tintColor;
+    sw.thumbTintColor            = thumbTintColor;
+    sw.onImage                   = onImage;
+    sw.offImage                  = offImage;
     
     return sw;
 }

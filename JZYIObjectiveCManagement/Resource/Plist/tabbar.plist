@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>selectIcon</key>
+		<string>icon_tab_home_select</string>
+		<key>normIcon</key>
+		<string>icon_tab_home_norm</string>
+		<key>name</key>
+		<string>首页</string>
+		<key>show</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>selectIcon</key>
+		<string>icon_tab_neighborhood_select</string>
+		<key>normIcon</key>
+		<string>icon_tab_neighborhood_norm</string>
+		<key>name</key>
+		<string>通讯录</string>
+		<key>show</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>selectIcon</key>
+		<string>icon_tab_message_select</string>
+		<key>normIcon</key>
+		<string>icon_tab_message_norm</string>
+		<key>name</key>
+		<string>发现</string>
+		<key>show</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>selectIcon</key>
+		<string>icon_tab_my_select</string>
+		<key>normIcon</key>
+		<string>icon_tab_my_norm</string>
+		<key>name</key>
+		<string>我的</string>
+		<key>show</key>
+		<true/>
+	</dict>
+</array>
+</plist>

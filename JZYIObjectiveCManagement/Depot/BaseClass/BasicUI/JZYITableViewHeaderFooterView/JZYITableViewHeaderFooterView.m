@@ -19,13 +19,6 @@
     return self;
 }
 
-//+ (instancetype)setupTableViewHeaderFooterViewWithReuseIdentifier:(NSString *)reuseIdentifier
-//{
-//    JZYITableViewHeaderFooterView *headerFooterView = [[JZYITableViewHeaderFooterView alloc] initWithReuseIdentifier:reuseIdentifier];
-//    
-//    return headerFooterView;
-//}
-
 - (void)refreshUIWithObj:(id)obj
 {
     

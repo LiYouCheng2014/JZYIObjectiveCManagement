@@ -24,7 +24,7 @@
 {
     self = [super init];
     if (self) {
-        [self setupDefautl];
+        [self p_setupDefautl];
     }
     return self;
 }
@@ -32,7 +32,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         
-        [self setupDefautl];
+        [self p_setupDefautl];
     }
     return self;
 }
@@ -63,7 +63,7 @@
     return textView;
 }
 
-- (void)setupDefautl
+- (void)p_setupDefautl
 {
     // 设置默认字体
     self.font = [UIFont systemFontOfSize:14.f];

@@ -124,6 +124,9 @@ NSString *const EOCStringConstant = @"VALUES";
     }];
 }
 
+int (^addBlock)(int a,int b) = ^(int a, int b) {
+    return a + b;
+};
 
 #pragma mark - JZYIImageViewDelegate
 

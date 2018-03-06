@@ -37,9 +37,26 @@
 		1FEB21C82047D6C700051366 /* UIView+JZYIFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB21C72047D6C700051366 /* UIView+JZYIFrame.m */; };
 		1FEB21CB2047DAB500051366 /* UIImageView+JZYICornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB21CA2047DAB500051366 /* UIImageView+JZYICornerRadius.m */; };
 		1FEB21CD2047DBB700051366 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FEB21CC2047DBB700051366 /* 1.png */; };
-		5EF2506F9A2DF0D7A164D5AE /* libPods-JZYIObjectiveCManagement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E383211A5DA9095D1962C793 /* libPods-JZYIObjectiveCManagement.a */; };
-		AEB60B00712562F8FA245C03 /* libPods-JZYIObjectiveCManagementUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A66A427A878BCE938DCFC9 /* libPods-JZYIObjectiveCManagementUITests.a */; };
-		E74018F1A911DBD7E0D6867F /* libPods-JZYIObjectiveCManagementTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D96E9F5B2C7D5C36677446 /* libPods-JZYIObjectiveCManagementTests.a */; };
+		1FF25304204E6A5A005BBDAB /* NSString+JZYITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF25303204E6A5A005BBDAB /* NSString+JZYITool.m */; };
+		1FF25307204E6A78005BBDAB /* UIColor+JZYITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF25306204E6A78005BBDAB /* UIColor+JZYITool.m */; };
+		1FF2530A204E6A90005BBDAB /* UIFont+JZYITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF25309204E6A90005BBDAB /* UIFont+JZYITool.m */; };
+		1FF25311204E6ED3005BBDAB /* UIColor+JZYIApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF25310204E6ED3005BBDAB /* UIColor+JZYIApp.m */; };
+		1FF25316204E7111005BBDAB /* UIButton+JZYITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF25315204E7111005BBDAB /* UIButton+JZYITool.m */; };
+		1FF2531C204E73E6005BBDAB /* JZYIBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2531B204E73E6005BBDAB /* JZYIBaseVC.m */; };
+		1FF25321204E7646005BBDAB /* JZYINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF25320204E7646005BBDAB /* JZYINavigationController.m */; };
+		1FF2532F204E7D04005BBDAB /* JZYIBaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2532E204E7D04005BBDAB /* JZYIBaseNavigationVC.m */; };
+		1FF25333204E7EFB005BBDAB /* UIImage+JZYITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF25332204E7EFB005BBDAB /* UIImage+JZYITool.m */; };
+		1FF25336204E85F5005BBDAB /* JZYIMyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF25335204E85F5005BBDAB /* JZYIMyVC.m */; };
+		1FF25339204E8601005BBDAB /* JZYIFindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF25338204E8601005BBDAB /* JZYIFindVC.m */; };
+		1FF2533C204E860F005BBDAB /* JZYIAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2533B204E860F005BBDAB /* JZYIAddressBook.m */; };
+		1FF2533F204E8627005BBDAB /* JZYIHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2533E204E8627005BBDAB /* JZYIHomeVC.m */; };
+		1FF25343204E8774005BBDAB /* JZYITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF25342204E8774005BBDAB /* JZYITabBarController.m */; };
+		1FF25345204E884A005BBDAB /* tabbar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FF25344204E884A005BBDAB /* tabbar.plist */; };
+		1FF2534B204E8B63005BBDAB /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2534A204E8B63005BBDAB /* CaculatorMaker.m */; };
+		1FF2534F204E8EC5005BBDAB /* Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2534E204E8EC5005BBDAB /* Caculator.m */; };
+		4B48AF6C46292A6E887513B3 /* libPods-JZYIObjectiveCManagement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9944A73E9CD1C51B46935A2C /* libPods-JZYIObjectiveCManagement.a */; };
+		75F16D5359403F230006E7BB /* libPods-JZYIObjectiveCManagementUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7D891C71596F2F597F2A9D /* libPods-JZYIObjectiveCManagementUITests.a */; };
+		E6C96621E9E40ABE2FCA7094 /* libPods-JZYIObjectiveCManagementTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2509C07F5956679D5F8ECE /* libPods-JZYIObjectiveCManagementTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,8 +77,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E2509C07F5956679D5F8ECE /* libPods-JZYIObjectiveCManagementTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JZYIObjectiveCManagementTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		129DBA0A74D80456C5146B93 /* Pods-JZYIObjectiveCManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZYIObjectiveCManagementTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZYIObjectiveCManagementTests/Pods-JZYIObjectiveCManagementTests.release.xcconfig"; sourceTree = "<group>"; };
-		18A66A427A878BCE938DCFC9 /* libPods-JZYIObjectiveCManagementUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JZYIObjectiveCManagementUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBC17122046593900DED02D /* JZYIObjectiveCManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZYIObjectiveCManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBC17152046593900DED02D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FBC17162046593900DED02D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -122,13 +139,50 @@
 		1FEB21C92047DAB500051366 /* UIImageView+JZYICornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JZYICornerRadius.h"; sourceTree = "<group>"; };
 		1FEB21CA2047DAB500051366 /* UIImageView+JZYICornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JZYICornerRadius.m"; sourceTree = "<group>"; };
 		1FEB21CC2047DBB700051366 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		1FF25302204E6A5A005BBDAB /* NSString+JZYITool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JZYITool.h"; sourceTree = "<group>"; };
+		1FF25303204E6A5A005BBDAB /* NSString+JZYITool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JZYITool.m"; sourceTree = "<group>"; };
+		1FF25305204E6A78005BBDAB /* UIColor+JZYITool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+JZYITool.h"; sourceTree = "<group>"; };
+		1FF25306204E6A78005BBDAB /* UIColor+JZYITool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JZYITool.m"; sourceTree = "<group>"; };
+		1FF25308204E6A90005BBDAB /* UIFont+JZYITool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+JZYITool.h"; sourceTree = "<group>"; };
+		1FF25309204E6A90005BBDAB /* UIFont+JZYITool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+JZYITool.m"; sourceTree = "<group>"; };
+		1FF2530B204E6AB7005BBDAB /* JZYICategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYICategory.h; sourceTree = "<group>"; };
+		1FF2530F204E6ED3005BBDAB /* UIColor+JZYIApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+JZYIApp.h"; sourceTree = "<group>"; };
+		1FF25310204E6ED3005BBDAB /* UIColor+JZYIApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JZYIApp.m"; sourceTree = "<group>"; };
+		1FF25314204E7111005BBDAB /* UIButton+JZYITool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JZYITool.h"; sourceTree = "<group>"; };
+		1FF25315204E7111005BBDAB /* UIButton+JZYITool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JZYITool.m"; sourceTree = "<group>"; };
+		1FF2531A204E73E6005BBDAB /* JZYIBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIBaseVC.h; sourceTree = "<group>"; };
+		1FF2531B204E73E6005BBDAB /* JZYIBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIBaseVC.m; sourceTree = "<group>"; };
+		1FF2531E204E747D005BBDAB /* JZYIUtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIUtilsMacro.h; sourceTree = "<group>"; };
+		1FF2531F204E7646005BBDAB /* JZYINavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYINavigationController.h; sourceTree = "<group>"; };
+		1FF25320204E7646005BBDAB /* JZYINavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYINavigationController.m; sourceTree = "<group>"; };
+		1FF25322204E7676005BBDAB /* JZYIBasicVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIBasicVC.h; sourceTree = "<group>"; };
+		1FF25325204E79BE005BBDAB /* JZYIPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIPch.pch; sourceTree = "<group>"; };
+		1FF2532D204E7D04005BBDAB /* JZYIBaseNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIBaseNavigationVC.h; sourceTree = "<group>"; };
+		1FF2532E204E7D04005BBDAB /* JZYIBaseNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIBaseNavigationVC.m; sourceTree = "<group>"; };
+		1FF25331204E7EFB005BBDAB /* UIImage+JZYITool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+JZYITool.h"; sourceTree = "<group>"; };
+		1FF25332204E7EFB005BBDAB /* UIImage+JZYITool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JZYITool.m"; sourceTree = "<group>"; };
+		1FF25334204E85F5005BBDAB /* JZYIMyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIMyVC.h; sourceTree = "<group>"; };
+		1FF25335204E85F5005BBDAB /* JZYIMyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIMyVC.m; sourceTree = "<group>"; };
+		1FF25337204E8601005BBDAB /* JZYIFindVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIFindVC.h; sourceTree = "<group>"; };
+		1FF25338204E8601005BBDAB /* JZYIFindVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIFindVC.m; sourceTree = "<group>"; };
+		1FF2533A204E860F005BBDAB /* JZYIAddressBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIAddressBook.h; sourceTree = "<group>"; };
+		1FF2533B204E860F005BBDAB /* JZYIAddressBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIAddressBook.m; sourceTree = "<group>"; };
+		1FF2533D204E8627005BBDAB /* JZYIHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIHomeVC.h; sourceTree = "<group>"; };
+		1FF2533E204E8627005BBDAB /* JZYIHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIHomeVC.m; sourceTree = "<group>"; };
+		1FF25341204E8774005BBDAB /* JZYITabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYITabBarController.h; sourceTree = "<group>"; };
+		1FF25342204E8774005BBDAB /* JZYITabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYITabBarController.m; sourceTree = "<group>"; };
+		1FF25344204E884A005BBDAB /* tabbar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tabbar.plist; sourceTree = "<group>"; };
+		1FF25349204E8B63005BBDAB /* CaculatorMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaculatorMaker.h; sourceTree = "<group>"; };
+		1FF2534A204E8B63005BBDAB /* CaculatorMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaculatorMaker.m; sourceTree = "<group>"; };
+		1FF2534D204E8EC5005BBDAB /* Caculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Caculator.h; sourceTree = "<group>"; };
+		1FF2534E204E8EC5005BBDAB /* Caculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Caculator.m; sourceTree = "<group>"; };
 		42906F10927E1452F8D6A86B /* Pods-JZYIObjectiveCManagementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZYIObjectiveCManagementUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZYIObjectiveCManagementUITests/Pods-JZYIObjectiveCManagementUITests.release.xcconfig"; sourceTree = "<group>"; };
 		64F8C83AE00E47571BE453C4 /* Pods-JZYIObjectiveCManagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZYIObjectiveCManagementTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JZYIObjectiveCManagementTests/Pods-JZYIObjectiveCManagementTests.debug.xcconfig"; sourceTree = "<group>"; };
 		74ED624366735E9C314A0A3F /* Pods-JZYIObjectiveCManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZYIObjectiveCManagement.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZYIObjectiveCManagement/Pods-JZYIObjectiveCManagement.release.xcconfig"; sourceTree = "<group>"; };
+		7A7D891C71596F2F597F2A9D /* libPods-JZYIObjectiveCManagementUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JZYIObjectiveCManagementUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		940C63C8D65F4E0AEE0EF454 /* Pods-JZYIObjectiveCManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZYIObjectiveCManagement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JZYIObjectiveCManagement/Pods-JZYIObjectiveCManagement.debug.xcconfig"; sourceTree = "<group>"; };
-		B0D96E9F5B2C7D5C36677446 /* libPods-JZYIObjectiveCManagementTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JZYIObjectiveCManagementTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9944A73E9CD1C51B46935A2C /* libPods-JZYIObjectiveCManagement.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JZYIObjectiveCManagement.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F377CE44CE0E0FDC38480F /* Pods-JZYIObjectiveCManagementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZYIObjectiveCManagementUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JZYIObjectiveCManagementUITests/Pods-JZYIObjectiveCManagementUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E383211A5DA9095D1962C793 /* libPods-JZYIObjectiveCManagement.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JZYIObjectiveCManagement.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +190,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EF2506F9A2DF0D7A164D5AE /* libPods-JZYIObjectiveCManagement.a in Frameworks */,
+				4B48AF6C46292A6E887513B3 /* libPods-JZYIObjectiveCManagement.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E74018F1A911DBD7E0D6867F /* libPods-JZYIObjectiveCManagementTests.a in Frameworks */,
+				E6C96621E9E40ABE2FCA7094 /* libPods-JZYIObjectiveCManagementTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +206,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEB60B00712562F8FA245C03 /* libPods-JZYIObjectiveCManagementUITests.a in Frameworks */,
+				75F16D5359403F230006E7BB /* libPods-JZYIObjectiveCManagementUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +238,11 @@
 		1FBC17142046593900DED02D /* JZYIObjectiveCManagement */ = {
 			isa = PBXGroup;
 			children = (
+				1FF25346204E888B005BBDAB /* Resource */,
+				1FF2532A204E7C78005BBDAB /* BaseClass */,
+				1FF25324204E7977005BBDAB /* Module */,
+				1FF25323204E796C005BBDAB /* Macro */,
+				1FF2530C204E6E9E005BBDAB /* Extension */,
 				1FBC174720469DE700DED02D /* Depot */,
 				1FBC17152046593900DED02D /* AppDelegate.h */,
 				1FBC17162046593900DED02D /* AppDelegate.m */,
@@ -222,6 +281,8 @@
 		1FBC174720469DE700DED02D /* Depot */ = {
 			isa = PBXGroup;
 			children = (
+				1FF2531D204E744B005BBDAB /* Macro */,
+				1FF252FD204E69BF005BBDAB /* Category */,
 				1FBC174920469E2300DED02D /* BaseClass */,
 			);
 			path = Depot;
@@ -230,6 +291,7 @@
 		1FBC174920469E2300DED02D /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				1FF25317204E738F005BBDAB /* BasicVC */,
 				1FBC174A20469E2300DED02D /* BasicUI */,
 			);
 			path = BaseClass;
@@ -427,12 +489,257 @@
 			path = JZYIWebView;
 			sourceTree = "<group>";
 		};
+		1FF252FD204E69BF005BBDAB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25330204E7EE8005BBDAB /* UIImage+JZYITool */,
+				1FF25313204E70F6005BBDAB /* UIButton+JZYITool */,
+				1FF25300204E6A0D005BBDAB /* NSString+JZYITool */,
+				1FF252FF204E69E0005BBDAB /* UIColor+JZYITool */,
+				1FF252FE204E69C8005BBDAB /* UIFont+JZYITool */,
+				1FF2530B204E6AB7005BBDAB /* JZYICategory.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1FF252FE204E69C8005BBDAB /* UIFont+JZYITool */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25308204E6A90005BBDAB /* UIFont+JZYITool.h */,
+				1FF25309204E6A90005BBDAB /* UIFont+JZYITool.m */,
+			);
+			path = "UIFont+JZYITool";
+			sourceTree = "<group>";
+		};
+		1FF252FF204E69E0005BBDAB /* UIColor+JZYITool */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25305204E6A78005BBDAB /* UIColor+JZYITool.h */,
+				1FF25306204E6A78005BBDAB /* UIColor+JZYITool.m */,
+			);
+			path = "UIColor+JZYITool";
+			sourceTree = "<group>";
+		};
+		1FF25300204E6A0D005BBDAB /* NSString+JZYITool */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25302204E6A5A005BBDAB /* NSString+JZYITool.h */,
+				1FF25303204E6A5A005BBDAB /* NSString+JZYITool.m */,
+			);
+			path = "NSString+JZYITool";
+			sourceTree = "<group>";
+		};
+		1FF2530C204E6E9E005BBDAB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2530D204E6EA9005BBDAB /* Category */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1FF2530D204E6EA9005BBDAB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2530E204E6EAF005BBDAB /* UIColor+JZYIApp */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1FF2530E204E6EAF005BBDAB /* UIColor+JZYIApp */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2530F204E6ED3005BBDAB /* UIColor+JZYIApp.h */,
+				1FF25310204E6ED3005BBDAB /* UIColor+JZYIApp.m */,
+			);
+			path = "UIColor+JZYIApp";
+			sourceTree = "<group>";
+		};
+		1FF25313204E70F6005BBDAB /* UIButton+JZYITool */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25314204E7111005BBDAB /* UIButton+JZYITool.h */,
+				1FF25315204E7111005BBDAB /* UIButton+JZYITool.m */,
+			);
+			path = "UIButton+JZYITool";
+			sourceTree = "<group>";
+		};
+		1FF25317204E738F005BBDAB /* BasicVC */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25322204E7676005BBDAB /* JZYIBasicVC.h */,
+				1FF25319204E73A2005BBDAB /* NavigationController */,
+				1FF25318204E739C005BBDAB /* VC */,
+			);
+			path = BasicVC;
+			sourceTree = "<group>";
+		};
+		1FF25318204E739C005BBDAB /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2531A204E73E6005BBDAB /* JZYIBaseVC.h */,
+				1FF2531B204E73E6005BBDAB /* JZYIBaseVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		1FF25319204E73A2005BBDAB /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2531F204E7646005BBDAB /* JZYINavigationController.h */,
+				1FF25320204E7646005BBDAB /* JZYINavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		1FF2531D204E744B005BBDAB /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2531E204E747D005BBDAB /* JZYIUtilsMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		1FF25323204E796C005BBDAB /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25325204E79BE005BBDAB /* JZYIPch.pch */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		1FF25324204E7977005BBDAB /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25329204E7C15005BBDAB /* My */,
+				1FF25328204E7C0A005BBDAB /* Find */,
+				1FF25327204E7BE5005BBDAB /* AddressBook */,
+				1FF25326204E7AE2005BBDAB /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		1FF25326204E7AE2005BBDAB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2533D204E8627005BBDAB /* JZYIHomeVC.h */,
+				1FF2533E204E8627005BBDAB /* JZYIHomeVC.m */,
+				1FF2534C204E8E9B005BBDAB /* 模仿ReactiveCocoa */,
+				1FF25348204E8B49005BBDAB /* 模仿Masonry */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1FF25327204E7BE5005BBDAB /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2533A204E860F005BBDAB /* JZYIAddressBook.h */,
+				1FF2533B204E860F005BBDAB /* JZYIAddressBook.m */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		1FF25328204E7C0A005BBDAB /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25337204E8601005BBDAB /* JZYIFindVC.h */,
+				1FF25338204E8601005BBDAB /* JZYIFindVC.m */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		1FF25329204E7C15005BBDAB /* My */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25334204E85F5005BBDAB /* JZYIMyVC.h */,
+				1FF25335204E85F5005BBDAB /* JZYIMyVC.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		1FF2532A204E7C78005BBDAB /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2532B204E7C82005BBDAB /* BasicVC */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		1FF2532B204E7C82005BBDAB /* BasicVC */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25340204E8691005BBDAB /* JZYITabBarController */,
+				1FF2532C204E7C92005BBDAB /* JZYIBaseNavigationVC */,
+			);
+			path = BasicVC;
+			sourceTree = "<group>";
+		};
+		1FF2532C204E7C92005BBDAB /* JZYIBaseNavigationVC */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2532D204E7D04005BBDAB /* JZYIBaseNavigationVC.h */,
+				1FF2532E204E7D04005BBDAB /* JZYIBaseNavigationVC.m */,
+			);
+			path = JZYIBaseNavigationVC;
+			sourceTree = "<group>";
+		};
+		1FF25330204E7EE8005BBDAB /* UIImage+JZYITool */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25331204E7EFB005BBDAB /* UIImage+JZYITool.h */,
+				1FF25332204E7EFB005BBDAB /* UIImage+JZYITool.m */,
+			);
+			path = "UIImage+JZYITool";
+			sourceTree = "<group>";
+		};
+		1FF25340204E8691005BBDAB /* JZYITabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25341204E8774005BBDAB /* JZYITabBarController.h */,
+				1FF25342204E8774005BBDAB /* JZYITabBarController.m */,
+			);
+			path = JZYITabBarController;
+			sourceTree = "<group>";
+		};
+		1FF25346204E888B005BBDAB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25347204E8891005BBDAB /* Plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1FF25347204E8891005BBDAB /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25344204E884A005BBDAB /* tabbar.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		1FF25348204E8B49005BBDAB /* 模仿Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25349204E8B63005BBDAB /* CaculatorMaker.h */,
+				1FF2534A204E8B63005BBDAB /* CaculatorMaker.m */,
+			);
+			path = "模仿Masonry";
+			sourceTree = "<group>";
+		};
+		1FF2534C204E8E9B005BBDAB /* 模仿ReactiveCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2534D204E8EC5005BBDAB /* Caculator.h */,
+				1FF2534E204E8EC5005BBDAB /* Caculator.m */,
+			);
+			path = "模仿ReactiveCocoa";
+			sourceTree = "<group>";
+		};
 		9B8F48936C75CFABC9463B52 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E383211A5DA9095D1962C793 /* libPods-JZYIObjectiveCManagement.a */,
-				B0D96E9F5B2C7D5C36677446 /* libPods-JZYIObjectiveCManagementTests.a */,
-				18A66A427A878BCE938DCFC9 /* libPods-JZYIObjectiveCManagementUITests.a */,
+				9944A73E9CD1C51B46935A2C /* libPods-JZYIObjectiveCManagement.a */,
+				0E2509C07F5956679D5F8ECE /* libPods-JZYIObjectiveCManagementTests.a */,
+				7A7D891C71596F2F597F2A9D /* libPods-JZYIObjectiveCManagementUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -568,6 +875,7 @@
 				1FBC17222046593900DED02D /* LaunchScreen.storyboard in Resources */,
 				1FEB21CD2047DBB700051366 /* 1.png in Resources */,
 				1FBC171F2046593900DED02D /* Assets.xcassets in Resources */,
+				1FF25345204E884A005BBDAB /* tabbar.plist in Resources */,
 				1FBC171D2046593900DED02D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -628,9 +936,24 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JZYIObjectiveCManagement/Pods-JZYIObjectiveCManagement-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -750,23 +1073,39 @@
 				1FBC179020469E2300DED02D /* JZYITextField.m in Sources */,
 				1FBC178220469E2300DED02D /* JZYIButton.m in Sources */,
 				1FBC17252046593900DED02D /* main.m in Sources */,
+				1FF2533F204E8627005BBDAB /* JZYIHomeVC.m in Sources */,
 				1FBC179220469E2300DED02D /* JZYIView.m in Sources */,
 				1FEB21C82047D6C700051366 /* UIView+JZYIFrame.m in Sources */,
 				1FBC178620469E2300DED02D /* JZYIDatePicker.m in Sources */,
+				1FF25343204E8774005BBDAB /* JZYITabBarController.m in Sources */,
+				1FF25316204E7111005BBDAB /* UIButton+JZYITool.m in Sources */,
 				1FBC178820469E2300DED02D /* JZYILabel.m in Sources */,
 				1FBC178E20469E2300DED02D /* JZYITableViewCell.m in Sources */,
 				1FBC178C20469E2300DED02D /* JZYISwitch.m in Sources */,
+				1FF25333204E7EFB005BBDAB /* UIImage+JZYITool.m in Sources */,
 				1FBC178B20469E2300DED02D /* JZYIScrollView.m in Sources */,
 				1FBC178A20469E2300DED02D /* JZYIProgressView.m in Sources */,
+				1FF25307204E6A78005BBDAB /* UIColor+JZYITool.m in Sources */,
+				1FF2534F204E8EC5005BBDAB /* Caculator.m in Sources */,
+				1FF2530A204E6A90005BBDAB /* UIFont+JZYITool.m in Sources */,
 				1FEB21CB2047DAB500051366 /* UIImageView+JZYICornerRadius.m in Sources */,
 				1FBC178720469E2300DED02D /* JZYIImageView.m in Sources */,
+				1FF25311204E6ED3005BBDAB /* UIColor+JZYIApp.m in Sources */,
 				1FBC178D20469E2300DED02D /* JZYITableView.m in Sources */,
 				1FBC178920469E2300DED02D /* JZYIPickerView.m in Sources */,
 				1FBC179120469E2300DED02D /* JZYITextView.m in Sources */,
 				1FBC17172046593900DED02D /* AppDelegate.m in Sources */,
+				1FF25336204E85F5005BBDAB /* JZYIMyVC.m in Sources */,
+				1FF25304204E6A5A005BBDAB /* NSString+JZYITool.m in Sources */,
 				1FBC178520469E2300DED02D /* JZYICollectionViewCell.m in Sources */,
+				1FF2532F204E7D04005BBDAB /* JZYIBaseNavigationVC.m in Sources */,
 				1FBC178F20469E2300DED02D /* JZYITableViewHeaderFooterView.m in Sources */,
+				1FF2533C204E860F005BBDAB /* JZYIAddressBook.m in Sources */,
+				1FF2534B204E8B63005BBDAB /* CaculatorMaker.m in Sources */,
+				1FF25321204E7646005BBDAB /* JZYINavigationController.m in Sources */,
 				1FBC179320469E2300DED02D /* JZYIWebView.m in Sources */,
+				1FF25339204E8601005BBDAB /* JZYIFindVC.m in Sources */,
+				1FF2531C204E73E6005BBDAB /* JZYIBaseVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -932,6 +1271,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LPWK7MV6D;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JZYIObjectiveCManagement/Macro/JZYIPch.pch";
 				INFOPLIST_FILE = JZYIObjectiveCManagement/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -948,6 +1288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LPWK7MV6D;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JZYIObjectiveCManagement/Macro/JZYIPch.pch";
 				INFOPLIST_FILE = JZYIObjectiveCManagement/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

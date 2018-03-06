@@ -1,0 +1,39 @@
+//
+//  JZYIPch.pch
+//  JZYIObjectiveCManagement
+//
+//  Created by GigaLiyoucheng on 2018/3/6.
+//  Copyright © 2018年 KAISA. All rights reserved.
+//
+
+#ifndef JZYIPch_pch
+#define JZYIPch_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/*
+ 1.在Build Settings 中搜索Prefix Header
+ 2.在上述Prefix Header中添加$(SRCROOT)/项目名/绝对路径/pch名字.pch
+ 例如：$(SRCROOT)/JZYIObjectiveCManagement/Macro/JZYIPch.pch
+ 3.在Build Settings 中搜索Precompile Prefix Header，并设置为YES，提高编译速度
+ */
+
+//私有仓库
+#import "JZYIUtilsMacro.h"
+#import "JZYIBasicUI.h"
+#import "JZYIBasicVC.h"
+#import "JZYICategory.h"
+
+//公共仓库
+#import <ReactiveObjC.h>
+
+//其它
+#import "UIColor+JZYIApp.h"
+
+
+#import "JZYIBaseNavigationVC.h"
+
+//
+
+#endif /* JZYIPch_pch */

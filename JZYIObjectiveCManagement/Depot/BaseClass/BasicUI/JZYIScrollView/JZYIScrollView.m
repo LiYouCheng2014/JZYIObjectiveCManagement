@@ -30,13 +30,13 @@
 
 + (instancetype)setupScrollViewWithFrame:(CGRect)frame
 {
-    JZYIScrollView *scrollView = [[JZYIScrollView alloc] init];
-    scrollView.backgroundColor = [UIColor clearColor];
-    scrollView.frame = frame;
-    scrollView.showsVerticalScrollIndicator = YES;
-    scrollView.showsHorizontalScrollIndicator = YES;
-    scrollView.pagingEnabled = NO;
-    scrollView.bounces = NO;
+    JZYIScrollView *scrollView                 = [[JZYIScrollView alloc] init];
+    scrollView.backgroundColor                 = [UIColor clearColor];
+    scrollView.frame                           = frame;
+    scrollView.showsVerticalScrollIndicator    = YES;
+    scrollView.showsHorizontalScrollIndicator  = YES;
+    scrollView.pagingEnabled                   = NO;
+    scrollView.bounces                         = NO;
     
     return scrollView;
 }

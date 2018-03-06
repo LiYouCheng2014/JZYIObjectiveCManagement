@@ -1,0 +1,6 @@
+framework module Pods_JZYIObjectiveCManagement {
+  umbrella header "Pods-JZYIObjectiveCManagement-umbrella.h"
+
+  export *
+  module * { export * }
+}

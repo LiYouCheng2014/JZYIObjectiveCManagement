@@ -30,8 +30,8 @@
 
 + (instancetype)setupWebViewWithFrame:(CGRect)frame
 {
-    JZYIWebView *webView = [[JZYIWebView alloc] init];
-    webView.frame = frame;
+    JZYIWebView *webView     = [[JZYIWebView alloc] init];
+    webView.frame            = frame;
     
     return webView;
 }

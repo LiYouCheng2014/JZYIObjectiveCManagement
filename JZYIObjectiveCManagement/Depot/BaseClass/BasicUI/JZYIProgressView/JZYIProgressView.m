@@ -35,12 +35,12 @@
                               trackImage:(UIImage *)trackImage
 {
     JZYIProgressView *progressView = [[JZYIProgressView alloc] init];
-    progressView.frame = frame;
+    progressView.frame             = frame;
     progressView.progressViewStyle = UIProgressViewStyleDefault;
     progressView.progressTintColor = progressTintColor;
-    progressView.trackTintColor = trackTintColor;
-    progressView.progressImage = progressImage;
-    progressView.trackImage = trackImage;
+    progressView.trackTintColor    = trackTintColor;
+    progressView.progressImage     = progressImage;
+    progressView.trackImage        = trackImage;
     
     return progressView;
 }
