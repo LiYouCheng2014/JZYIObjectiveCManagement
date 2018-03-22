@@ -11,6 +11,9 @@
 #import "CaculatorMaker.h"
 #import "Caculator.h"
 
+//设计模式简介
+#import "DesignPatternVC.h"
+
 @interface JZYIHomeVC ()
 
 @end
@@ -22,6 +25,11 @@
     
     [self setupLeftViewClear];
     
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        DesignPatternVC *vc = [[DesignPatternVC alloc] init];
+        [self.navigationController pushViewController:vc animated:true];
+    });
+    
     // ReactiveCocoa使用:https://www.jianshu.com/p/87ef6720a096
     /*
      编程思想：
@@ -32,23 +40,23 @@
      函数式编程思想：是把操作尽量写成一系列嵌套的函数或者方法调用。每个方法必须有返回值（本身对象）,把函数或者Block当做参数,block参数（需要操作的值）block返回值（操作结果）代表：ReactiveCocoa
      */
     
-    //链式编程思想
-    int result = [NSObject makeCaculators:^(CaculatorMaker *make) {
-        make.add(1).add(2).muilt(5);
-    }];
-    JZYILog(@"result = %d",result);
-    
-    //函数式编程思想
-    Caculator *c = [[Caculator alloc] init];
-    BOOL isqule = [[[c caculator:^int(int result) {
-        result += 2;
-        result *= 5;
-        return result;
-    }] equle:^BOOL(int result) {
-        return result == 10;
-    }] isEqule];
-    
-    JZYILog(@"是否相等：%d-%d",[c result],isqule);
+//    //链式编程思想
+//    int result = [NSObject makeCaculators:^(CaculatorMaker *make) {
+//        make.add(1).add(2).muilt(5);
+//    }];
+//    JZYILog(@"result = %d",result);
+//
+//    //函数式编程思想
+//    Caculator *c = [[Caculator alloc] init];
+//    BOOL isqule = [[[c caculator:^int(int result) {
+//        result += 2;
+//        result *= 5;
+//        return result;
+//    }] equle:^BOOL(int result) {
+//        return result == 10;
+//    }] isEqule];
+//
+//    JZYILog(@"是否相等：%d-%d",[c result],isqule);
 }
 
 

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1251B8702062942200034787 /* 设计模式简介.md in Resources */ = {isa = PBXBuildFile; fileRef = 1251B86F2062942200034787 /* 设计模式简介.md */; };
+		1251B874206296F600034787 /* BaseAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B873206296F600034787 /* BaseAnimationView.m */; };
+		1251B8772062980700034787 /* FadeAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8762062980700034787 /* FadeAnimationView.m */; };
+		1251B87B2062995900034787 /* DesignPatternVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B87A2062995900034787 /* DesignPatternVC.m */; };
+		1251B87E206299E700034787 /* ScaleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B87D206299E700034787 /* ScaleAnimationView.m */; };
+		1251B88120629B8700034787 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B88020629B8700034787 /* AnimationView.m */; };
 		1FBC17172046593900DED02D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17162046593900DED02D /* AppDelegate.m */; };
 		1FBC171A2046593900DED02D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17192046593900DED02D /* ViewController.m */; };
 		1FBC171D2046593900DED02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC171B2046593900DED02D /* Main.storyboard */; };
@@ -59,6 +65,17 @@
 
 /* Begin PBXFileReference section */
 		0E2509C07F5956679D5F8ECE /* libPods-JZYIObjectiveCManagementTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JZYIObjectiveCManagementTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1251B86F2062942200034787 /* 设计模式简介.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "设计模式简介.md"; sourceTree = "<group>"; };
+		1251B872206296F600034787 /* BaseAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseAnimationView.h; sourceTree = "<group>"; };
+		1251B873206296F600034787 /* BaseAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationView.m; sourceTree = "<group>"; };
+		1251B8752062980700034787 /* FadeAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FadeAnimationView.h; sourceTree = "<group>"; };
+		1251B8762062980700034787 /* FadeAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FadeAnimationView.m; sourceTree = "<group>"; };
+		1251B8792062995900034787 /* DesignPatternVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPatternVC.h; sourceTree = "<group>"; };
+		1251B87A2062995900034787 /* DesignPatternVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternVC.m; sourceTree = "<group>"; };
+		1251B87C206299E700034787 /* ScaleAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScaleAnimationView.h; sourceTree = "<group>"; };
+		1251B87D206299E700034787 /* ScaleAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleAnimationView.m; sourceTree = "<group>"; };
+		1251B87F20629B8700034787 /* AnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		1251B88020629B8700034787 /* AnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
 		129DBA0A74D80456C5146B93 /* Pods-JZYIObjectiveCManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZYIObjectiveCManagementTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZYIObjectiveCManagementTests/Pods-JZYIObjectiveCManagementTests.release.xcconfig"; sourceTree = "<group>"; };
 		1FBC17122046593900DED02D /* JZYIObjectiveCManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZYIObjectiveCManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBC17152046593900DED02D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -245,6 +262,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1251B86B206292DC00034787 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				1FF25329204E7C15005BBDAB /* My */,
+				1FF25328204E7C0A005BBDAB /* Find */,
+				1FF25327204E7BE5005BBDAB /* AddressBook */,
+				1FF25326204E7AE2005BBDAB /* Home */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		1251B86C206292F100034787 /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				1251B86D206293D400034787 /* 设计模式简介 */,
+			);
+			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		1251B86D206293D400034787 /* 设计模式简介 */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8792062995900034787 /* DesignPatternVC.h */,
+				1251B87A2062995900034787 /* DesignPatternVC.m */,
+				1251B86F2062942200034787 /* 设计模式简介.md */,
+				1251B872206296F600034787 /* BaseAnimationView.h */,
+				1251B873206296F600034787 /* BaseAnimationView.m */,
+				1251B8752062980700034787 /* FadeAnimationView.h */,
+				1251B8762062980700034787 /* FadeAnimationView.m */,
+				1251B87C206299E700034787 /* ScaleAnimationView.h */,
+				1251B87D206299E700034787 /* ScaleAnimationView.m */,
+				1251B87F20629B8700034787 /* AnimationView.h */,
+				1251B88020629B8700034787 /* AnimationView.m */,
+			);
+			path = "设计模式简介";
+			sourceTree = "<group>";
+		};
 		1FBC17092046593900DED02D = {
 			isa = PBXGroup;
 			children = (
@@ -270,6 +324,7 @@
 		1FBC17142046593900DED02D /* JZYIObjectiveCManagement */ = {
 			isa = PBXGroup;
 			children = (
+				1251B86B206292DC00034787 /* Business */,
 				1FF25346204E888B005BBDAB /* Resource */,
 				1FF2532A204E7C78005BBDAB /* BaseClass */,
 				1FF25324204E7977005BBDAB /* Module */,
@@ -440,10 +495,7 @@
 		1FF25324204E7977005BBDAB /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				1FF25329204E7C15005BBDAB /* My */,
-				1FF25328204E7C0A005BBDAB /* Find */,
-				1FF25327204E7BE5005BBDAB /* AddressBook */,
-				1FF25326204E7AE2005BBDAB /* Home */,
+				1251B86C206292F100034787 /* DesignPattern */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -1131,6 +1183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1251B8702062942200034787 /* 设计模式简介.md in Resources */,
 				1FBC17222046593900DED02D /* LaunchScreen.storyboard in Resources */,
 				1FEB21CD2047DBB700051366 /* 1.png in Resources */,
 				1FBC171F2046593900DED02D /* Assets.xcassets in Resources */,
@@ -1325,13 +1378,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1251B874206296F600034787 /* BaseAnimationView.m in Sources */,
 				1FBC171A2046593900DED02D /* ViewController.m in Sources */,
 				1FEB21C52047943A00051366 /* Person.m in Sources */,
 				1FBC17252046593900DED02D /* main.m in Sources */,
 				1FF2533F204E8627005BBDAB /* JZYIHomeVC.m in Sources */,
+				1251B87B2062995900034787 /* DesignPatternVC.m in Sources */,
 				1FF25343204E8774005BBDAB /* JZYITabBarController.m in Sources */,
+				1251B87E206299E700034787 /* ScaleAnimationView.m in Sources */,
 				1FF25316204E7111005BBDAB /* UIButton+JZYITool.m in Sources */,
+				1251B8772062980700034787 /* FadeAnimationView.m in Sources */,
 				1FF25333204E7EFB005BBDAB /* UIImage+JZYITool.m in Sources */,
+				1251B88120629B8700034787 /* AnimationView.m in Sources */,
 				1FF25307204E6A78005BBDAB /* UIColor+JZYITool.m in Sources */,
 				1FF2534F204E8EC5005BBDAB /* Caculator.m in Sources */,
 				1FF2530A204E6A90005BBDAB /* UIFont+JZYITool.m in Sources */,
