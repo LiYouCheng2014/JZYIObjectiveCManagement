@@ -11,6 +11,6 @@
 @interface JZYIToolbar : UIToolbar
 
 + (instancetype)setupToolbarWithFrame:(CGRect)frame
-                                  backgroundColor:(UIColor *)backgroundColor
+                      backgroundColor:(UIColor *)backgroundColor;
 
 @end

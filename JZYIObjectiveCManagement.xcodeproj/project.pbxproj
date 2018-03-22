@@ -13,6 +13,36 @@
 		1251B87B2062995900034787 /* DesignPatternVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B87A2062995900034787 /* DesignPatternVC.m */; };
 		1251B87E206299E700034787 /* ScaleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B87D206299E700034787 /* ScaleAnimationView.m */; };
 		1251B88120629B8700034787 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B88020629B8700034787 /* AnimationView.m */; };
+		1251B8842063DE9F00034787 /* 适配器模式.md in Resources */ = {isa = PBXBuildFile; fileRef = 1251B8832063DE9F00034787 /* 适配器模式.md */; };
+		1251B8872063DF1F00034787 /* AdapterDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8862063DF1F00034787 /* AdapterDemoVC.m */; };
+		1251B88A2063DFFA00034787 /* JZYIBusinessCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8892063DFFA00034787 /* JZYIBusinessCardView.m */; };
+		1251B8CC2063E92D00034787 /* JZYIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B88F2063E92C00034787 /* JZYIButton.m */; };
+		1251B8CD2063E92D00034787 /* JZYICollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8922063E92C00034787 /* JZYICollectionReusableView.m */; };
+		1251B8CE2063E92D00034787 /* JZYICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8952063E92C00034787 /* JZYICollectionView.m */; };
+		1251B8CF2063E92D00034787 /* JZYICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8982063E92C00034787 /* JZYICollectionViewCell.m */; };
+		1251B8D02063E92D00034787 /* JZYIDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B89B2063E92C00034787 /* JZYIDatePicker.m */; };
+		1251B8D12063E92D00034787 /* JZYIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B89E2063E92C00034787 /* JZYIImageView.m */; };
+		1251B8D22063E92D00034787 /* UIImageView+JZYICornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8A02063E92C00034787 /* UIImageView+JZYICornerRadius.m */; };
+		1251B8D32063E92D00034787 /* JZYILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8A32063E92C00034787 /* JZYILabel.m */; };
+		1251B8D42063E92D00034787 /* JZYIPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8A62063E92C00034787 /* JZYIPickerView.m */; };
+		1251B8D52063E92D00034787 /* JZYIProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8A92063E92C00034787 /* JZYIProgressView.m */; };
+		1251B8D62063E92D00034787 /* JZYIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8AC2063E92C00034787 /* JZYIScrollView.m */; };
+		1251B8D72063E92D00034787 /* JZYISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8AF2063E92C00034787 /* JZYISwitch.m */; };
+		1251B8D82063E92D00034787 /* JZYITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8B22063E92D00034787 /* JZYITableView.m */; };
+		1251B8D92063E92D00034787 /* JZYITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8B52063E92D00034787 /* JZYITableViewCell.m */; };
+		1251B8DA2063E92D00034787 /* JZYITableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8B82063E92D00034787 /* JZYITableViewHeaderFooterView.m */; };
+		1251B8DB2063E92D00034787 /* JZYIInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8BB2063E92D00034787 /* JZYIInputValidator.m */; };
+		1251B8DC2063E92D00034787 /* JZYITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8BD2063E92D00034787 /* JZYITextField.m */; };
+		1251B8DD2063E92D00034787 /* JZYITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8C02063E92D00034787 /* JZYITextView.m */; };
+		1251B8DE2063E92D00034787 /* JZYIToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8C32063E92D00034787 /* JZYIToolbar.m */; };
+		1251B8DF2063E92D00034787 /* JZYIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8C62063E92D00034787 /* JZYIView.m */; };
+		1251B8E02063E92D00034787 /* UIView+JZYIFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8C82063E92D00034787 /* UIView+JZYIFrame.m */; };
+		1251B8E12063E92D00034787 /* JZYIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8CB2063E92D00034787 /* JZYIWebView.m */; };
+		1251B8E42063F6DF00034787 /* JZYICardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8E32063F6DF00034787 /* JZYICardModel.m */; };
+		1251B8E72063F6ED00034787 /* JZYINewCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8E62063F6ED00034787 /* JZYINewCardModel.m */; };
+		1251B8EB2063F8BD00034787 /* JZYIBusinessCardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8EA2063F8BD00034787 /* JZYIBusinessCardAdapter.m */; };
+		1251B8EF2063F99100034787 /* JZYICardModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8EE2063F99100034787 /* JZYICardModelAdapter.m */; };
+		1251B8F52063FBEE00034787 /* JZYINewCardModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8F42063FBEE00034787 /* JZYINewCardModelAdapter.m */; };
 		1FBC17172046593900DED02D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17162046593900DED02D /* AppDelegate.m */; };
 		1FBC171A2046593900DED02D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17192046593900DED02D /* ViewController.m */; };
 		1FBC171D2046593900DED02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC171B2046593900DED02D /* Main.storyboard */; };
@@ -76,6 +106,67 @@
 		1251B87D206299E700034787 /* ScaleAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleAnimationView.m; sourceTree = "<group>"; };
 		1251B87F20629B8700034787 /* AnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
 		1251B88020629B8700034787 /* AnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
+		1251B8832063DE9F00034787 /* 适配器模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "适配器模式.md"; sourceTree = "<group>"; };
+		1251B8852063DF1F00034787 /* AdapterDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterDemoVC.h; sourceTree = "<group>"; };
+		1251B8862063DF1F00034787 /* AdapterDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterDemoVC.m; sourceTree = "<group>"; };
+		1251B8882063DFFA00034787 /* JZYIBusinessCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIBusinessCardView.h; sourceTree = "<group>"; };
+		1251B8892063DFFA00034787 /* JZYIBusinessCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIBusinessCardView.m; sourceTree = "<group>"; };
+		1251B88C2063E92C00034787 /* JZYIBasicUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIBasicUI.h; sourceTree = "<group>"; };
+		1251B88E2063E92C00034787 /* JZYIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIButton.h; sourceTree = "<group>"; };
+		1251B88F2063E92C00034787 /* JZYIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIButton.m; sourceTree = "<group>"; };
+		1251B8912063E92C00034787 /* JZYICollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYICollectionReusableView.h; sourceTree = "<group>"; };
+		1251B8922063E92C00034787 /* JZYICollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYICollectionReusableView.m; sourceTree = "<group>"; };
+		1251B8942063E92C00034787 /* JZYICollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYICollectionView.h; sourceTree = "<group>"; };
+		1251B8952063E92C00034787 /* JZYICollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYICollectionView.m; sourceTree = "<group>"; };
+		1251B8972063E92C00034787 /* JZYICollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYICollectionViewCell.h; sourceTree = "<group>"; };
+		1251B8982063E92C00034787 /* JZYICollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYICollectionViewCell.m; sourceTree = "<group>"; };
+		1251B89A2063E92C00034787 /* JZYIDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIDatePicker.h; sourceTree = "<group>"; };
+		1251B89B2063E92C00034787 /* JZYIDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIDatePicker.m; sourceTree = "<group>"; };
+		1251B89D2063E92C00034787 /* JZYIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIImageView.h; sourceTree = "<group>"; };
+		1251B89E2063E92C00034787 /* JZYIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIImageView.m; sourceTree = "<group>"; };
+		1251B89F2063E92C00034787 /* UIImageView+JZYICornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JZYICornerRadius.h"; sourceTree = "<group>"; };
+		1251B8A02063E92C00034787 /* UIImageView+JZYICornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JZYICornerRadius.m"; sourceTree = "<group>"; };
+		1251B8A22063E92C00034787 /* JZYILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYILabel.h; sourceTree = "<group>"; };
+		1251B8A32063E92C00034787 /* JZYILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYILabel.m; sourceTree = "<group>"; };
+		1251B8A52063E92C00034787 /* JZYIPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIPickerView.h; sourceTree = "<group>"; };
+		1251B8A62063E92C00034787 /* JZYIPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIPickerView.m; sourceTree = "<group>"; };
+		1251B8A82063E92C00034787 /* JZYIProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIProgressView.h; sourceTree = "<group>"; };
+		1251B8A92063E92C00034787 /* JZYIProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIProgressView.m; sourceTree = "<group>"; };
+		1251B8AB2063E92C00034787 /* JZYIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIScrollView.h; sourceTree = "<group>"; };
+		1251B8AC2063E92C00034787 /* JZYIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIScrollView.m; sourceTree = "<group>"; };
+		1251B8AE2063E92C00034787 /* JZYISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYISwitch.h; sourceTree = "<group>"; };
+		1251B8AF2063E92C00034787 /* JZYISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYISwitch.m; sourceTree = "<group>"; };
+		1251B8B12063E92D00034787 /* JZYITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYITableView.h; sourceTree = "<group>"; };
+		1251B8B22063E92D00034787 /* JZYITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYITableView.m; sourceTree = "<group>"; };
+		1251B8B42063E92D00034787 /* JZYITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYITableViewCell.h; sourceTree = "<group>"; };
+		1251B8B52063E92D00034787 /* JZYITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYITableViewCell.m; sourceTree = "<group>"; };
+		1251B8B72063E92D00034787 /* JZYITableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYITableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		1251B8B82063E92D00034787 /* JZYITableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYITableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		1251B8BA2063E92D00034787 /* JZYIInputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIInputValidator.h; sourceTree = "<group>"; };
+		1251B8BB2063E92D00034787 /* JZYIInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIInputValidator.m; sourceTree = "<group>"; };
+		1251B8BC2063E92D00034787 /* JZYITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYITextField.h; sourceTree = "<group>"; };
+		1251B8BD2063E92D00034787 /* JZYITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYITextField.m; sourceTree = "<group>"; };
+		1251B8BF2063E92D00034787 /* JZYITextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYITextView.h; sourceTree = "<group>"; };
+		1251B8C02063E92D00034787 /* JZYITextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYITextView.m; sourceTree = "<group>"; };
+		1251B8C22063E92D00034787 /* JZYIToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIToolbar.h; sourceTree = "<group>"; };
+		1251B8C32063E92D00034787 /* JZYIToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIToolbar.m; sourceTree = "<group>"; };
+		1251B8C52063E92D00034787 /* JZYIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIView.h; sourceTree = "<group>"; };
+		1251B8C62063E92D00034787 /* JZYIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIView.m; sourceTree = "<group>"; };
+		1251B8C72063E92D00034787 /* UIView+JZYIFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JZYIFrame.h"; sourceTree = "<group>"; };
+		1251B8C82063E92D00034787 /* UIView+JZYIFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JZYIFrame.m"; sourceTree = "<group>"; };
+		1251B8CA2063E92D00034787 /* JZYIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYIWebView.h; sourceTree = "<group>"; };
+		1251B8CB2063E92D00034787 /* JZYIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYIWebView.m; sourceTree = "<group>"; };
+		1251B8E22063F6DF00034787 /* JZYICardModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYICardModel.h; sourceTree = "<group>"; };
+		1251B8E32063F6DF00034787 /* JZYICardModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYICardModel.m; sourceTree = "<group>"; };
+		1251B8E52063F6ED00034787 /* JZYINewCardModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYINewCardModel.h; sourceTree = "<group>"; };
+		1251B8E62063F6ED00034787 /* JZYINewCardModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYINewCardModel.m; sourceTree = "<group>"; };
+		1251B8E82063F80F00034787 /* JZYIBusinessCardAdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIBusinessCardAdapterProtocol.h; sourceTree = "<group>"; };
+		1251B8E92063F8BD00034787 /* JZYIBusinessCardAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIBusinessCardAdapter.h; sourceTree = "<group>"; };
+		1251B8EA2063F8BD00034787 /* JZYIBusinessCardAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIBusinessCardAdapter.m; sourceTree = "<group>"; };
+		1251B8ED2063F99100034787 /* JZYICardModelAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYICardModelAdapter.h; sourceTree = "<group>"; };
+		1251B8EE2063F99100034787 /* JZYICardModelAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYICardModelAdapter.m; sourceTree = "<group>"; };
+		1251B8F32063FBEE00034787 /* JZYINewCardModelAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYINewCardModelAdapter.h; sourceTree = "<group>"; };
+		1251B8F42063FBEE00034787 /* JZYINewCardModelAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYINewCardModelAdapter.m; sourceTree = "<group>"; };
 		129DBA0A74D80456C5146B93 /* Pods-JZYIObjectiveCManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZYIObjectiveCManagementTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZYIObjectiveCManagementTests/Pods-JZYIObjectiveCManagementTests.release.xcconfig"; sourceTree = "<group>"; };
 		1FBC17122046593900DED02D /* JZYIObjectiveCManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZYIObjectiveCManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBC17152046593900DED02D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -142,96 +233,6 @@
 		B1F377CE44CE0E0FDC38480F /* Pods-JZYIObjectiveCManagementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZYIObjectiveCManagementUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JZYIObjectiveCManagementUITests/Pods-JZYIObjectiveCManagementUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F42C38C1205A50B50073B899 /* JZYISystemPromptManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYISystemPromptManagement.h; sourceTree = "<group>"; };
 		F42C38C2205A50B50073B899 /* JZYISystemPromptManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYISystemPromptManagement.m; sourceTree = "<group>"; };
-		F42C38C6205A50D50073B899 /* JZYIBasicUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIBasicUI.h; sourceTree = "<group>"; };
-		F42C38C8205A50D50073B899 /* JZYIButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIButton.h; sourceTree = "<group>"; };
-		F42C38C9205A50D50073B899 /* JZYIButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIButton.m; sourceTree = "<group>"; };
-		F42C38CB205A50D50073B899 /* JZYICollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYICollectionReusableView.h; sourceTree = "<group>"; };
-		F42C38CC205A50D50073B899 /* JZYICollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYICollectionReusableView.m; sourceTree = "<group>"; };
-		F42C38CE205A50D50073B899 /* JZYICollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYICollectionView.h; sourceTree = "<group>"; };
-		F42C38CF205A50D50073B899 /* JZYICollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYICollectionView.m; sourceTree = "<group>"; };
-		F42C38D1205A50D50073B899 /* JZYICollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYICollectionViewCell.h; sourceTree = "<group>"; };
-		F42C38D2205A50D50073B899 /* JZYICollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYICollectionViewCell.m; sourceTree = "<group>"; };
-		F42C38D4205A50D50073B899 /* JZYIDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIDatePicker.h; sourceTree = "<group>"; };
-		F42C38D5205A50D50073B899 /* JZYIDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIDatePicker.m; sourceTree = "<group>"; };
-		F42C38D7205A50D50073B899 /* JZYIImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIImageView.h; sourceTree = "<group>"; };
-		F42C38D8205A50D50073B899 /* JZYIImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIImageView.m; sourceTree = "<group>"; };
-		F42C38D9205A50D50073B899 /* UIImageView+JZYICornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JZYICornerRadius.h"; sourceTree = "<group>"; };
-		F42C38DA205A50D50073B899 /* UIImageView+JZYICornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JZYICornerRadius.m"; sourceTree = "<group>"; };
-		F42C38DC205A50D50073B899 /* JZYILabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYILabel.h; sourceTree = "<group>"; };
-		F42C38DD205A50D50073B899 /* JZYILabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYILabel.m; sourceTree = "<group>"; };
-		F42C38DF205A50D50073B899 /* JZYIPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIPickerView.h; sourceTree = "<group>"; };
-		F42C38E0205A50D50073B899 /* JZYIPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIPickerView.m; sourceTree = "<group>"; };
-		F42C38E2205A50D50073B899 /* JZYIProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIProgressView.h; sourceTree = "<group>"; };
-		F42C38E3205A50D50073B899 /* JZYIProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIProgressView.m; sourceTree = "<group>"; };
-		F42C38E5205A50D50073B899 /* JZYIScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIScrollView.h; sourceTree = "<group>"; };
-		F42C38E6205A50D50073B899 /* JZYIScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIScrollView.m; sourceTree = "<group>"; };
-		F42C38E8205A50D50073B899 /* JZYISwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYISwitch.h; sourceTree = "<group>"; };
-		F42C38E9205A50D50073B899 /* JZYISwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYISwitch.m; sourceTree = "<group>"; };
-		F42C38EB205A50D50073B899 /* JZYITableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYITableView.h; sourceTree = "<group>"; };
-		F42C38EC205A50D50073B899 /* JZYITableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYITableView.m; sourceTree = "<group>"; };
-		F42C38EE205A50D50073B899 /* JZYITableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYITableViewCell.h; sourceTree = "<group>"; };
-		F42C38EF205A50D50073B899 /* JZYITableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYITableViewCell.m; sourceTree = "<group>"; };
-		F42C38F1205A50D50073B899 /* JZYITableViewHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYITableViewHeaderFooterView.h; sourceTree = "<group>"; };
-		F42C38F2205A50D50073B899 /* JZYITableViewHeaderFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYITableViewHeaderFooterView.m; sourceTree = "<group>"; };
-		F42C38F4205A50D50073B899 /* JZYIInputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIInputValidator.h; sourceTree = "<group>"; };
-		F42C38F5205A50D60073B899 /* JZYIInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIInputValidator.m; sourceTree = "<group>"; };
-		F42C38F6205A50D60073B899 /* JZYITextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYITextField.h; sourceTree = "<group>"; };
-		F42C38F7205A50D60073B899 /* JZYITextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYITextField.m; sourceTree = "<group>"; };
-		F42C38F9205A50D60073B899 /* JZYITextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYITextView.h; sourceTree = "<group>"; };
-		F42C38FA205A50D60073B899 /* JZYITextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYITextView.m; sourceTree = "<group>"; };
-		F42C38FC205A50D60073B899 /* JZYIToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIToolbar.h; sourceTree = "<group>"; };
-		F42C38FD205A50D60073B899 /* JZYIToolbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIToolbar.m; sourceTree = "<group>"; };
-		F42C38FF205A50D60073B899 /* JZYIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIView.h; sourceTree = "<group>"; };
-		F42C3900205A50D60073B899 /* JZYIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIView.m; sourceTree = "<group>"; };
-		F42C3901205A50D60073B899 /* UIView+JZYIFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JZYIFrame.h"; sourceTree = "<group>"; };
-		F42C3902205A50D60073B899 /* UIView+JZYIFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JZYIFrame.m"; sourceTree = "<group>"; };
-		F42C3904205A50D60073B899 /* JZYIWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIWebView.h; sourceTree = "<group>"; };
-		F42C3905205A50D60073B899 /* JZYIWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIWebView.m; sourceTree = "<group>"; };
-		F42C3908205A50E20073B899 /* JZYIBasicUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIBasicUI.h; sourceTree = "<group>"; };
-		F42C390A205A50E20073B899 /* JZYIButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIButton.h; sourceTree = "<group>"; };
-		F42C390B205A50E20073B899 /* JZYIButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIButton.m; sourceTree = "<group>"; };
-		F42C390D205A50E20073B899 /* JZYICollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYICollectionReusableView.h; sourceTree = "<group>"; };
-		F42C390E205A50E20073B899 /* JZYICollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYICollectionReusableView.m; sourceTree = "<group>"; };
-		F42C3910205A50E20073B899 /* JZYICollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYICollectionView.h; sourceTree = "<group>"; };
-		F42C3911205A50E20073B899 /* JZYICollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYICollectionView.m; sourceTree = "<group>"; };
-		F42C3913205A50E20073B899 /* JZYICollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYICollectionViewCell.h; sourceTree = "<group>"; };
-		F42C3914205A50E20073B899 /* JZYICollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYICollectionViewCell.m; sourceTree = "<group>"; };
-		F42C3916205A50E20073B899 /* JZYIDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIDatePicker.h; sourceTree = "<group>"; };
-		F42C3917205A50E20073B899 /* JZYIDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIDatePicker.m; sourceTree = "<group>"; };
-		F42C3919205A50E20073B899 /* JZYIImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIImageView.h; sourceTree = "<group>"; };
-		F42C391A205A50E20073B899 /* JZYIImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIImageView.m; sourceTree = "<group>"; };
-		F42C391B205A50E20073B899 /* UIImageView+JZYICornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JZYICornerRadius.h"; sourceTree = "<group>"; };
-		F42C391C205A50E20073B899 /* UIImageView+JZYICornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JZYICornerRadius.m"; sourceTree = "<group>"; };
-		F42C391E205A50E20073B899 /* JZYILabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYILabel.h; sourceTree = "<group>"; };
-		F42C391F205A50E20073B899 /* JZYILabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYILabel.m; sourceTree = "<group>"; };
-		F42C3921205A50E20073B899 /* JZYIPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIPickerView.h; sourceTree = "<group>"; };
-		F42C3922205A50E20073B899 /* JZYIPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIPickerView.m; sourceTree = "<group>"; };
-		F42C3924205A50E20073B899 /* JZYIProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIProgressView.h; sourceTree = "<group>"; };
-		F42C3925205A50E20073B899 /* JZYIProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIProgressView.m; sourceTree = "<group>"; };
-		F42C3927205A50E20073B899 /* JZYIScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIScrollView.h; sourceTree = "<group>"; };
-		F42C3928205A50E20073B899 /* JZYIScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIScrollView.m; sourceTree = "<group>"; };
-		F42C392A205A50E20073B899 /* JZYISwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYISwitch.h; sourceTree = "<group>"; };
-		F42C392B205A50E20073B899 /* JZYISwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYISwitch.m; sourceTree = "<group>"; };
-		F42C392D205A50E20073B899 /* JZYITableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYITableView.h; sourceTree = "<group>"; };
-		F42C392E205A50E20073B899 /* JZYITableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYITableView.m; sourceTree = "<group>"; };
-		F42C3930205A50E20073B899 /* JZYITableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYITableViewCell.h; sourceTree = "<group>"; };
-		F42C3931205A50E20073B899 /* JZYITableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYITableViewCell.m; sourceTree = "<group>"; };
-		F42C3933205A50E20073B899 /* JZYITableViewHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYITableViewHeaderFooterView.h; sourceTree = "<group>"; };
-		F42C3934205A50E20073B899 /* JZYITableViewHeaderFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYITableViewHeaderFooterView.m; sourceTree = "<group>"; };
-		F42C3936205A50E20073B899 /* JZYIInputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIInputValidator.h; sourceTree = "<group>"; };
-		F42C3937205A50E20073B899 /* JZYIInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIInputValidator.m; sourceTree = "<group>"; };
-		F42C3938205A50E20073B899 /* JZYITextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYITextField.h; sourceTree = "<group>"; };
-		F42C3939205A50E20073B899 /* JZYITextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYITextField.m; sourceTree = "<group>"; };
-		F42C393B205A50E20073B899 /* JZYITextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYITextView.h; sourceTree = "<group>"; };
-		F42C393C205A50E20073B899 /* JZYITextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYITextView.m; sourceTree = "<group>"; };
-		F42C393E205A50E20073B899 /* JZYIToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIToolbar.h; sourceTree = "<group>"; };
-		F42C393F205A50E20073B899 /* JZYIToolbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIToolbar.m; sourceTree = "<group>"; };
-		F42C3941205A50E20073B899 /* JZYIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIView.h; sourceTree = "<group>"; };
-		F42C3942205A50E20073B899 /* JZYIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIView.m; sourceTree = "<group>"; };
-		F42C3943205A50E20073B899 /* UIView+JZYIFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JZYIFrame.h"; sourceTree = "<group>"; };
-		F42C3944205A50E20073B899 /* UIView+JZYIFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JZYIFrame.m"; sourceTree = "<group>"; };
-		F42C3946205A50E20073B899 /* JZYIWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIWebView.h; sourceTree = "<group>"; };
-		F42C3947205A50E20073B899 /* JZYIWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,6 +277,7 @@
 		1251B86C206292F100034787 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				1251B8822063DE3300034787 /* 适配器模式 */,
 				1251B86D206293D400034787 /* 设计模式简介 */,
 			);
 			path = DesignPattern;
@@ -297,6 +299,257 @@
 				1251B88020629B8700034787 /* AnimationView.m */,
 			);
 			path = "设计模式简介";
+			sourceTree = "<group>";
+		};
+		1251B8822063DE3300034787 /* 适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8832063DE9F00034787 /* 适配器模式.md */,
+				1251B8852063DF1F00034787 /* AdapterDemoVC.h */,
+				1251B8862063DF1F00034787 /* AdapterDemoVC.m */,
+				1251B8EC2063F95400034787 /* BusinessCardView */,
+				1251B8F02063FBAD00034787 /* CardModel */,
+				1251B8F22063FBD500034787 /* NewCardModel */,
+			);
+			path = "适配器模式";
+			sourceTree = "<group>";
+		};
+		1251B88B2063E92C00034787 /* BasicUI */ = {
+			isa = PBXGroup;
+			children = (
+				1251B88C2063E92C00034787 /* JZYIBasicUI.h */,
+				1251B88D2063E92C00034787 /* JZYIButton */,
+				1251B8902063E92C00034787 /* JZYICollectionReusableView */,
+				1251B8932063E92C00034787 /* JZYICollectionView */,
+				1251B8962063E92C00034787 /* JZYICollectionViewCell */,
+				1251B8992063E92C00034787 /* JZYIDatePicker */,
+				1251B89C2063E92C00034787 /* JZYIImageView */,
+				1251B8A12063E92C00034787 /* JZYILabel */,
+				1251B8A42063E92C00034787 /* JZYIPickerView */,
+				1251B8A72063E92C00034787 /* JZYIProgressView */,
+				1251B8AA2063E92C00034787 /* JZYIScrollView */,
+				1251B8AD2063E92C00034787 /* JZYISwitch */,
+				1251B8B02063E92D00034787 /* JZYITableView */,
+				1251B8B32063E92D00034787 /* JZYITableViewCell */,
+				1251B8B62063E92D00034787 /* JZYITableViewHeaderFooterView */,
+				1251B8B92063E92D00034787 /* JZYITextField */,
+				1251B8BE2063E92D00034787 /* JZYITextView */,
+				1251B8C12063E92D00034787 /* JZYIToolbar */,
+				1251B8C42063E92D00034787 /* JZYIView */,
+				1251B8C92063E92D00034787 /* JZYIWebView */,
+			);
+			path = BasicUI;
+			sourceTree = "<group>";
+		};
+		1251B88D2063E92C00034787 /* JZYIButton */ = {
+			isa = PBXGroup;
+			children = (
+				1251B88E2063E92C00034787 /* JZYIButton.h */,
+				1251B88F2063E92C00034787 /* JZYIButton.m */,
+			);
+			path = JZYIButton;
+			sourceTree = "<group>";
+		};
+		1251B8902063E92C00034787 /* JZYICollectionReusableView */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8912063E92C00034787 /* JZYICollectionReusableView.h */,
+				1251B8922063E92C00034787 /* JZYICollectionReusableView.m */,
+			);
+			path = JZYICollectionReusableView;
+			sourceTree = "<group>";
+		};
+		1251B8932063E92C00034787 /* JZYICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8942063E92C00034787 /* JZYICollectionView.h */,
+				1251B8952063E92C00034787 /* JZYICollectionView.m */,
+			);
+			path = JZYICollectionView;
+			sourceTree = "<group>";
+		};
+		1251B8962063E92C00034787 /* JZYICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8972063E92C00034787 /* JZYICollectionViewCell.h */,
+				1251B8982063E92C00034787 /* JZYICollectionViewCell.m */,
+			);
+			path = JZYICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		1251B8992063E92C00034787 /* JZYIDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				1251B89A2063E92C00034787 /* JZYIDatePicker.h */,
+				1251B89B2063E92C00034787 /* JZYIDatePicker.m */,
+			);
+			path = JZYIDatePicker;
+			sourceTree = "<group>";
+		};
+		1251B89C2063E92C00034787 /* JZYIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				1251B89D2063E92C00034787 /* JZYIImageView.h */,
+				1251B89E2063E92C00034787 /* JZYIImageView.m */,
+				1251B89F2063E92C00034787 /* UIImageView+JZYICornerRadius.h */,
+				1251B8A02063E92C00034787 /* UIImageView+JZYICornerRadius.m */,
+			);
+			path = JZYIImageView;
+			sourceTree = "<group>";
+		};
+		1251B8A12063E92C00034787 /* JZYILabel */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8A22063E92C00034787 /* JZYILabel.h */,
+				1251B8A32063E92C00034787 /* JZYILabel.m */,
+			);
+			path = JZYILabel;
+			sourceTree = "<group>";
+		};
+		1251B8A42063E92C00034787 /* JZYIPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8A52063E92C00034787 /* JZYIPickerView.h */,
+				1251B8A62063E92C00034787 /* JZYIPickerView.m */,
+			);
+			path = JZYIPickerView;
+			sourceTree = "<group>";
+		};
+		1251B8A72063E92C00034787 /* JZYIProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8A82063E92C00034787 /* JZYIProgressView.h */,
+				1251B8A92063E92C00034787 /* JZYIProgressView.m */,
+			);
+			path = JZYIProgressView;
+			sourceTree = "<group>";
+		};
+		1251B8AA2063E92C00034787 /* JZYIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8AB2063E92C00034787 /* JZYIScrollView.h */,
+				1251B8AC2063E92C00034787 /* JZYIScrollView.m */,
+			);
+			path = JZYIScrollView;
+			sourceTree = "<group>";
+		};
+		1251B8AD2063E92C00034787 /* JZYISwitch */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8AE2063E92C00034787 /* JZYISwitch.h */,
+				1251B8AF2063E92C00034787 /* JZYISwitch.m */,
+			);
+			path = JZYISwitch;
+			sourceTree = "<group>";
+		};
+		1251B8B02063E92D00034787 /* JZYITableView */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8B12063E92D00034787 /* JZYITableView.h */,
+				1251B8B22063E92D00034787 /* JZYITableView.m */,
+			);
+			path = JZYITableView;
+			sourceTree = "<group>";
+		};
+		1251B8B32063E92D00034787 /* JZYITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8B42063E92D00034787 /* JZYITableViewCell.h */,
+				1251B8B52063E92D00034787 /* JZYITableViewCell.m */,
+			);
+			path = JZYITableViewCell;
+			sourceTree = "<group>";
+		};
+		1251B8B62063E92D00034787 /* JZYITableViewHeaderFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8B72063E92D00034787 /* JZYITableViewHeaderFooterView.h */,
+				1251B8B82063E92D00034787 /* JZYITableViewHeaderFooterView.m */,
+			);
+			path = JZYITableViewHeaderFooterView;
+			sourceTree = "<group>";
+		};
+		1251B8B92063E92D00034787 /* JZYITextField */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8BA2063E92D00034787 /* JZYIInputValidator.h */,
+				1251B8BB2063E92D00034787 /* JZYIInputValidator.m */,
+				1251B8BC2063E92D00034787 /* JZYITextField.h */,
+				1251B8BD2063E92D00034787 /* JZYITextField.m */,
+			);
+			path = JZYITextField;
+			sourceTree = "<group>";
+		};
+		1251B8BE2063E92D00034787 /* JZYITextView */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8BF2063E92D00034787 /* JZYITextView.h */,
+				1251B8C02063E92D00034787 /* JZYITextView.m */,
+			);
+			path = JZYITextView;
+			sourceTree = "<group>";
+		};
+		1251B8C12063E92D00034787 /* JZYIToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8C22063E92D00034787 /* JZYIToolbar.h */,
+				1251B8C32063E92D00034787 /* JZYIToolbar.m */,
+			);
+			path = JZYIToolbar;
+			sourceTree = "<group>";
+		};
+		1251B8C42063E92D00034787 /* JZYIView */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8C52063E92D00034787 /* JZYIView.h */,
+				1251B8C62063E92D00034787 /* JZYIView.m */,
+				1251B8C72063E92D00034787 /* UIView+JZYIFrame.h */,
+				1251B8C82063E92D00034787 /* UIView+JZYIFrame.m */,
+			);
+			path = JZYIView;
+			sourceTree = "<group>";
+		};
+		1251B8C92063E92D00034787 /* JZYIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8CA2063E92D00034787 /* JZYIWebView.h */,
+				1251B8CB2063E92D00034787 /* JZYIWebView.m */,
+			);
+			path = JZYIWebView;
+			sourceTree = "<group>";
+		};
+		1251B8EC2063F95400034787 /* BusinessCardView */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8E82063F80F00034787 /* JZYIBusinessCardAdapterProtocol.h */,
+				1251B8E92063F8BD00034787 /* JZYIBusinessCardAdapter.h */,
+				1251B8EA2063F8BD00034787 /* JZYIBusinessCardAdapter.m */,
+				1251B8882063DFFA00034787 /* JZYIBusinessCardView.h */,
+				1251B8892063DFFA00034787 /* JZYIBusinessCardView.m */,
+			);
+			path = BusinessCardView;
+			sourceTree = "<group>";
+		};
+		1251B8F02063FBAD00034787 /* CardModel */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8E22063F6DF00034787 /* JZYICardModel.h */,
+				1251B8E32063F6DF00034787 /* JZYICardModel.m */,
+				1251B8ED2063F99100034787 /* JZYICardModelAdapter.h */,
+				1251B8EE2063F99100034787 /* JZYICardModelAdapter.m */,
+			);
+			path = CardModel;
+			sourceTree = "<group>";
+		};
+		1251B8F22063FBD500034787 /* NewCardModel */ = {
+			isa = PBXGroup;
+			children = (
+				1251B8E52063F6ED00034787 /* JZYINewCardModel.h */,
+				1251B8E62063F6ED00034787 /* JZYINewCardModel.m */,
+				1251B8F32063FBEE00034787 /* JZYINewCardModelAdapter.h */,
+				1251B8F42063FBEE00034787 /* JZYINewCardModelAdapter.m */,
+			);
+			path = NewCardModel;
 			sourceTree = "<group>";
 		};
 		1FBC17092046593900DED02D = {
@@ -368,7 +621,6 @@
 		1FBC174720469DE700DED02D /* Depot(私有仓库) */ = {
 			isa = PBXGroup;
 			children = (
-				F42C38C5205A50D50073B899 /* BasicUI */,
 				F42C3868205A4ECB0073B899 /* JZYBaseDepot */,
 			);
 			path = "Depot(私有仓库)";
@@ -642,7 +894,7 @@
 		F42C3868205A4ECB0073B899 /* JZYBaseDepot */ = {
 			isa = PBXGroup;
 			children = (
-				F42C3907205A50E20073B899 /* BasicUI */,
+				1251B88B2063E92C00034787 /* BasicUI */,
 				1FF25317204E738F005BBDAB /* BasicVC */,
 				F42C38C0205A50B50073B899 /* SystemPrompt */,
 				1FF2531D204E744B005BBDAB /* Macro */,
@@ -658,414 +910,6 @@
 				F42C38C2205A50B50073B899 /* JZYISystemPromptManagement.m */,
 			);
 			path = SystemPrompt;
-			sourceTree = "<group>";
-		};
-		F42C38C5205A50D50073B899 /* BasicUI */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38C6205A50D50073B899 /* JZYIBasicUI.h */,
-				F42C38C7205A50D50073B899 /* JZYIButton */,
-				F42C38CA205A50D50073B899 /* JZYICollectionReusableView */,
-				F42C38CD205A50D50073B899 /* JZYICollectionView */,
-				F42C38D0205A50D50073B899 /* JZYICollectionViewCell */,
-				F42C38D3205A50D50073B899 /* JZYIDatePicker */,
-				F42C38D6205A50D50073B899 /* JZYIImageView */,
-				F42C38DB205A50D50073B899 /* JZYILabel */,
-				F42C38DE205A50D50073B899 /* JZYIPickerView */,
-				F42C38E1205A50D50073B899 /* JZYIProgressView */,
-				F42C38E4205A50D50073B899 /* JZYIScrollView */,
-				F42C38E7205A50D50073B899 /* JZYISwitch */,
-				F42C38EA205A50D50073B899 /* JZYITableView */,
-				F42C38ED205A50D50073B899 /* JZYITableViewCell */,
-				F42C38F0205A50D50073B899 /* JZYITableViewHeaderFooterView */,
-				F42C38F3205A50D50073B899 /* JZYITextField */,
-				F42C38F8205A50D60073B899 /* JZYITextView */,
-				F42C38FB205A50D60073B899 /* JZYIToolbar */,
-				F42C38FE205A50D60073B899 /* JZYIView */,
-				F42C3903205A50D60073B899 /* JZYIWebView */,
-			);
-			path = BasicUI;
-			sourceTree = "<group>";
-		};
-		F42C38C7205A50D50073B899 /* JZYIButton */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38C8205A50D50073B899 /* JZYIButton.h */,
-				F42C38C9205A50D50073B899 /* JZYIButton.m */,
-			);
-			path = JZYIButton;
-			sourceTree = "<group>";
-		};
-		F42C38CA205A50D50073B899 /* JZYICollectionReusableView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38CB205A50D50073B899 /* JZYICollectionReusableView.h */,
-				F42C38CC205A50D50073B899 /* JZYICollectionReusableView.m */,
-			);
-			path = JZYICollectionReusableView;
-			sourceTree = "<group>";
-		};
-		F42C38CD205A50D50073B899 /* JZYICollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38CE205A50D50073B899 /* JZYICollectionView.h */,
-				F42C38CF205A50D50073B899 /* JZYICollectionView.m */,
-			);
-			path = JZYICollectionView;
-			sourceTree = "<group>";
-		};
-		F42C38D0205A50D50073B899 /* JZYICollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38D1205A50D50073B899 /* JZYICollectionViewCell.h */,
-				F42C38D2205A50D50073B899 /* JZYICollectionViewCell.m */,
-			);
-			path = JZYICollectionViewCell;
-			sourceTree = "<group>";
-		};
-		F42C38D3205A50D50073B899 /* JZYIDatePicker */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38D4205A50D50073B899 /* JZYIDatePicker.h */,
-				F42C38D5205A50D50073B899 /* JZYIDatePicker.m */,
-			);
-			path = JZYIDatePicker;
-			sourceTree = "<group>";
-		};
-		F42C38D6205A50D50073B899 /* JZYIImageView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38D7205A50D50073B899 /* JZYIImageView.h */,
-				F42C38D8205A50D50073B899 /* JZYIImageView.m */,
-				F42C38D9205A50D50073B899 /* UIImageView+JZYICornerRadius.h */,
-				F42C38DA205A50D50073B899 /* UIImageView+JZYICornerRadius.m */,
-			);
-			path = JZYIImageView;
-			sourceTree = "<group>";
-		};
-		F42C38DB205A50D50073B899 /* JZYILabel */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38DC205A50D50073B899 /* JZYILabel.h */,
-				F42C38DD205A50D50073B899 /* JZYILabel.m */,
-			);
-			path = JZYILabel;
-			sourceTree = "<group>";
-		};
-		F42C38DE205A50D50073B899 /* JZYIPickerView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38DF205A50D50073B899 /* JZYIPickerView.h */,
-				F42C38E0205A50D50073B899 /* JZYIPickerView.m */,
-			);
-			path = JZYIPickerView;
-			sourceTree = "<group>";
-		};
-		F42C38E1205A50D50073B899 /* JZYIProgressView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38E2205A50D50073B899 /* JZYIProgressView.h */,
-				F42C38E3205A50D50073B899 /* JZYIProgressView.m */,
-			);
-			path = JZYIProgressView;
-			sourceTree = "<group>";
-		};
-		F42C38E4205A50D50073B899 /* JZYIScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38E5205A50D50073B899 /* JZYIScrollView.h */,
-				F42C38E6205A50D50073B899 /* JZYIScrollView.m */,
-			);
-			path = JZYIScrollView;
-			sourceTree = "<group>";
-		};
-		F42C38E7205A50D50073B899 /* JZYISwitch */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38E8205A50D50073B899 /* JZYISwitch.h */,
-				F42C38E9205A50D50073B899 /* JZYISwitch.m */,
-			);
-			path = JZYISwitch;
-			sourceTree = "<group>";
-		};
-		F42C38EA205A50D50073B899 /* JZYITableView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38EB205A50D50073B899 /* JZYITableView.h */,
-				F42C38EC205A50D50073B899 /* JZYITableView.m */,
-			);
-			path = JZYITableView;
-			sourceTree = "<group>";
-		};
-		F42C38ED205A50D50073B899 /* JZYITableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38EE205A50D50073B899 /* JZYITableViewCell.h */,
-				F42C38EF205A50D50073B899 /* JZYITableViewCell.m */,
-			);
-			path = JZYITableViewCell;
-			sourceTree = "<group>";
-		};
-		F42C38F0205A50D50073B899 /* JZYITableViewHeaderFooterView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38F1205A50D50073B899 /* JZYITableViewHeaderFooterView.h */,
-				F42C38F2205A50D50073B899 /* JZYITableViewHeaderFooterView.m */,
-			);
-			path = JZYITableViewHeaderFooterView;
-			sourceTree = "<group>";
-		};
-		F42C38F3205A50D50073B899 /* JZYITextField */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38F4205A50D50073B899 /* JZYIInputValidator.h */,
-				F42C38F5205A50D60073B899 /* JZYIInputValidator.m */,
-				F42C38F6205A50D60073B899 /* JZYITextField.h */,
-				F42C38F7205A50D60073B899 /* JZYITextField.m */,
-			);
-			path = JZYITextField;
-			sourceTree = "<group>";
-		};
-		F42C38F8205A50D60073B899 /* JZYITextView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38F9205A50D60073B899 /* JZYITextView.h */,
-				F42C38FA205A50D60073B899 /* JZYITextView.m */,
-			);
-			path = JZYITextView;
-			sourceTree = "<group>";
-		};
-		F42C38FB205A50D60073B899 /* JZYIToolbar */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38FC205A50D60073B899 /* JZYIToolbar.h */,
-				F42C38FD205A50D60073B899 /* JZYIToolbar.m */,
-			);
-			path = JZYIToolbar;
-			sourceTree = "<group>";
-		};
-		F42C38FE205A50D60073B899 /* JZYIView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C38FF205A50D60073B899 /* JZYIView.h */,
-				F42C3900205A50D60073B899 /* JZYIView.m */,
-				F42C3901205A50D60073B899 /* UIView+JZYIFrame.h */,
-				F42C3902205A50D60073B899 /* UIView+JZYIFrame.m */,
-			);
-			path = JZYIView;
-			sourceTree = "<group>";
-		};
-		F42C3903205A50D60073B899 /* JZYIWebView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C3904205A50D60073B899 /* JZYIWebView.h */,
-				F42C3905205A50D60073B899 /* JZYIWebView.m */,
-			);
-			path = JZYIWebView;
-			sourceTree = "<group>";
-		};
-		F42C3907205A50E20073B899 /* BasicUI */ = {
-			isa = PBXGroup;
-			children = (
-				F42C3908205A50E20073B899 /* JZYIBasicUI.h */,
-				F42C3909205A50E20073B899 /* JZYIButton */,
-				F42C390C205A50E20073B899 /* JZYICollectionReusableView */,
-				F42C390F205A50E20073B899 /* JZYICollectionView */,
-				F42C3912205A50E20073B899 /* JZYICollectionViewCell */,
-				F42C3915205A50E20073B899 /* JZYIDatePicker */,
-				F42C3918205A50E20073B899 /* JZYIImageView */,
-				F42C391D205A50E20073B899 /* JZYILabel */,
-				F42C3920205A50E20073B899 /* JZYIPickerView */,
-				F42C3923205A50E20073B899 /* JZYIProgressView */,
-				F42C3926205A50E20073B899 /* JZYIScrollView */,
-				F42C3929205A50E20073B899 /* JZYISwitch */,
-				F42C392C205A50E20073B899 /* JZYITableView */,
-				F42C392F205A50E20073B899 /* JZYITableViewCell */,
-				F42C3932205A50E20073B899 /* JZYITableViewHeaderFooterView */,
-				F42C3935205A50E20073B899 /* JZYITextField */,
-				F42C393A205A50E20073B899 /* JZYITextView */,
-				F42C393D205A50E20073B899 /* JZYIToolbar */,
-				F42C3940205A50E20073B899 /* JZYIView */,
-				F42C3945205A50E20073B899 /* JZYIWebView */,
-			);
-			path = BasicUI;
-			sourceTree = "<group>";
-		};
-		F42C3909205A50E20073B899 /* JZYIButton */ = {
-			isa = PBXGroup;
-			children = (
-				F42C390A205A50E20073B899 /* JZYIButton.h */,
-				F42C390B205A50E20073B899 /* JZYIButton.m */,
-			);
-			path = JZYIButton;
-			sourceTree = "<group>";
-		};
-		F42C390C205A50E20073B899 /* JZYICollectionReusableView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C390D205A50E20073B899 /* JZYICollectionReusableView.h */,
-				F42C390E205A50E20073B899 /* JZYICollectionReusableView.m */,
-			);
-			path = JZYICollectionReusableView;
-			sourceTree = "<group>";
-		};
-		F42C390F205A50E20073B899 /* JZYICollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C3910205A50E20073B899 /* JZYICollectionView.h */,
-				F42C3911205A50E20073B899 /* JZYICollectionView.m */,
-			);
-			path = JZYICollectionView;
-			sourceTree = "<group>";
-		};
-		F42C3912205A50E20073B899 /* JZYICollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				F42C3913205A50E20073B899 /* JZYICollectionViewCell.h */,
-				F42C3914205A50E20073B899 /* JZYICollectionViewCell.m */,
-			);
-			path = JZYICollectionViewCell;
-			sourceTree = "<group>";
-		};
-		F42C3915205A50E20073B899 /* JZYIDatePicker */ = {
-			isa = PBXGroup;
-			children = (
-				F42C3916205A50E20073B899 /* JZYIDatePicker.h */,
-				F42C3917205A50E20073B899 /* JZYIDatePicker.m */,
-			);
-			path = JZYIDatePicker;
-			sourceTree = "<group>";
-		};
-		F42C3918205A50E20073B899 /* JZYIImageView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C3919205A50E20073B899 /* JZYIImageView.h */,
-				F42C391A205A50E20073B899 /* JZYIImageView.m */,
-				F42C391B205A50E20073B899 /* UIImageView+JZYICornerRadius.h */,
-				F42C391C205A50E20073B899 /* UIImageView+JZYICornerRadius.m */,
-			);
-			path = JZYIImageView;
-			sourceTree = "<group>";
-		};
-		F42C391D205A50E20073B899 /* JZYILabel */ = {
-			isa = PBXGroup;
-			children = (
-				F42C391E205A50E20073B899 /* JZYILabel.h */,
-				F42C391F205A50E20073B899 /* JZYILabel.m */,
-			);
-			path = JZYILabel;
-			sourceTree = "<group>";
-		};
-		F42C3920205A50E20073B899 /* JZYIPickerView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C3921205A50E20073B899 /* JZYIPickerView.h */,
-				F42C3922205A50E20073B899 /* JZYIPickerView.m */,
-			);
-			path = JZYIPickerView;
-			sourceTree = "<group>";
-		};
-		F42C3923205A50E20073B899 /* JZYIProgressView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C3924205A50E20073B899 /* JZYIProgressView.h */,
-				F42C3925205A50E20073B899 /* JZYIProgressView.m */,
-			);
-			path = JZYIProgressView;
-			sourceTree = "<group>";
-		};
-		F42C3926205A50E20073B899 /* JZYIScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C3927205A50E20073B899 /* JZYIScrollView.h */,
-				F42C3928205A50E20073B899 /* JZYIScrollView.m */,
-			);
-			path = JZYIScrollView;
-			sourceTree = "<group>";
-		};
-		F42C3929205A50E20073B899 /* JZYISwitch */ = {
-			isa = PBXGroup;
-			children = (
-				F42C392A205A50E20073B899 /* JZYISwitch.h */,
-				F42C392B205A50E20073B899 /* JZYISwitch.m */,
-			);
-			path = JZYISwitch;
-			sourceTree = "<group>";
-		};
-		F42C392C205A50E20073B899 /* JZYITableView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C392D205A50E20073B899 /* JZYITableView.h */,
-				F42C392E205A50E20073B899 /* JZYITableView.m */,
-			);
-			path = JZYITableView;
-			sourceTree = "<group>";
-		};
-		F42C392F205A50E20073B899 /* JZYITableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				F42C3930205A50E20073B899 /* JZYITableViewCell.h */,
-				F42C3931205A50E20073B899 /* JZYITableViewCell.m */,
-			);
-			path = JZYITableViewCell;
-			sourceTree = "<group>";
-		};
-		F42C3932205A50E20073B899 /* JZYITableViewHeaderFooterView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C3933205A50E20073B899 /* JZYITableViewHeaderFooterView.h */,
-				F42C3934205A50E20073B899 /* JZYITableViewHeaderFooterView.m */,
-			);
-			path = JZYITableViewHeaderFooterView;
-			sourceTree = "<group>";
-		};
-		F42C3935205A50E20073B899 /* JZYITextField */ = {
-			isa = PBXGroup;
-			children = (
-				F42C3936205A50E20073B899 /* JZYIInputValidator.h */,
-				F42C3937205A50E20073B899 /* JZYIInputValidator.m */,
-				F42C3938205A50E20073B899 /* JZYITextField.h */,
-				F42C3939205A50E20073B899 /* JZYITextField.m */,
-			);
-			path = JZYITextField;
-			sourceTree = "<group>";
-		};
-		F42C393A205A50E20073B899 /* JZYITextView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C393B205A50E20073B899 /* JZYITextView.h */,
-				F42C393C205A50E20073B899 /* JZYITextView.m */,
-			);
-			path = JZYITextView;
-			sourceTree = "<group>";
-		};
-		F42C393D205A50E20073B899 /* JZYIToolbar */ = {
-			isa = PBXGroup;
-			children = (
-				F42C393E205A50E20073B899 /* JZYIToolbar.h */,
-				F42C393F205A50E20073B899 /* JZYIToolbar.m */,
-			);
-			path = JZYIToolbar;
-			sourceTree = "<group>";
-		};
-		F42C3940205A50E20073B899 /* JZYIView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C3941205A50E20073B899 /* JZYIView.h */,
-				F42C3942205A50E20073B899 /* JZYIView.m */,
-				F42C3943205A50E20073B899 /* UIView+JZYIFrame.h */,
-				F42C3944205A50E20073B899 /* UIView+JZYIFrame.m */,
-			);
-			path = JZYIView;
-			sourceTree = "<group>";
-		};
-		F42C3945205A50E20073B899 /* JZYIWebView */ = {
-			isa = PBXGroup;
-			children = (
-				F42C3946205A50E20073B899 /* JZYIWebView.h */,
-				F42C3947205A50E20073B899 /* JZYIWebView.m */,
-			);
-			path = JZYIWebView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1139,6 +983,7 @@
 		1FBC170A2046593900DED02D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JZYI;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = KAISA;
 				TargetAttributes = {
@@ -1185,6 +1030,7 @@
 			files = (
 				1251B8702062942200034787 /* 设计模式简介.md in Resources */,
 				1FBC17222046593900DED02D /* LaunchScreen.storyboard in Resources */,
+				1251B8842063DE9F00034787 /* 适配器模式.md in Resources */,
 				1FEB21CD2047DBB700051366 /* 1.png in Resources */,
 				1FBC171F2046593900DED02D /* Assets.xcassets in Resources */,
 				1FF25345204E884A005BBDAB /* tabbar.plist in Resources */,
@@ -1378,19 +1224,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1251B8CF2063E92D00034787 /* JZYICollectionViewCell.m in Sources */,
 				1251B874206296F600034787 /* BaseAnimationView.m in Sources */,
 				1FBC171A2046593900DED02D /* ViewController.m in Sources */,
+				1251B8DB2063E92D00034787 /* JZYIInputValidator.m in Sources */,
+				1251B8E02063E92D00034787 /* UIView+JZYIFrame.m in Sources */,
 				1FEB21C52047943A00051366 /* Person.m in Sources */,
+				1251B8E42063F6DF00034787 /* JZYICardModel.m in Sources */,
+				1251B8F52063FBEE00034787 /* JZYINewCardModelAdapter.m in Sources */,
 				1FBC17252046593900DED02D /* main.m in Sources */,
 				1FF2533F204E8627005BBDAB /* JZYIHomeVC.m in Sources */,
+				1251B8D12063E92D00034787 /* JZYIImageView.m in Sources */,
+				1251B8D62063E92D00034787 /* JZYIScrollView.m in Sources */,
+				1251B8CD2063E92D00034787 /* JZYICollectionReusableView.m in Sources */,
+				1251B8D82063E92D00034787 /* JZYITableView.m in Sources */,
+				1251B8CC2063E92D00034787 /* JZYIButton.m in Sources */,
+				1251B8D02063E92D00034787 /* JZYIDatePicker.m in Sources */,
 				1251B87B2062995900034787 /* DesignPatternVC.m in Sources */,
+				1251B8E72063F6ED00034787 /* JZYINewCardModel.m in Sources */,
 				1FF25343204E8774005BBDAB /* JZYITabBarController.m in Sources */,
+				1251B8D32063E92D00034787 /* JZYILabel.m in Sources */,
+				1251B8D22063E92D00034787 /* UIImageView+JZYICornerRadius.m in Sources */,
 				1251B87E206299E700034787 /* ScaleAnimationView.m in Sources */,
 				1FF25316204E7111005BBDAB /* UIButton+JZYITool.m in Sources */,
 				1251B8772062980700034787 /* FadeAnimationView.m in Sources */,
+				1251B8D52063E92D00034787 /* JZYIProgressView.m in Sources */,
+				1251B8DC2063E92D00034787 /* JZYITextField.m in Sources */,
+				1251B8DF2063E92D00034787 /* JZYIView.m in Sources */,
+				1251B8872063DF1F00034787 /* AdapterDemoVC.m in Sources */,
+				1251B8D42063E92D00034787 /* JZYIPickerView.m in Sources */,
 				1FF25333204E7EFB005BBDAB /* UIImage+JZYITool.m in Sources */,
+				1251B8EF2063F99100034787 /* JZYICardModelAdapter.m in Sources */,
 				1251B88120629B8700034787 /* AnimationView.m in Sources */,
 				1FF25307204E6A78005BBDAB /* UIColor+JZYITool.m in Sources */,
+				1251B8DD2063E92D00034787 /* JZYITextView.m in Sources */,
 				1FF2534F204E8EC5005BBDAB /* Caculator.m in Sources */,
 				1FF2530A204E6A90005BBDAB /* UIFont+JZYITool.m in Sources */,
 				F42C38C3205A50B50073B899 /* JZYISystemPromptManagement.m in Sources */,
@@ -1398,12 +1265,20 @@
 				1FBC17172046593900DED02D /* AppDelegate.m in Sources */,
 				1FF25336204E85F5005BBDAB /* JZYIMyVC.m in Sources */,
 				1FF25304204E6A5A005BBDAB /* NSString+JZYITool.m in Sources */,
+				1251B8E12063E92D00034787 /* JZYIWebView.m in Sources */,
 				1FF2532F204E7D04005BBDAB /* JZYIBaseNavigationVC.m in Sources */,
 				1FF2533C204E860F005BBDAB /* JZYIAddressBook.m in Sources */,
 				1FF2534B204E8B63005BBDAB /* CaculatorMaker.m in Sources */,
+				1251B88A2063DFFA00034787 /* JZYIBusinessCardView.m in Sources */,
 				1FF25321204E7646005BBDAB /* JZYINavigationController.m in Sources */,
+				1251B8EB2063F8BD00034787 /* JZYIBusinessCardAdapter.m in Sources */,
+				1251B8D92063E92D00034787 /* JZYITableViewCell.m in Sources */,
+				1251B8CE2063E92D00034787 /* JZYICollectionView.m in Sources */,
+				1251B8DA2063E92D00034787 /* JZYITableViewHeaderFooterView.m in Sources */,
 				1FF25339204E8601005BBDAB /* JZYIFindVC.m in Sources */,
 				1FF2531C204E73E6005BBDAB /* JZYIBaseVC.m in Sources */,
+				1251B8DE2063E92D00034787 /* JZYIToolbar.m in Sources */,
+				1251B8D72063E92D00034787 /* JZYISwitch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

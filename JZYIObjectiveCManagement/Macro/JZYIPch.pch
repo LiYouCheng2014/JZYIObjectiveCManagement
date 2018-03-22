@@ -27,6 +27,7 @@
 
 //公共仓库
 #import <ReactiveObjC.h>
+#import <Masonry/Masonry.h>
 
 //其它
 #import "UIColor+JZYIApp.h"

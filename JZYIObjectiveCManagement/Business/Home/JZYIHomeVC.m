@@ -13,6 +13,8 @@
 
 //设计模式简介
 #import "DesignPatternVC.h"
+//适配器模式
+#import "AdapterDemoVC.h"
 
 @interface JZYIHomeVC ()
 
@@ -26,9 +28,14 @@
     [self setupLeftViewClear];
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        DesignPatternVC *vc = [[DesignPatternVC alloc] init];
+        AdapterDemoVC *vc = [[AdapterDemoVC alloc] init];
         [self.navigationController pushViewController:vc animated:true];
     });
+    
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        DesignPatternVC *vc = [[DesignPatternVC alloc] init];
+//        [self.navigationController pushViewController:vc animated:true];
+//    });
     
     // ReactiveCocoa使用:https://www.jianshu.com/p/87ef6720a096
     /*
