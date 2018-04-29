@@ -17,6 +17,10 @@
 #import "AdapterDemoVC.h"
 //策略模式
 #import "JZYIStrategyDemoVC.h"
+//观察者模式
+#import "JZYIObserverVC.h"
+
+
 
 @interface JZYIHomeVC ()
 
@@ -30,7 +34,7 @@
     [self setupLeftViewClear];
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        JZYIStrategyDemoVC *vc = [[JZYIStrategyDemoVC alloc] init];
+        JZYIObserverVC *vc = [[JZYIObserverVC alloc] init];
         [self.navigationController pushViewController:vc animated:true];
     });
     
