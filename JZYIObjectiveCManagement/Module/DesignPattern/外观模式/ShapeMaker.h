@@ -1,0 +1,18 @@
+//
+//  ShapeMaker.h
+//  JZYIObjectiveCManagement
+//
+//  Created by LiYouCheng on 2018/5/7.
+//  Copyright © 2018年 KAISA. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface ShapeMaker : NSObject
+
+//绘制圆
++ (void)drawCicleWithParas:(NSDictionary *)paras;
+
+//绘制圆和矩形
++ (void)drawCicleAdnRectangle:(NSDictionary *)paras;
+@end

@@ -82,7 +82,7 @@ static NSString *SCIENCE2 = @"SCIENCE2";
     //移除kvo
     [self.testModel removeObserver:self forKeyPath:NSStringFromSelector(@selector(name))];
     //移除通知中心
-    [[NSNotificationCenter defaultCenter] removeObserver:self forKeyPath:SCIENCE1];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:SCIENCE1 object:nil];
 }
 
 /*

@@ -16,6 +16,16 @@
 		1241A319208F0A5200388A0B /* JZYIObserverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241A318208F0A5200388A0B /* JZYIObserverVC.m */; };
 		1241A31C208F0A7600388A0B /* JZYISubscriptionServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241A31B208F0A7600388A0B /* JZYISubscriptionServiceCenter.m */; };
 		1241A320208F13BF00388A0B /* JZYIObserverTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241A31F208F13BF00388A0B /* JZYIObserverTestModel.m */; };
+		1241A32520958C9B00388A0B /* JZYITableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241A32420958C9B00388A0B /* JZYITableVC.m */; };
+		1241A32C20958EC500388A0B /* JZYIHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241A32B20958EC500388A0B /* JZYIHomeModel.m */; };
+		1241A32F20958ED500388A0B /* JZYIHomeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241A32E20958ED500388A0B /* JZYIHomeHandler.m */; };
+		1241A33220958EF100388A0B /* JZYIHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241A33120958EF100388A0B /* JZYIHomeHeaderView.m */; };
+		1241A33520958EFE00388A0B /* JZYIHomeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241A33420958EFE00388A0B /* JZYIHomeFooterView.m */; };
+		1241A33820958F1000388A0B /* JZYIHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241A33720958F1000388A0B /* JZYIHomeCell.m */; };
+		1241A33B2095950E00388A0B /* JZYIHomeSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241A33A2095950E00388A0B /* JZYIHomeSectionModel.m */; };
+		1241A33E2095951E00388A0B /* JZYIHomeRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241A33D2095951E00388A0B /* JZYIHomeRowModel.m */; };
+		1241A341209599DA00388A0B /* JZYIHomePushHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241A340209599DA00388A0B /* JZYIHomePushHandler.m */; };
+		1241A34420959A3F00388A0B /* JZYIBlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241A34320959A3F00388A0B /* JZYIBlockVC.m */; };
 		1251B8702062942200034787 /* 设计模式简介.md in Resources */ = {isa = PBXBuildFile; fileRef = 1251B86F2062942200034787 /* 设计模式简介.md */; };
 		1251B874206296F600034787 /* BaseAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B873206296F600034787 /* BaseAnimationView.m */; };
 		1251B8772062980700034787 /* FadeAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8762062980700034787 /* FadeAnimationView.m */; };
@@ -52,6 +62,17 @@
 		1251B8EB2063F8BD00034787 /* JZYIBusinessCardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8EA2063F8BD00034787 /* JZYIBusinessCardAdapter.m */; };
 		1251B8EF2063F99100034787 /* JZYICardModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8EE2063F99100034787 /* JZYICardModelAdapter.m */; };
 		1251B8F52063FBEE00034787 /* JZYINewCardModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1251B8F42063FBEE00034787 /* JZYINewCardModelAdapter.m */; };
+		12C0CE0E20A03A90005BFA8C /* JZYIPrototypeDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE0D20A03A90005BFA8C /* JZYIPrototypeDemoVC.m */; };
+		12C0CE1120A03AC2005BFA8C /* 原型模式.md in Resources */ = {isa = PBXBuildFile; fileRef = 12C0CE1020A03AC2005BFA8C /* 原型模式.md */; };
+		12C0CE1520A03E31005BFA8C /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE1420A03E31005BFA8C /* StudentModel.m */; };
+		12C0CE1920A03FF6005BFA8C /* BaseCopyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE1820A03FF6005BFA8C /* BaseCopyObject.m */; };
+		12C0CE1C20A0409C005BFA8C /* JZYIStudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE1B20A0409C005BFA8C /* JZYIStudentModel.m */; };
+		12C0CE2020A0417E005BFA8C /* JZYIClassModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE1F20A0417E005BFA8C /* JZYIClassModel.m */; };
+		12C0CE2420A0458F005BFA8C /* JZYIAppearanceDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE2320A0458F005BFA8C /* JZYIAppearanceDemoVC.m */; };
+		12C0CE2820A047BB005BFA8C /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE2720A047BB005BFA8C /* Shape.m */; };
+		12C0CE2B20A047D6005BFA8C /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE2A20A047D6005BFA8C /* Rectangle.m */; };
+		12C0CE2E20A0483D005BFA8C /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE2D20A0483D005BFA8C /* Circle.m */; };
+		12C0CE3120A048E4005BFA8C /* ShapeMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE3020A048E4005BFA8C /* ShapeMaker.m */; };
 		1FBC17172046593900DED02D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17162046593900DED02D /* AppDelegate.m */; };
 		1FBC171A2046593900DED02D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17192046593900DED02D /* ViewController.m */; };
 		1FBC171D2046593900DED02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC171B2046593900DED02D /* Main.storyboard */; };
@@ -123,6 +144,26 @@
 		1241A31D208F0B7D00388A0B /* JZYISubscriptionServiceCenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYISubscriptionServiceCenterProtocol.h; sourceTree = "<group>"; };
 		1241A31E208F13BF00388A0B /* JZYIObserverTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIObserverTestModel.h; sourceTree = "<group>"; };
 		1241A31F208F13BF00388A0B /* JZYIObserverTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIObserverTestModel.m; sourceTree = "<group>"; };
+		1241A32320958C9B00388A0B /* JZYITableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYITableVC.h; sourceTree = "<group>"; };
+		1241A32420958C9B00388A0B /* JZYITableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYITableVC.m; sourceTree = "<group>"; };
+		1241A32A20958EC500388A0B /* JZYIHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIHomeModel.h; sourceTree = "<group>"; };
+		1241A32B20958EC500388A0B /* JZYIHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIHomeModel.m; sourceTree = "<group>"; };
+		1241A32D20958ED500388A0B /* JZYIHomeHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIHomeHandler.h; sourceTree = "<group>"; };
+		1241A32E20958ED500388A0B /* JZYIHomeHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIHomeHandler.m; sourceTree = "<group>"; };
+		1241A33020958EF100388A0B /* JZYIHomeHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIHomeHeaderView.h; sourceTree = "<group>"; };
+		1241A33120958EF100388A0B /* JZYIHomeHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIHomeHeaderView.m; sourceTree = "<group>"; };
+		1241A33320958EFE00388A0B /* JZYIHomeFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIHomeFooterView.h; sourceTree = "<group>"; };
+		1241A33420958EFE00388A0B /* JZYIHomeFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIHomeFooterView.m; sourceTree = "<group>"; };
+		1241A33620958F1000388A0B /* JZYIHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIHomeCell.h; sourceTree = "<group>"; };
+		1241A33720958F1000388A0B /* JZYIHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIHomeCell.m; sourceTree = "<group>"; };
+		1241A3392095950E00388A0B /* JZYIHomeSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIHomeSectionModel.h; sourceTree = "<group>"; };
+		1241A33A2095950E00388A0B /* JZYIHomeSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIHomeSectionModel.m; sourceTree = "<group>"; };
+		1241A33C2095951E00388A0B /* JZYIHomeRowModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIHomeRowModel.h; sourceTree = "<group>"; };
+		1241A33D2095951E00388A0B /* JZYIHomeRowModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIHomeRowModel.m; sourceTree = "<group>"; };
+		1241A33F209599DA00388A0B /* JZYIHomePushHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIHomePushHandler.h; sourceTree = "<group>"; };
+		1241A340209599DA00388A0B /* JZYIHomePushHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIHomePushHandler.m; sourceTree = "<group>"; };
+		1241A34220959A3F00388A0B /* JZYIBlockVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIBlockVC.h; sourceTree = "<group>"; };
+		1241A34320959A3F00388A0B /* JZYIBlockVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIBlockVC.m; sourceTree = "<group>"; };
 		1251B86F2062942200034787 /* 设计模式简介.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "设计模式简介.md"; sourceTree = "<group>"; };
 		1251B872206296F600034787 /* BaseAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseAnimationView.h; sourceTree = "<group>"; };
 		1251B873206296F600034787 /* BaseAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationView.m; sourceTree = "<group>"; };
@@ -196,6 +237,29 @@
 		1251B8F32063FBEE00034787 /* JZYINewCardModelAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYINewCardModelAdapter.h; sourceTree = "<group>"; };
 		1251B8F42063FBEE00034787 /* JZYINewCardModelAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYINewCardModelAdapter.m; sourceTree = "<group>"; };
 		129DBA0A74D80456C5146B93 /* Pods-JZYIObjectiveCManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZYIObjectiveCManagementTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZYIObjectiveCManagementTests/Pods-JZYIObjectiveCManagementTests.release.xcconfig"; sourceTree = "<group>"; };
+		12C0CE0C20A03A90005BFA8C /* JZYIPrototypeDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIPrototypeDemoVC.h; sourceTree = "<group>"; };
+		12C0CE0D20A03A90005BFA8C /* JZYIPrototypeDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIPrototypeDemoVC.m; sourceTree = "<group>"; };
+		12C0CE1020A03AC2005BFA8C /* 原型模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "原型模式.md"; sourceTree = "<group>"; };
+		12C0CE1220A03E0E005BFA8C /* PrototypeCopyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypeCopyProtocol.h; sourceTree = "<group>"; };
+		12C0CE1320A03E31005BFA8C /* StudentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
+		12C0CE1420A03E31005BFA8C /* StudentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
+		12C0CE1720A03FF6005BFA8C /* BaseCopyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCopyObject.h; sourceTree = "<group>"; };
+		12C0CE1820A03FF6005BFA8C /* BaseCopyObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCopyObject.m; sourceTree = "<group>"; };
+		12C0CE1A20A0409C005BFA8C /* JZYIStudentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIStudentModel.h; sourceTree = "<group>"; };
+		12C0CE1B20A0409C005BFA8C /* JZYIStudentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIStudentModel.m; sourceTree = "<group>"; };
+		12C0CE1E20A0417E005BFA8C /* JZYIClassModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIClassModel.h; sourceTree = "<group>"; };
+		12C0CE1F20A0417E005BFA8C /* JZYIClassModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIClassModel.m; sourceTree = "<group>"; };
+		12C0CE2220A0458F005BFA8C /* JZYIAppearanceDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIAppearanceDemoVC.h; sourceTree = "<group>"; };
+		12C0CE2320A0458F005BFA8C /* JZYIAppearanceDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIAppearanceDemoVC.m; sourceTree = "<group>"; };
+		12C0CE2520A0469F005BFA8C /* 外观模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "外观模式.md"; sourceTree = "<group>"; };
+		12C0CE2620A047BB005BFA8C /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		12C0CE2720A047BB005BFA8C /* Shape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		12C0CE2920A047D6005BFA8C /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		12C0CE2A20A047D6005BFA8C /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		12C0CE2C20A0483D005BFA8C /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		12C0CE2D20A0483D005BFA8C /* Circle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		12C0CE2F20A048E4005BFA8C /* ShapeMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeMaker.h; sourceTree = "<group>"; };
+		12C0CE3020A048E4005BFA8C /* ShapeMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeMaker.m; sourceTree = "<group>"; };
 		1FBC17122046593900DED02D /* JZYIObjectiveCManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZYIObjectiveCManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBC17152046593900DED02D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FBC17162046593900DED02D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -324,6 +388,70 @@
 			path = "观察者模式";
 			sourceTree = "<group>";
 		};
+		1241A32120958BDD00388A0B /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				1241A34220959A3F00388A0B /* JZYIBlockVC.h */,
+				1241A34320959A3F00388A0B /* JZYIBlockVC.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		1241A32220958C6700388A0B /* JZYITableVC */ = {
+			isa = PBXGroup;
+			children = (
+				1241A32320958C9B00388A0B /* JZYITableVC.h */,
+				1241A32420958C9B00388A0B /* JZYITableVC.m */,
+			);
+			path = JZYITableVC;
+			sourceTree = "<group>";
+		};
+		1241A32620958EA100388A0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2533D204E8627005BBDAB /* JZYIHomeVC.h */,
+				1FF2533E204E8627005BBDAB /* JZYIHomeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1241A32720958EA700388A0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1241A33020958EF100388A0B /* JZYIHomeHeaderView.h */,
+				1241A33120958EF100388A0B /* JZYIHomeHeaderView.m */,
+				1241A33320958EFE00388A0B /* JZYIHomeFooterView.h */,
+				1241A33420958EFE00388A0B /* JZYIHomeFooterView.m */,
+				1241A33620958F1000388A0B /* JZYIHomeCell.h */,
+				1241A33720958F1000388A0B /* JZYIHomeCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1241A32820958EAC00388A0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1241A32A20958EC500388A0B /* JZYIHomeModel.h */,
+				1241A32B20958EC500388A0B /* JZYIHomeModel.m */,
+				1241A3392095950E00388A0B /* JZYIHomeSectionModel.h */,
+				1241A33A2095950E00388A0B /* JZYIHomeSectionModel.m */,
+				1241A33C2095951E00388A0B /* JZYIHomeRowModel.h */,
+				1241A33D2095951E00388A0B /* JZYIHomeRowModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1241A32920958EB000388A0B /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				1241A32D20958ED500388A0B /* JZYIHomeHandler.h */,
+				1241A32E20958ED500388A0B /* JZYIHomeHandler.m */,
+				1241A33F209599DA00388A0B /* JZYIHomePushHandler.h */,
+				1241A340209599DA00388A0B /* JZYIHomePushHandler.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
 		1251B86B206292DC00034787 /* Business */ = {
 			isa = PBXGroup;
 			children = (
@@ -338,6 +466,8 @@
 		1251B86C206292F100034787 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				12C0CE2120A04559005BFA8C /* 外观模式 */,
+				12C0CE0B20A037BC005BFA8C /* 原型模式 */,
 				1241A314208F082B00388A0B /* 观察者模式 */,
 				123D3CA7207278B700395F93 /* 策略模式 */,
 				1251B8822063DE3300034787 /* 适配器模式 */,
@@ -615,6 +745,59 @@
 			path = NewCardModel;
 			sourceTree = "<group>";
 		};
+		12C0CE0B20A037BC005BFA8C /* 原型模式 */ = {
+			isa = PBXGroup;
+			children = (
+				12C0CE0C20A03A90005BFA8C /* JZYIPrototypeDemoVC.h */,
+				12C0CE0D20A03A90005BFA8C /* JZYIPrototypeDemoVC.m */,
+				12C0CE1D20A04171005BFA8C /* NSCopy */,
+				12C0CE1620A03FD3005BFA8C /* 模板 */,
+				12C0CE1020A03AC2005BFA8C /* 原型模式.md */,
+			);
+			path = "原型模式";
+			sourceTree = "<group>";
+		};
+		12C0CE1620A03FD3005BFA8C /* 模板 */ = {
+			isa = PBXGroup;
+			children = (
+				12C0CE1220A03E0E005BFA8C /* PrototypeCopyProtocol.h */,
+				12C0CE1320A03E31005BFA8C /* StudentModel.h */,
+				12C0CE1420A03E31005BFA8C /* StudentModel.m */,
+			);
+			path = "模板";
+			sourceTree = "<group>";
+		};
+		12C0CE1D20A04171005BFA8C /* NSCopy */ = {
+			isa = PBXGroup;
+			children = (
+				12C0CE1720A03FF6005BFA8C /* BaseCopyObject.h */,
+				12C0CE1820A03FF6005BFA8C /* BaseCopyObject.m */,
+				12C0CE1A20A0409C005BFA8C /* JZYIStudentModel.h */,
+				12C0CE1B20A0409C005BFA8C /* JZYIStudentModel.m */,
+				12C0CE1E20A0417E005BFA8C /* JZYIClassModel.h */,
+				12C0CE1F20A0417E005BFA8C /* JZYIClassModel.m */,
+			);
+			path = NSCopy;
+			sourceTree = "<group>";
+		};
+		12C0CE2120A04559005BFA8C /* 外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				12C0CE2220A0458F005BFA8C /* JZYIAppearanceDemoVC.h */,
+				12C0CE2320A0458F005BFA8C /* JZYIAppearanceDemoVC.m */,
+				12C0CE2620A047BB005BFA8C /* Shape.h */,
+				12C0CE2720A047BB005BFA8C /* Shape.m */,
+				12C0CE2920A047D6005BFA8C /* Rectangle.h */,
+				12C0CE2A20A047D6005BFA8C /* Rectangle.m */,
+				12C0CE2C20A0483D005BFA8C /* Circle.h */,
+				12C0CE2D20A0483D005BFA8C /* Circle.m */,
+				12C0CE2520A0469F005BFA8C /* 外观模式.md */,
+				12C0CE2F20A048E4005BFA8C /* ShapeMaker.h */,
+				12C0CE3020A048E4005BFA8C /* ShapeMaker.m */,
+			);
+			path = "外观模式";
+			sourceTree = "<group>";
+		};
 		1FBC17092046593900DED02D = {
 			isa = PBXGroup;
 			children = (
@@ -810,6 +993,7 @@
 		1FF25324204E7977005BBDAB /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				1241A32120958BDD00388A0B /* Block */,
 				1251B86C206292F100034787 /* DesignPattern */,
 			);
 			path = Module;
@@ -818,8 +1002,10 @@
 		1FF25326204E7AE2005BBDAB /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				1FF2533D204E8627005BBDAB /* JZYIHomeVC.h */,
-				1FF2533E204E8627005BBDAB /* JZYIHomeVC.m */,
+				1241A32920958EB000388A0B /* Handler */,
+				1241A32820958EAC00388A0B /* Model */,
+				1241A32720958EA700388A0B /* View */,
+				1241A32620958EA100388A0B /* Controller */,
 				1FF2534C204E8E9B005BBDAB /* 模仿ReactiveCocoa */,
 				1FF25348204E8B49005BBDAB /* 模仿Masonry */,
 			);
@@ -864,6 +1050,7 @@
 		1FF2532B204E7C82005BBDAB /* BasicVC */ = {
 			isa = PBXGroup;
 			children = (
+				1241A32220958C6700388A0B /* JZYITableVC */,
 				1FF25340204E8691005BBDAB /* JZYITabBarController */,
 				1FF2532C204E7C92005BBDAB /* JZYIBaseNavigationVC */,
 			);
@@ -1099,6 +1286,7 @@
 				1FBC171F2046593900DED02D /* Assets.xcassets in Resources */,
 				1FF25345204E884A005BBDAB /* tabbar.plist in Resources */,
 				1FBC171D2046593900DED02D /* Main.storyboard in Resources */,
+				12C0CE1120A03AC2005BFA8C /* 原型模式.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1288,11 +1476,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C0CE3120A048E4005BFA8C /* ShapeMaker.m in Sources */,
+				1241A33520958EFE00388A0B /* JZYIHomeFooterView.m in Sources */,
 				1241A319208F0A5200388A0B /* JZYIObserverVC.m in Sources */,
 				1251B8CF2063E92D00034787 /* JZYICollectionViewCell.m in Sources */,
 				1251B874206296F600034787 /* BaseAnimationView.m in Sources */,
 				1FBC171A2046593900DED02D /* ViewController.m in Sources */,
 				1251B8DB2063E92D00034787 /* JZYIInputValidator.m in Sources */,
+				1241A34420959A3F00388A0B /* JZYIBlockVC.m in Sources */,
+				12C0CE1520A03E31005BFA8C /* StudentModel.m in Sources */,
 				1251B8E02063E92D00034787 /* UIView+JZYIFrame.m in Sources */,
 				1FEB21C52047943A00051366 /* Person.m in Sources */,
 				1251B8E42063F6DF00034787 /* JZYICardModel.m in Sources */,
@@ -1300,16 +1492,20 @@
 				1FBC17252046593900DED02D /* main.m in Sources */,
 				1FF2533F204E8627005BBDAB /* JZYIHomeVC.m in Sources */,
 				1251B8D12063E92D00034787 /* JZYIImageView.m in Sources */,
+				1241A341209599DA00388A0B /* JZYIHomePushHandler.m in Sources */,
 				1251B8D62063E92D00034787 /* JZYIScrollView.m in Sources */,
+				1241A32F20958ED500388A0B /* JZYIHomeHandler.m in Sources */,
 				123D3CB220727CC800395F93 /* JZYICustomInputValidator.m in Sources */,
 				1251B8CD2063E92D00034787 /* JZYICollectionReusableView.m in Sources */,
 				1251B8D82063E92D00034787 /* JZYITableView.m in Sources */,
 				1251B8CC2063E92D00034787 /* JZYIButton.m in Sources */,
+				12C0CE2420A0458F005BFA8C /* JZYIAppearanceDemoVC.m in Sources */,
 				1251B8D02063E92D00034787 /* JZYIDatePicker.m in Sources */,
 				1251B87B2062995900034787 /* DesignPatternVC.m in Sources */,
 				1251B8E72063F6ED00034787 /* JZYINewCardModel.m in Sources */,
 				1FF25343204E8774005BBDAB /* JZYITabBarController.m in Sources */,
 				1251B8D32063E92D00034787 /* JZYILabel.m in Sources */,
+				1241A32C20958EC500388A0B /* JZYIHomeModel.m in Sources */,
 				1251B8D22063E92D00034787 /* UIImageView+JZYICornerRadius.m in Sources */,
 				1251B87E206299E700034787 /* ScaleAnimationView.m in Sources */,
 				1FF25316204E7111005BBDAB /* UIButton+JZYITool.m in Sources */,
@@ -1319,7 +1515,10 @@
 				123D3CB520727DD300395F93 /* JZYICustomPhoneValidator.m in Sources */,
 				1251B8DF2063E92D00034787 /* JZYIView.m in Sources */,
 				1251B8872063DF1F00034787 /* AdapterDemoVC.m in Sources */,
+				12C0CE2B20A047D6005BFA8C /* Rectangle.m in Sources */,
 				1251B8D42063E92D00034787 /* JZYIPickerView.m in Sources */,
+				12C0CE2020A0417E005BFA8C /* JZYIClassModel.m in Sources */,
+				1241A33E2095951E00388A0B /* JZYIHomeRowModel.m in Sources */,
 				1FF25333204E7EFB005BBDAB /* UIImage+JZYITool.m in Sources */,
 				1251B8EF2063F99100034787 /* JZYICardModelAdapter.m in Sources */,
 				1251B88120629B8700034787 /* AnimationView.m in Sources */,
@@ -1330,24 +1529,33 @@
 				F42C38C3205A50B50073B899 /* JZYISystemPromptManagement.m in Sources */,
 				1FF25311204E6ED3005BBDAB /* UIColor+JZYIApp.m in Sources */,
 				123D3CAF20727AD000395F93 /* JZYIStrategyDemoVC.m in Sources */,
+				12C0CE0E20A03A90005BFA8C /* JZYIPrototypeDemoVC.m in Sources */,
 				1FBC17172046593900DED02D /* AppDelegate.m in Sources */,
 				1FF25336204E85F5005BBDAB /* JZYIMyVC.m in Sources */,
 				1FF25304204E6A5A005BBDAB /* NSString+JZYITool.m in Sources */,
+				12C0CE1C20A0409C005BFA8C /* JZYIStudentModel.m in Sources */,
 				123D3CAC20727AA200395F93 /* JZYICustomTextField.m in Sources */,
 				1251B8E12063E92D00034787 /* JZYIWebView.m in Sources */,
+				1241A32520958C9B00388A0B /* JZYITableVC.m in Sources */,
 				1FF2532F204E7D04005BBDAB /* JZYIBaseNavigationVC.m in Sources */,
 				1FF2533C204E860F005BBDAB /* JZYIAddressBook.m in Sources */,
 				1FF2534B204E8B63005BBDAB /* CaculatorMaker.m in Sources */,
 				1251B88A2063DFFA00034787 /* JZYIBusinessCardView.m in Sources */,
 				1241A320208F13BF00388A0B /* JZYIObserverTestModel.m in Sources */,
+				1241A33220958EF100388A0B /* JZYIHomeHeaderView.m in Sources */,
 				1FF25321204E7646005BBDAB /* JZYINavigationController.m in Sources */,
 				1251B8EB2063F8BD00034787 /* JZYIBusinessCardAdapter.m in Sources */,
+				12C0CE2820A047BB005BFA8C /* Shape.m in Sources */,
 				1251B8D92063E92D00034787 /* JZYITableViewCell.m in Sources */,
 				1251B8CE2063E92D00034787 /* JZYICollectionView.m in Sources */,
 				123D3CB8207280B600395F93 /* JZYICustomPasswordValidator.m in Sources */,
+				1241A33B2095950E00388A0B /* JZYIHomeSectionModel.m in Sources */,
+				12C0CE1920A03FF6005BFA8C /* BaseCopyObject.m in Sources */,
 				1251B8DA2063E92D00034787 /* JZYITableViewHeaderFooterView.m in Sources */,
 				1241A31C208F0A7600388A0B /* JZYISubscriptionServiceCenter.m in Sources */,
 				1FF25339204E8601005BBDAB /* JZYIFindVC.m in Sources */,
+				12C0CE2E20A0483D005BFA8C /* Circle.m in Sources */,
+				1241A33820958F1000388A0B /* JZYIHomeCell.m in Sources */,
 				1FF2531C204E73E6005BBDAB /* JZYIBaseVC.m in Sources */,
 				1251B8DE2063E92D00034787 /* JZYIToolbar.m in Sources */,
 				1251B8D72063E92D00034787 /* JZYISwitch.m in Sources */,

@@ -1,13 +1,13 @@
 //
-//  JZYIHomeVC.h
+//  JZYIBlockVC.h
 //  JZYIObjectiveCManagement
 //
-//  Created by GigaLiyoucheng on 2018/3/6.
+//  Created by LiYouCheng on 2018/4/29.
 //  Copyright © 2018年 KAISA. All rights reserved.
 //
 
 #import "JZYIBaseNavigationVC.h"
 
-@interface JZYIHomeVC : JZYIBaseNavigationVC
+@interface JZYIBlockVC : JZYIBaseNavigationVC
 
 @end
