@@ -17,6 +17,7 @@ typedef NS_ENUM(NSUInteger, JZYIHomePushType) {
     JZYIHomePushTypeDesignObserver = 33, //观察者
     JZYIHomePushTypeDesignPrototype = 34,//原型模式
     JZYIHomePushTypeDesignAppearance = 35,//外观模式
+    JZYIHomePushTypeDesignDecorate = 36,//装饰模式
 };
 
 @interface JZYIHomeRowModel : NSObject

@@ -20,6 +20,7 @@
 #import "JZYIObserverVC.h"
 #import "JZYIPrototypeDemoVC.h"
 #import "JZYIAppearanceDemoVC.h"
+#import "JZYIDecorateDemoVC.h"
 
 @implementation JZYIHomePushHandler
 
@@ -75,7 +76,13 @@
             [target.navigationController pushViewController:vc animated:true];
         }
             break;
-            
+        case JZYIHomePushTypeDesignDecorate:
+        {
+            //装饰模式
+            JZYIDecorateDemoVC *vc = [JZYIDecorateDemoVC new];
+            [target.navigationController pushViewController:vc animated:true];
+        }
+            break;
     }
 }
 

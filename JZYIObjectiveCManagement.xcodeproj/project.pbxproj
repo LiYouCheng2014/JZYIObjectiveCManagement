@@ -73,6 +73,13 @@
 		12C0CE2B20A047D6005BFA8C /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE2A20A047D6005BFA8C /* Rectangle.m */; };
 		12C0CE2E20A0483D005BFA8C /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE2D20A0483D005BFA8C /* Circle.m */; };
 		12C0CE3120A048E4005BFA8C /* ShapeMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE3020A048E4005BFA8C /* ShapeMaker.m */; };
+		12C0CE3620AA8E66005BFA8C /* JZYIDecorateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE3520AA8E66005BFA8C /* JZYIDecorateDemoVC.m */; };
+		12C0CE3B20AA9236005BFA8C /* GamePad.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE3A20AA9236005BFA8C /* GamePad.m */; };
+		12C0CE3E20AA9327005BFA8C /* GamePadDecorate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE3D20AA9327005BFA8C /* GamePadDecorate.m */; };
+		12C0CE4120AA979F005BFA8C /* CheatGamePadDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE4020AA979F005BFA8C /* CheatGamePadDecorator.m */; };
+		12C0CE4420AA99A0005BFA8C /* CoinGamePadDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE4320AA99A0005BFA8C /* CoinGamePadDecorator.m */; };
+		12C0CE4720AA9A49005BFA8C /* GamePad+Cheat.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE4620AA9A49005BFA8C /* GamePad+Cheat.m */; };
+		12C0CE4A20AA9A8D005BFA8C /* GamePad+Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE4920AA9A8D005BFA8C /* GamePad+Coin.m */; };
 		1FBC17172046593900DED02D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17162046593900DED02D /* AppDelegate.m */; };
 		1FBC171A2046593900DED02D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17192046593900DED02D /* ViewController.m */; };
 		1FBC171D2046593900DED02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC171B2046593900DED02D /* Main.storyboard */; };
@@ -260,6 +267,21 @@
 		12C0CE2D20A0483D005BFA8C /* Circle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
 		12C0CE2F20A048E4005BFA8C /* ShapeMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeMaker.h; sourceTree = "<group>"; };
 		12C0CE3020A048E4005BFA8C /* ShapeMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeMaker.m; sourceTree = "<group>"; };
+		12C0CE3420AA8E66005BFA8C /* JZYIDecorateDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIDecorateDemoVC.h; sourceTree = "<group>"; };
+		12C0CE3520AA8E66005BFA8C /* JZYIDecorateDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIDecorateDemoVC.m; sourceTree = "<group>"; };
+		12C0CE3820AA8E7F005BFA8C /* 装饰模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "装饰模式.md"; sourceTree = "<group>"; };
+		12C0CE3920AA9236005BFA8C /* GamePad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePad.h; sourceTree = "<group>"; };
+		12C0CE3A20AA9236005BFA8C /* GamePad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePad.m; sourceTree = "<group>"; };
+		12C0CE3C20AA9327005BFA8C /* GamePadDecorate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePadDecorate.h; sourceTree = "<group>"; };
+		12C0CE3D20AA9327005BFA8C /* GamePadDecorate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePadDecorate.m; sourceTree = "<group>"; };
+		12C0CE3F20AA979F005BFA8C /* CheatGamePadDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheatGamePadDecorator.h; sourceTree = "<group>"; };
+		12C0CE4020AA979F005BFA8C /* CheatGamePadDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheatGamePadDecorator.m; sourceTree = "<group>"; };
+		12C0CE4220AA99A0005BFA8C /* CoinGamePadDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoinGamePadDecorator.h; sourceTree = "<group>"; };
+		12C0CE4320AA99A0005BFA8C /* CoinGamePadDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinGamePadDecorator.m; sourceTree = "<group>"; };
+		12C0CE4520AA9A49005BFA8C /* GamePad+Cheat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GamePad+Cheat.h"; sourceTree = "<group>"; };
+		12C0CE4620AA9A49005BFA8C /* GamePad+Cheat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GamePad+Cheat.m"; sourceTree = "<group>"; };
+		12C0CE4820AA9A8D005BFA8C /* GamePad+Coin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GamePad+Coin.h"; sourceTree = "<group>"; };
+		12C0CE4920AA9A8D005BFA8C /* GamePad+Coin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GamePad+Coin.m"; sourceTree = "<group>"; };
 		1FBC17122046593900DED02D /* JZYIObjectiveCManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZYIObjectiveCManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBC17152046593900DED02D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FBC17162046593900DED02D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -466,6 +488,7 @@
 		1251B86C206292F100034787 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				12C0CE3220AA8DCF005BFA8C /* 装饰模式 */,
 				12C0CE2120A04559005BFA8C /* 外观模式 */,
 				12C0CE0B20A037BC005BFA8C /* 原型模式 */,
 				1241A314208F082B00388A0B /* 观察者模式 */,
@@ -796,6 +819,28 @@
 				12C0CE3020A048E4005BFA8C /* ShapeMaker.m */,
 			);
 			path = "外观模式";
+			sourceTree = "<group>";
+		};
+		12C0CE3220AA8DCF005BFA8C /* 装饰模式 */ = {
+			isa = PBXGroup;
+			children = (
+				12C0CE3420AA8E66005BFA8C /* JZYIDecorateDemoVC.h */,
+				12C0CE3520AA8E66005BFA8C /* JZYIDecorateDemoVC.m */,
+				12C0CE3C20AA9327005BFA8C /* GamePadDecorate.h */,
+				12C0CE3D20AA9327005BFA8C /* GamePadDecorate.m */,
+				12C0CE3F20AA979F005BFA8C /* CheatGamePadDecorator.h */,
+				12C0CE4020AA979F005BFA8C /* CheatGamePadDecorator.m */,
+				12C0CE4220AA99A0005BFA8C /* CoinGamePadDecorator.h */,
+				12C0CE4320AA99A0005BFA8C /* CoinGamePadDecorator.m */,
+				12C0CE3920AA9236005BFA8C /* GamePad.h */,
+				12C0CE3A20AA9236005BFA8C /* GamePad.m */,
+				12C0CE3820AA8E7F005BFA8C /* 装饰模式.md */,
+				12C0CE4520AA9A49005BFA8C /* GamePad+Cheat.h */,
+				12C0CE4620AA9A49005BFA8C /* GamePad+Cheat.m */,
+				12C0CE4820AA9A8D005BFA8C /* GamePad+Coin.h */,
+				12C0CE4920AA9A8D005BFA8C /* GamePad+Coin.m */,
+			);
+			path = "装饰模式";
 			sourceTree = "<group>";
 		};
 		1FBC17092046593900DED02D = {
@@ -1484,6 +1529,7 @@
 				1FBC171A2046593900DED02D /* ViewController.m in Sources */,
 				1251B8DB2063E92D00034787 /* JZYIInputValidator.m in Sources */,
 				1241A34420959A3F00388A0B /* JZYIBlockVC.m in Sources */,
+				12C0CE3E20AA9327005BFA8C /* GamePadDecorate.m in Sources */,
 				12C0CE1520A03E31005BFA8C /* StudentModel.m in Sources */,
 				1251B8E02063E92D00034787 /* UIView+JZYIFrame.m in Sources */,
 				1FEB21C52047943A00051366 /* Person.m in Sources */,
@@ -1510,13 +1556,16 @@
 				1251B87E206299E700034787 /* ScaleAnimationView.m in Sources */,
 				1FF25316204E7111005BBDAB /* UIButton+JZYITool.m in Sources */,
 				1251B8772062980700034787 /* FadeAnimationView.m in Sources */,
+				12C0CE3B20AA9236005BFA8C /* GamePad.m in Sources */,
 				1251B8D52063E92D00034787 /* JZYIProgressView.m in Sources */,
 				1251B8DC2063E92D00034787 /* JZYITextField.m in Sources */,
 				123D3CB520727DD300395F93 /* JZYICustomPhoneValidator.m in Sources */,
 				1251B8DF2063E92D00034787 /* JZYIView.m in Sources */,
+				12C0CE3620AA8E66005BFA8C /* JZYIDecorateDemoVC.m in Sources */,
 				1251B8872063DF1F00034787 /* AdapterDemoVC.m in Sources */,
 				12C0CE2B20A047D6005BFA8C /* Rectangle.m in Sources */,
 				1251B8D42063E92D00034787 /* JZYIPickerView.m in Sources */,
+				12C0CE4420AA99A0005BFA8C /* CoinGamePadDecorator.m in Sources */,
 				12C0CE2020A0417E005BFA8C /* JZYIClassModel.m in Sources */,
 				1241A33E2095951E00388A0B /* JZYIHomeRowModel.m in Sources */,
 				1FF25333204E7EFB005BBDAB /* UIImage+JZYITool.m in Sources */,
@@ -1535,6 +1584,8 @@
 				1FF25304204E6A5A005BBDAB /* NSString+JZYITool.m in Sources */,
 				12C0CE1C20A0409C005BFA8C /* JZYIStudentModel.m in Sources */,
 				123D3CAC20727AA200395F93 /* JZYICustomTextField.m in Sources */,
+				12C0CE4120AA979F005BFA8C /* CheatGamePadDecorator.m in Sources */,
+				12C0CE4A20AA9A8D005BFA8C /* GamePad+Coin.m in Sources */,
 				1251B8E12063E92D00034787 /* JZYIWebView.m in Sources */,
 				1241A32520958C9B00388A0B /* JZYITableVC.m in Sources */,
 				1FF2532F204E7D04005BBDAB /* JZYIBaseNavigationVC.m in Sources */,
@@ -1557,6 +1608,7 @@
 				12C0CE2E20A0483D005BFA8C /* Circle.m in Sources */,
 				1241A33820958F1000388A0B /* JZYIHomeCell.m in Sources */,
 				1FF2531C204E73E6005BBDAB /* JZYIBaseVC.m in Sources */,
+				12C0CE4720AA9A49005BFA8C /* GamePad+Cheat.m in Sources */,
 				1251B8DE2063E92D00034787 /* JZYIToolbar.m in Sources */,
 				1251B8D72063E92D00034787 /* JZYISwitch.m in Sources */,
 			);
