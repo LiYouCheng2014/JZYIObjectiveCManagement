@@ -80,6 +80,22 @@
 		12C0CE4420AA99A0005BFA8C /* CoinGamePadDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE4320AA99A0005BFA8C /* CoinGamePadDecorator.m */; };
 		12C0CE4720AA9A49005BFA8C /* GamePad+Cheat.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE4620AA9A49005BFA8C /* GamePad+Cheat.m */; };
 		12C0CE4A20AA9A8D005BFA8C /* GamePad+Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE4920AA9A8D005BFA8C /* GamePad+Coin.m */; };
+		12C0CE4E20ABD30F005BFA8C /* JZYIFactoryDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE4D20ABD30F005BFA8C /* JZYIFactoryDemoVC.m */; };
+		12C0CE5220ABD74B005BFA8C /* BaseDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE5120ABD74B005BFA8C /* BaseDevice.m */; };
+		12C0CE5620ABD7E6005BFA8C /* DeviceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE5520ABD7E6005BFA8C /* DeviceFactory.m */; };
+		12C0CE5B20ABD880005BFA8C /* iPhoneDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE5A20ABD880005BFA8C /* iPhoneDevice.m */; };
+		12C0CE5E20ABD943005BFA8C /* AndroidDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE5D20ABD943005BFA8C /* AndroidDevice.m */; };
+		12C0CE6220ABE181005BFA8C /* JZYIAbstractFactoryDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE6120ABE181005BFA8C /* JZYIAbstractFactoryDemoVC.m */; };
+		12C0CE6620ABE34A005BFA8C /* FactoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE6520ABE34A005BFA8C /* FactoryManager.m */; };
+		12C0CE6920ABE398005BFA8C /* BaseFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE6820ABE398005BFA8C /* BaseFactory.m */; };
+		12C0CE6C20ABE3B4005BFA8C /* BasePhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE6B20ABE3B4005BFA8C /* BasePhone.m */; };
+		12C0CE6F20ABE3E8005BFA8C /* BaseWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE6E20ABE3E8005BFA8C /* BaseWatch.m */; };
+		12C0CE7520ABE4EF005BFA8C /* iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE7420ABE4EF005BFA8C /* iPhone.m */; };
+		12C0CE7820ABE506005BFA8C /* Android.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE7720ABE506005BFA8C /* Android.m */; };
+		12C0CE7B20ABE518005BFA8C /* iWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE7A20ABE518005BFA8C /* iWatch.m */; };
+		12C0CE7E20ABE52C005BFA8C /* AndroidWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE7D20ABE52C005BFA8C /* AndroidWatch.m */; };
+		12C0CE8120ABE553005BFA8C /* AppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE8020ABE553005BFA8C /* AppleFactory.m */; };
+		12C0CE8420ABE563005BFA8C /* GoogleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE8320ABE563005BFA8C /* GoogleFactory.m */; };
 		1FBC17172046593900DED02D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17162046593900DED02D /* AppDelegate.m */; };
 		1FBC171A2046593900DED02D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17192046593900DED02D /* ViewController.m */; };
 		1FBC171D2046593900DED02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC171B2046593900DED02D /* Main.storyboard */; };
@@ -282,6 +298,41 @@
 		12C0CE4620AA9A49005BFA8C /* GamePad+Cheat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GamePad+Cheat.m"; sourceTree = "<group>"; };
 		12C0CE4820AA9A8D005BFA8C /* GamePad+Coin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GamePad+Coin.h"; sourceTree = "<group>"; };
 		12C0CE4920AA9A8D005BFA8C /* GamePad+Coin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GamePad+Coin.m"; sourceTree = "<group>"; };
+		12C0CE4C20ABD30F005BFA8C /* JZYIFactoryDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIFactoryDemoVC.h; sourceTree = "<group>"; };
+		12C0CE4D20ABD30F005BFA8C /* JZYIFactoryDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIFactoryDemoVC.m; sourceTree = "<group>"; };
+		12C0CE4F20ABD363005BFA8C /* 工厂模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "工厂模式.md"; sourceTree = "<group>"; };
+		12C0CE5020ABD74B005BFA8C /* BaseDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDevice.h; sourceTree = "<group>"; };
+		12C0CE5120ABD74B005BFA8C /* BaseDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseDevice.m; sourceTree = "<group>"; };
+		12C0CE5320ABD75E005BFA8C /* PhoneProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneProtocol.h; sourceTree = "<group>"; };
+		12C0CE5420ABD7E6005BFA8C /* DeviceFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceFactory.h; sourceTree = "<group>"; };
+		12C0CE5520ABD7E6005BFA8C /* DeviceFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceFactory.m; sourceTree = "<group>"; };
+		12C0CE5920ABD880005BFA8C /* iPhoneDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneDevice.h; sourceTree = "<group>"; };
+		12C0CE5A20ABD880005BFA8C /* iPhoneDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneDevice.m; sourceTree = "<group>"; };
+		12C0CE5C20ABD943005BFA8C /* AndroidDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidDevice.h; sourceTree = "<group>"; };
+		12C0CE5D20ABD943005BFA8C /* AndroidDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidDevice.m; sourceTree = "<group>"; };
+		12C0CE6020ABE181005BFA8C /* JZYIAbstractFactoryDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIAbstractFactoryDemoVC.h; sourceTree = "<group>"; };
+		12C0CE6120ABE181005BFA8C /* JZYIAbstractFactoryDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIAbstractFactoryDemoVC.m; sourceTree = "<group>"; };
+		12C0CE6320ABE19B005BFA8C /* 抽象工厂模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "抽象工厂模式.md"; sourceTree = "<group>"; };
+		12C0CE6420ABE34A005BFA8C /* FactoryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryManager.h; sourceTree = "<group>"; };
+		12C0CE6520ABE34A005BFA8C /* FactoryManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryManager.m; sourceTree = "<group>"; };
+		12C0CE6720ABE398005BFA8C /* BaseFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseFactory.h; sourceTree = "<group>"; };
+		12C0CE6820ABE398005BFA8C /* BaseFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseFactory.m; sourceTree = "<group>"; };
+		12C0CE6A20ABE3B4005BFA8C /* BasePhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasePhone.h; sourceTree = "<group>"; };
+		12C0CE6B20ABE3B4005BFA8C /* BasePhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasePhone.m; sourceTree = "<group>"; };
+		12C0CE6D20ABE3E8005BFA8C /* BaseWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseWatch.h; sourceTree = "<group>"; };
+		12C0CE6E20ABE3E8005BFA8C /* BaseWatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseWatch.m; sourceTree = "<group>"; };
+		12C0CE7320ABE4EF005BFA8C /* iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhone.h; sourceTree = "<group>"; };
+		12C0CE7420ABE4EF005BFA8C /* iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhone.m; sourceTree = "<group>"; };
+		12C0CE7620ABE506005BFA8C /* Android.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Android.h; sourceTree = "<group>"; };
+		12C0CE7720ABE506005BFA8C /* Android.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Android.m; sourceTree = "<group>"; };
+		12C0CE7920ABE518005BFA8C /* iWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWatch.h; sourceTree = "<group>"; };
+		12C0CE7A20ABE518005BFA8C /* iWatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWatch.m; sourceTree = "<group>"; };
+		12C0CE7C20ABE52C005BFA8C /* AndroidWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidWatch.h; sourceTree = "<group>"; };
+		12C0CE7D20ABE52C005BFA8C /* AndroidWatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidWatch.m; sourceTree = "<group>"; };
+		12C0CE7F20ABE553005BFA8C /* AppleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleFactory.h; sourceTree = "<group>"; };
+		12C0CE8020ABE553005BFA8C /* AppleFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleFactory.m; sourceTree = "<group>"; };
+		12C0CE8220ABE563005BFA8C /* GoogleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleFactory.h; sourceTree = "<group>"; };
+		12C0CE8320ABE563005BFA8C /* GoogleFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleFactory.m; sourceTree = "<group>"; };
 		1FBC17122046593900DED02D /* JZYIObjectiveCManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZYIObjectiveCManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBC17152046593900DED02D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FBC17162046593900DED02D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -488,6 +539,8 @@
 		1251B86C206292F100034787 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				12C0CE5F20ABE087005BFA8C /* 抽象工厂模式 */,
+				12C0CE4B20ABD269005BFA8C /* 工厂模式 */,
 				12C0CE3220AA8DCF005BFA8C /* 装饰模式 */,
 				12C0CE2120A04559005BFA8C /* 外观模式 */,
 				12C0CE0B20A037BC005BFA8C /* 原型模式 */,
@@ -841,6 +894,87 @@
 				12C0CE4920AA9A8D005BFA8C /* GamePad+Coin.m */,
 			);
 			path = "装饰模式";
+			sourceTree = "<group>";
+		};
+		12C0CE4B20ABD269005BFA8C /* 工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				12C0CE4C20ABD30F005BFA8C /* JZYIFactoryDemoVC.h */,
+				12C0CE4D20ABD30F005BFA8C /* JZYIFactoryDemoVC.m */,
+				12C0CE5420ABD7E6005BFA8C /* DeviceFactory.h */,
+				12C0CE5520ABD7E6005BFA8C /* DeviceFactory.m */,
+				12C0CE5720ABD851005BFA8C /* BaseDevice */,
+				12C0CE4F20ABD363005BFA8C /* 工厂模式.md */,
+			);
+			path = "工厂模式";
+			sourceTree = "<group>";
+		};
+		12C0CE5720ABD851005BFA8C /* BaseDevice */ = {
+			isa = PBXGroup;
+			children = (
+				12C0CE5020ABD74B005BFA8C /* BaseDevice.h */,
+				12C0CE5120ABD74B005BFA8C /* BaseDevice.m */,
+				12C0CE5920ABD880005BFA8C /* iPhoneDevice.h */,
+				12C0CE5A20ABD880005BFA8C /* iPhoneDevice.m */,
+				12C0CE5C20ABD943005BFA8C /* AndroidDevice.h */,
+				12C0CE5D20ABD943005BFA8C /* AndroidDevice.m */,
+				12C0CE5320ABD75E005BFA8C /* PhoneProtocol.h */,
+			);
+			path = BaseDevice;
+			sourceTree = "<group>";
+		};
+		12C0CE5F20ABE087005BFA8C /* 抽象工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				12C0CE6020ABE181005BFA8C /* JZYIAbstractFactoryDemoVC.h */,
+				12C0CE6120ABE181005BFA8C /* JZYIAbstractFactoryDemoVC.m */,
+				12C0CE6420ABE34A005BFA8C /* FactoryManager.h */,
+				12C0CE6520ABE34A005BFA8C /* FactoryManager.m */,
+				12C0CE7020ABE4AF005BFA8C /* Factory */,
+				12C0CE7120ABE4BE005BFA8C /* Phone */,
+				12C0CE7220ABE4C4005BFA8C /* Watch */,
+				12C0CE6320ABE19B005BFA8C /* 抽象工厂模式.md */,
+			);
+			path = "抽象工厂模式";
+			sourceTree = "<group>";
+		};
+		12C0CE7020ABE4AF005BFA8C /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				12C0CE6720ABE398005BFA8C /* BaseFactory.h */,
+				12C0CE6820ABE398005BFA8C /* BaseFactory.m */,
+				12C0CE7F20ABE553005BFA8C /* AppleFactory.h */,
+				12C0CE8020ABE553005BFA8C /* AppleFactory.m */,
+				12C0CE8220ABE563005BFA8C /* GoogleFactory.h */,
+				12C0CE8320ABE563005BFA8C /* GoogleFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		12C0CE7120ABE4BE005BFA8C /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				12C0CE6A20ABE3B4005BFA8C /* BasePhone.h */,
+				12C0CE6B20ABE3B4005BFA8C /* BasePhone.m */,
+				12C0CE7320ABE4EF005BFA8C /* iPhone.h */,
+				12C0CE7420ABE4EF005BFA8C /* iPhone.m */,
+				12C0CE7620ABE506005BFA8C /* Android.h */,
+				12C0CE7720ABE506005BFA8C /* Android.m */,
+			);
+			name = Phone;
+			sourceTree = "<group>";
+		};
+		12C0CE7220ABE4C4005BFA8C /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				12C0CE6D20ABE3E8005BFA8C /* BaseWatch.h */,
+				12C0CE6E20ABE3E8005BFA8C /* BaseWatch.m */,
+				12C0CE7920ABE518005BFA8C /* iWatch.h */,
+				12C0CE7A20ABE518005BFA8C /* iWatch.m */,
+				12C0CE7C20ABE52C005BFA8C /* AndroidWatch.h */,
+				12C0CE7D20ABE52C005BFA8C /* AndroidWatch.m */,
+			);
+			name = Watch;
 			sourceTree = "<group>";
 		};
 		1FBC17092046593900DED02D = {
@@ -1524,6 +1658,7 @@
 				12C0CE3120A048E4005BFA8C /* ShapeMaker.m in Sources */,
 				1241A33520958EFE00388A0B /* JZYIHomeFooterView.m in Sources */,
 				1241A319208F0A5200388A0B /* JZYIObserverVC.m in Sources */,
+				12C0CE6920ABE398005BFA8C /* BaseFactory.m in Sources */,
 				1251B8CF2063E92D00034787 /* JZYICollectionViewCell.m in Sources */,
 				1251B874206296F600034787 /* BaseAnimationView.m in Sources */,
 				1FBC171A2046593900DED02D /* ViewController.m in Sources */,
@@ -1533,11 +1668,15 @@
 				12C0CE1520A03E31005BFA8C /* StudentModel.m in Sources */,
 				1251B8E02063E92D00034787 /* UIView+JZYIFrame.m in Sources */,
 				1FEB21C52047943A00051366 /* Person.m in Sources */,
+				12C0CE8420ABE563005BFA8C /* GoogleFactory.m in Sources */,
 				1251B8E42063F6DF00034787 /* JZYICardModel.m in Sources */,
+				12C0CE6620ABE34A005BFA8C /* FactoryManager.m in Sources */,
 				1251B8F52063FBEE00034787 /* JZYINewCardModelAdapter.m in Sources */,
 				1FBC17252046593900DED02D /* main.m in Sources */,
+				12C0CE7E20ABE52C005BFA8C /* AndroidWatch.m in Sources */,
 				1FF2533F204E8627005BBDAB /* JZYIHomeVC.m in Sources */,
 				1251B8D12063E92D00034787 /* JZYIImageView.m in Sources */,
+				12C0CE8120ABE553005BFA8C /* AppleFactory.m in Sources */,
 				1241A341209599DA00388A0B /* JZYIHomePushHandler.m in Sources */,
 				1251B8D62063E92D00034787 /* JZYIScrollView.m in Sources */,
 				1241A32F20958ED500388A0B /* JZYIHomeHandler.m in Sources */,
@@ -1553,11 +1692,13 @@
 				1251B8D32063E92D00034787 /* JZYILabel.m in Sources */,
 				1241A32C20958EC500388A0B /* JZYIHomeModel.m in Sources */,
 				1251B8D22063E92D00034787 /* UIImageView+JZYICornerRadius.m in Sources */,
+				12C0CE5B20ABD880005BFA8C /* iPhoneDevice.m in Sources */,
 				1251B87E206299E700034787 /* ScaleAnimationView.m in Sources */,
 				1FF25316204E7111005BBDAB /* UIButton+JZYITool.m in Sources */,
 				1251B8772062980700034787 /* FadeAnimationView.m in Sources */,
 				12C0CE3B20AA9236005BFA8C /* GamePad.m in Sources */,
 				1251B8D52063E92D00034787 /* JZYIProgressView.m in Sources */,
+				12C0CE6220ABE181005BFA8C /* JZYIAbstractFactoryDemoVC.m in Sources */,
 				1251B8DC2063E92D00034787 /* JZYITextField.m in Sources */,
 				123D3CB520727DD300395F93 /* JZYICustomPhoneValidator.m in Sources */,
 				1251B8DF2063E92D00034787 /* JZYIView.m in Sources */,
@@ -1574,12 +1715,14 @@
 				1FF25307204E6A78005BBDAB /* UIColor+JZYITool.m in Sources */,
 				1251B8DD2063E92D00034787 /* JZYITextView.m in Sources */,
 				1FF2534F204E8EC5005BBDAB /* Caculator.m in Sources */,
+				12C0CE6C20ABE3B4005BFA8C /* BasePhone.m in Sources */,
 				1FF2530A204E6A90005BBDAB /* UIFont+JZYITool.m in Sources */,
 				F42C38C3205A50B50073B899 /* JZYISystemPromptManagement.m in Sources */,
 				1FF25311204E6ED3005BBDAB /* UIColor+JZYIApp.m in Sources */,
 				123D3CAF20727AD000395F93 /* JZYIStrategyDemoVC.m in Sources */,
 				12C0CE0E20A03A90005BFA8C /* JZYIPrototypeDemoVC.m in Sources */,
 				1FBC17172046593900DED02D /* AppDelegate.m in Sources */,
+				12C0CE5620ABD7E6005BFA8C /* DeviceFactory.m in Sources */,
 				1FF25336204E85F5005BBDAB /* JZYIMyVC.m in Sources */,
 				1FF25304204E6A5A005BBDAB /* NSString+JZYITool.m in Sources */,
 				12C0CE1C20A0409C005BFA8C /* JZYIStudentModel.m in Sources */,
@@ -1587,17 +1730,23 @@
 				12C0CE4120AA979F005BFA8C /* CheatGamePadDecorator.m in Sources */,
 				12C0CE4A20AA9A8D005BFA8C /* GamePad+Coin.m in Sources */,
 				1251B8E12063E92D00034787 /* JZYIWebView.m in Sources */,
+				12C0CE6F20ABE3E8005BFA8C /* BaseWatch.m in Sources */,
 				1241A32520958C9B00388A0B /* JZYITableVC.m in Sources */,
+				12C0CE4E20ABD30F005BFA8C /* JZYIFactoryDemoVC.m in Sources */,
+				12C0CE7820ABE506005BFA8C /* Android.m in Sources */,
 				1FF2532F204E7D04005BBDAB /* JZYIBaseNavigationVC.m in Sources */,
 				1FF2533C204E860F005BBDAB /* JZYIAddressBook.m in Sources */,
 				1FF2534B204E8B63005BBDAB /* CaculatorMaker.m in Sources */,
 				1251B88A2063DFFA00034787 /* JZYIBusinessCardView.m in Sources */,
+				12C0CE7520ABE4EF005BFA8C /* iPhone.m in Sources */,
 				1241A320208F13BF00388A0B /* JZYIObserverTestModel.m in Sources */,
 				1241A33220958EF100388A0B /* JZYIHomeHeaderView.m in Sources */,
 				1FF25321204E7646005BBDAB /* JZYINavigationController.m in Sources */,
 				1251B8EB2063F8BD00034787 /* JZYIBusinessCardAdapter.m in Sources */,
+				12C0CE7B20ABE518005BFA8C /* iWatch.m in Sources */,
 				12C0CE2820A047BB005BFA8C /* Shape.m in Sources */,
 				1251B8D92063E92D00034787 /* JZYITableViewCell.m in Sources */,
+				12C0CE5220ABD74B005BFA8C /* BaseDevice.m in Sources */,
 				1251B8CE2063E92D00034787 /* JZYICollectionView.m in Sources */,
 				123D3CB8207280B600395F93 /* JZYICustomPasswordValidator.m in Sources */,
 				1241A33B2095950E00388A0B /* JZYIHomeSectionModel.m in Sources */,
@@ -1609,6 +1758,7 @@
 				1241A33820958F1000388A0B /* JZYIHomeCell.m in Sources */,
 				1FF2531C204E73E6005BBDAB /* JZYIBaseVC.m in Sources */,
 				12C0CE4720AA9A49005BFA8C /* GamePad+Cheat.m in Sources */,
+				12C0CE5E20ABD943005BFA8C /* AndroidDevice.m in Sources */,
 				1251B8DE2063E92D00034787 /* JZYIToolbar.m in Sources */,
 				1251B8D72063E92D00034787 /* JZYISwitch.m in Sources */,
 			);
