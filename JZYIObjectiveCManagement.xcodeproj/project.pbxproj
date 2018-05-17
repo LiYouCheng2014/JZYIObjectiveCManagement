@@ -96,6 +96,13 @@
 		12C0CE7E20ABE52C005BFA8C /* AndroidWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE7D20ABE52C005BFA8C /* AndroidWatch.m */; };
 		12C0CE8120ABE553005BFA8C /* AppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE8020ABE553005BFA8C /* AppleFactory.m */; };
 		12C0CE8420ABE563005BFA8C /* GoogleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE8320ABE563005BFA8C /* GoogleFactory.m */; };
+		12C0CE8820AD29A9005BFA8C /* JZYIBridgingDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE8720AD29A9005BFA8C /* JZYIBridgingDemoVC.m */; };
+		12C0CE8C20AD2DFF005BFA8C /* AbstractSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE8B20AD2DFF005BFA8C /* AbstractSystem.m */; };
+		12C0CE8F20AD2E55005BFA8C /* AbstractImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE8E20AD2E55005BFA8C /* AbstractImplementor.m */; };
+		12C0CE9320AD2F7F005BFA8C /* GBASystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9220AD2F7F005BFA8C /* GBASystem.m */; };
+		12C0CE9620AD302B005BFA8C /* GBAImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9520AD302B005BFA8C /* GBAImplementor.m */; };
+		12C0CE9920AD32B5005BFA8C /* PSPImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9820AD32B5005BFA8C /* PSPImplementor.m */; };
+		12C0CE9C20AD32CD005BFA8C /* PSPSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9B20AD32CD005BFA8C /* PSPSystem.m */; };
 		1FBC17172046593900DED02D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17162046593900DED02D /* AppDelegate.m */; };
 		1FBC171A2046593900DED02D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17192046593900DED02D /* ViewController.m */; };
 		1FBC171D2046593900DED02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC171B2046593900DED02D /* Main.storyboard */; };
@@ -333,6 +340,21 @@
 		12C0CE8020ABE553005BFA8C /* AppleFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleFactory.m; sourceTree = "<group>"; };
 		12C0CE8220ABE563005BFA8C /* GoogleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleFactory.h; sourceTree = "<group>"; };
 		12C0CE8320ABE563005BFA8C /* GoogleFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleFactory.m; sourceTree = "<group>"; };
+		12C0CE8620AD29A9005BFA8C /* JZYIBridgingDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIBridgingDemoVC.h; sourceTree = "<group>"; };
+		12C0CE8720AD29A9005BFA8C /* JZYIBridgingDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIBridgingDemoVC.m; sourceTree = "<group>"; };
+		12C0CE8920AD29B8005BFA8C /* 桥接模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "桥接模式.md"; sourceTree = "<group>"; };
+		12C0CE8A20AD2DFF005BFA8C /* AbstractSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractSystem.h; sourceTree = "<group>"; };
+		12C0CE8B20AD2DFF005BFA8C /* AbstractSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractSystem.m; sourceTree = "<group>"; };
+		12C0CE8D20AD2E55005BFA8C /* AbstractImplementor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractImplementor.h; sourceTree = "<group>"; };
+		12C0CE8E20AD2E55005BFA8C /* AbstractImplementor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractImplementor.m; sourceTree = "<group>"; };
+		12C0CE9120AD2F7F005BFA8C /* GBASystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBASystem.h; sourceTree = "<group>"; };
+		12C0CE9220AD2F7F005BFA8C /* GBASystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBASystem.m; sourceTree = "<group>"; };
+		12C0CE9420AD302B005BFA8C /* GBAImplementor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBAImplementor.h; sourceTree = "<group>"; };
+		12C0CE9520AD302B005BFA8C /* GBAImplementor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBAImplementor.m; sourceTree = "<group>"; };
+		12C0CE9720AD32B5005BFA8C /* PSPImplementor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSPImplementor.h; sourceTree = "<group>"; };
+		12C0CE9820AD32B5005BFA8C /* PSPImplementor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPImplementor.m; sourceTree = "<group>"; };
+		12C0CE9A20AD32CD005BFA8C /* PSPSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSPSystem.h; sourceTree = "<group>"; };
+		12C0CE9B20AD32CD005BFA8C /* PSPSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPSystem.m; sourceTree = "<group>"; };
 		1FBC17122046593900DED02D /* JZYIObjectiveCManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZYIObjectiveCManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBC17152046593900DED02D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FBC17162046593900DED02D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -539,6 +561,7 @@
 		1251B86C206292F100034787 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				12C0CE8520AD2963005BFA8C /* 桥接模式 */,
 				12C0CE5F20ABE087005BFA8C /* 抽象工厂模式 */,
 				12C0CE4B20ABD269005BFA8C /* 工厂模式 */,
 				12C0CE3220AA8DCF005BFA8C /* 装饰模式 */,
@@ -975,6 +998,36 @@
 				12C0CE7D20ABE52C005BFA8C /* AndroidWatch.m */,
 			);
 			name = Watch;
+			sourceTree = "<group>";
+		};
+		12C0CE8520AD2963005BFA8C /* 桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				12C0CE8620AD29A9005BFA8C /* JZYIBridgingDemoVC.h */,
+				12C0CE8720AD29A9005BFA8C /* JZYIBridgingDemoVC.m */,
+				12C0CE9120AD2F7F005BFA8C /* GBASystem.h */,
+				12C0CE9220AD2F7F005BFA8C /* GBASystem.m */,
+				12C0CE9420AD302B005BFA8C /* GBAImplementor.h */,
+				12C0CE9520AD302B005BFA8C /* GBAImplementor.m */,
+				12C0CE9A20AD32CD005BFA8C /* PSPSystem.h */,
+				12C0CE9B20AD32CD005BFA8C /* PSPSystem.m */,
+				12C0CE9720AD32B5005BFA8C /* PSPImplementor.h */,
+				12C0CE9820AD32B5005BFA8C /* PSPImplementor.m */,
+				12C0CE9020AD2F64005BFA8C /* Abstract */,
+				12C0CE8920AD29B8005BFA8C /* 桥接模式.md */,
+			);
+			path = "桥接模式";
+			sourceTree = "<group>";
+		};
+		12C0CE9020AD2F64005BFA8C /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				12C0CE8A20AD2DFF005BFA8C /* AbstractSystem.h */,
+				12C0CE8B20AD2DFF005BFA8C /* AbstractSystem.m */,
+				12C0CE8D20AD2E55005BFA8C /* AbstractImplementor.h */,
+				12C0CE8E20AD2E55005BFA8C /* AbstractImplementor.m */,
+			);
+			path = Abstract;
 			sourceTree = "<group>";
 		};
 		1FBC17092046593900DED02D = {
@@ -1667,6 +1720,7 @@
 				12C0CE3E20AA9327005BFA8C /* GamePadDecorate.m in Sources */,
 				12C0CE1520A03E31005BFA8C /* StudentModel.m in Sources */,
 				1251B8E02063E92D00034787 /* UIView+JZYIFrame.m in Sources */,
+				12C0CE9620AD302B005BFA8C /* GBAImplementor.m in Sources */,
 				1FEB21C52047943A00051366 /* Person.m in Sources */,
 				12C0CE8420ABE563005BFA8C /* GoogleFactory.m in Sources */,
 				1251B8E42063F6DF00034787 /* JZYICardModel.m in Sources */,
@@ -1680,6 +1734,7 @@
 				1241A341209599DA00388A0B /* JZYIHomePushHandler.m in Sources */,
 				1251B8D62063E92D00034787 /* JZYIScrollView.m in Sources */,
 				1241A32F20958ED500388A0B /* JZYIHomeHandler.m in Sources */,
+				12C0CE9920AD32B5005BFA8C /* PSPImplementor.m in Sources */,
 				123D3CB220727CC800395F93 /* JZYICustomInputValidator.m in Sources */,
 				1251B8CD2063E92D00034787 /* JZYICollectionReusableView.m in Sources */,
 				1251B8D82063E92D00034787 /* JZYITableView.m in Sources */,
@@ -1688,6 +1743,7 @@
 				1251B8D02063E92D00034787 /* JZYIDatePicker.m in Sources */,
 				1251B87B2062995900034787 /* DesignPatternVC.m in Sources */,
 				1251B8E72063F6ED00034787 /* JZYINewCardModel.m in Sources */,
+				12C0CE9320AD2F7F005BFA8C /* GBASystem.m in Sources */,
 				1FF25343204E8774005BBDAB /* JZYITabBarController.m in Sources */,
 				1251B8D32063E92D00034787 /* JZYILabel.m in Sources */,
 				1241A32C20958EC500388A0B /* JZYIHomeModel.m in Sources */,
@@ -1719,6 +1775,7 @@
 				1FF2530A204E6A90005BBDAB /* UIFont+JZYITool.m in Sources */,
 				F42C38C3205A50B50073B899 /* JZYISystemPromptManagement.m in Sources */,
 				1FF25311204E6ED3005BBDAB /* UIColor+JZYIApp.m in Sources */,
+				12C0CE8C20AD2DFF005BFA8C /* AbstractSystem.m in Sources */,
 				123D3CAF20727AD000395F93 /* JZYIStrategyDemoVC.m in Sources */,
 				12C0CE0E20A03A90005BFA8C /* JZYIPrototypeDemoVC.m in Sources */,
 				1FBC17172046593900DED02D /* AppDelegate.m in Sources */,
@@ -1731,6 +1788,7 @@
 				12C0CE4A20AA9A8D005BFA8C /* GamePad+Coin.m in Sources */,
 				1251B8E12063E92D00034787 /* JZYIWebView.m in Sources */,
 				12C0CE6F20ABE3E8005BFA8C /* BaseWatch.m in Sources */,
+				12C0CE9C20AD32CD005BFA8C /* PSPSystem.m in Sources */,
 				1241A32520958C9B00388A0B /* JZYITableVC.m in Sources */,
 				12C0CE4E20ABD30F005BFA8C /* JZYIFactoryDemoVC.m in Sources */,
 				12C0CE7820ABE506005BFA8C /* Android.m in Sources */,
@@ -1748,6 +1806,7 @@
 				1251B8D92063E92D00034787 /* JZYITableViewCell.m in Sources */,
 				12C0CE5220ABD74B005BFA8C /* BaseDevice.m in Sources */,
 				1251B8CE2063E92D00034787 /* JZYICollectionView.m in Sources */,
+				12C0CE8820AD29A9005BFA8C /* JZYIBridgingDemoVC.m in Sources */,
 				123D3CB8207280B600395F93 /* JZYICustomPasswordValidator.m in Sources */,
 				1241A33B2095950E00388A0B /* JZYIHomeSectionModel.m in Sources */,
 				12C0CE1920A03FF6005BFA8C /* BaseCopyObject.m in Sources */,
@@ -1761,6 +1820,7 @@
 				12C0CE5E20ABD943005BFA8C /* AndroidDevice.m in Sources */,
 				1251B8DE2063E92D00034787 /* JZYIToolbar.m in Sources */,
 				1251B8D72063E92D00034787 /* JZYISwitch.m in Sources */,
+				12C0CE8F20AD2E55005BFA8C /* AbstractImplementor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

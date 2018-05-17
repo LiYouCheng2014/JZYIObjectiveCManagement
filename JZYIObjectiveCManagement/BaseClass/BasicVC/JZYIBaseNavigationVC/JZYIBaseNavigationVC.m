@@ -27,7 +27,7 @@ static NSString *kLeftArrowImageName = @"jzyi_icon_left_arrow_gray";
 }
 
 - (void)dealloc {
-    JZYILog(@"释放类==>:%@",NSStringFromClass([self class]));
+//    JZYILog(@"释放类==>:%@",NSStringFromClass([self class]));
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -35,7 +35,7 @@ static NSString *kLeftArrowImageName = @"jzyi_icon_left_arrow_gray";
     
     [self p_setupInit];
     
-    JZYILog(@"出现类==>:%@",NSStringFromClass([self class]));
+//    JZYILog(@"出现类==>:%@",NSStringFromClass([self class]));
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -45,7 +45,7 @@ static NSString *kLeftArrowImageName = @"jzyi_icon_left_arrow_gray";
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
     
-    JZYILog(@"消失类==>:%@",NSStringFromClass([self class]));
+//    JZYILog(@"消失类==>:%@",NSStringFromClass([self class]));
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
