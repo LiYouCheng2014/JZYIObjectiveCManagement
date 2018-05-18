@@ -27,7 +27,7 @@
             sectionModel.itemArray = @[ blockRowModel ];
         }
         else if (i == 1) {
-            NSArray *tempArray = @[ @"设计模式简介",@"适配器模式",@"策略模式",@"观察者模式",@"原型模式",@"外观模式",@"装饰模式",@"工厂模式",@"抽象工厂模式",@"桥接模式" ];
+            NSArray *tempArray = @[ @"设计模式简介",@"适配器模式",@"策略模式",@"观察者模式",@"原型模式",@"外观模式",@"装饰模式",@"工厂模式",@"抽象工厂模式",@"桥接模式",@"代理模式" ];
             NSMutableArray *rowMArray = [NSMutableArray array];
             for (NSInteger j = 0; j < [tempArray count]; j++) {
                 JZYIHomeRowModel *blockRowModel = [JZYIHomeRowModel new];

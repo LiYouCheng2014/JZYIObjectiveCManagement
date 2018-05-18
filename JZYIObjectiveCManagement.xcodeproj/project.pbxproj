@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04AD258E20AEA56300663FA8 /* JZYIDelegateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD258D20AEA56300663FA8 /* JZYIDelegateDemoVC.m */; };
+		04AD259120AEA72000663FA8 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD259020AEA72000663FA8 /* Customer.m */; };
+		04AD259520AEAB6800663FA8 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD259420AEAB6800663FA8 /* Model.m */; };
+		04AD259820AEC52000663FA8 /* AbstractProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD259720AEC52000663FA8 /* AbstractProxy.m */; };
+		04AD259C20AEC5C300663FA8 /* AbstractExcute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD259B20AEC5C300663FA8 /* AbstractExcute.m */; };
+		04AD25A220AEC7DE00663FA8 /* ConcreteProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD25A120AEC7DE00663FA8 /* ConcreteProxy.m */; };
 		123D3CA9207278E500395F93 /* 策略模式.md in Resources */ = {isa = PBXBuildFile; fileRef = 123D3CA8207278E500395F93 /* 策略模式.md */; };
 		123D3CAC20727AA200395F93 /* JZYICustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 123D3CAB20727AA200395F93 /* JZYICustomTextField.m */; };
 		123D3CAF20727AD000395F93 /* JZYIStrategyDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 123D3CAE20727AD000395F93 /* JZYIStrategyDemoVC.m */; };
@@ -154,6 +160,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04AD258B20AEA54400663FA8 /* 代理模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "代理模式.md"; sourceTree = "<group>"; };
+		04AD258C20AEA56300663FA8 /* JZYIDelegateDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIDelegateDemoVC.h; sourceTree = "<group>"; };
+		04AD258D20AEA56300663FA8 /* JZYIDelegateDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIDelegateDemoVC.m; sourceTree = "<group>"; };
+		04AD258F20AEA72000663FA8 /* Customer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		04AD259020AEA72000663FA8 /* Customer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		04AD259220AEAA8000663FA8 /* TCPProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCPProtocol.h; sourceTree = "<group>"; };
+		04AD259320AEAB6800663FA8 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		04AD259420AEAB6800663FA8 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		04AD259620AEC52000663FA8 /* AbstractProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractProxy.h; sourceTree = "<group>"; };
+		04AD259720AEC52000663FA8 /* AbstractProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractProxy.m; sourceTree = "<group>"; };
+		04AD259A20AEC5C300663FA8 /* AbstractExcute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractExcute.h; sourceTree = "<group>"; };
+		04AD259B20AEC5C300663FA8 /* AbstractExcute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractExcute.m; sourceTree = "<group>"; };
+		04AD25A020AEC7DE00663FA8 /* ConcreteProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteProxy.h; sourceTree = "<group>"; };
+		04AD25A120AEC7DE00663FA8 /* ConcreteProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteProxy.m; sourceTree = "<group>"; };
+		04AD25A320AEC7FD00663FA8 /* MessageProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageProtocol.h; sourceTree = "<group>"; };
 		0E2509C07F5956679D5F8ECE /* libPods-JZYIObjectiveCManagementTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JZYIObjectiveCManagementTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		123D3CA8207278E500395F93 /* 策略模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "策略模式.md"; sourceTree = "<group>"; };
 		123D3CAA20727AA200395F93 /* JZYICustomTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYICustomTextField.h; sourceTree = "<group>"; };
@@ -450,6 +471,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04AD258A20AEA52700663FA8 /* 代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+				04AD258B20AEA54400663FA8 /* 代理模式.md */,
+				04AD258C20AEA56300663FA8 /* JZYIDelegateDemoVC.h */,
+				04AD258D20AEA56300663FA8 /* JZYIDelegateDemoVC.m */,
+				04AD259220AEAA8000663FA8 /* TCPProtocol.h */,
+				04AD259320AEAB6800663FA8 /* Model.h */,
+				04AD259420AEAB6800663FA8 /* Model.m */,
+				04AD258F20AEA72000663FA8 /* Customer.h */,
+				04AD259020AEA72000663FA8 /* Customer.m */,
+				04AD259920AEC5B100663FA8 /* Proxy */,
+			);
+			path = "代理模式";
+			sourceTree = "<group>";
+		};
+		04AD259920AEC5B100663FA8 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				04AD259620AEC52000663FA8 /* AbstractProxy.h */,
+				04AD259720AEC52000663FA8 /* AbstractProxy.m */,
+				04AD259A20AEC5C300663FA8 /* AbstractExcute.h */,
+				04AD259B20AEC5C300663FA8 /* AbstractExcute.m */,
+				04AD25A020AEC7DE00663FA8 /* ConcreteProxy.h */,
+				04AD25A120AEC7DE00663FA8 /* ConcreteProxy.m */,
+				04AD25A320AEC7FD00663FA8 /* MessageProtocol.h */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
 		123D3CA7207278B700395F93 /* 策略模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -561,6 +612,7 @@
 		1251B86C206292F100034787 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				04AD258A20AEA52700663FA8 /* 代理模式 */,
 				12C0CE8520AD2963005BFA8C /* 桥接模式 */,
 				12C0CE5F20ABE087005BFA8C /* 抽象工厂模式 */,
 				12C0CE4B20ABD269005BFA8C /* 工厂模式 */,
@@ -1719,6 +1771,7 @@
 				1241A34420959A3F00388A0B /* JZYIBlockVC.m in Sources */,
 				12C0CE3E20AA9327005BFA8C /* GamePadDecorate.m in Sources */,
 				12C0CE1520A03E31005BFA8C /* StudentModel.m in Sources */,
+				04AD259520AEAB6800663FA8 /* Model.m in Sources */,
 				1251B8E02063E92D00034787 /* UIView+JZYIFrame.m in Sources */,
 				12C0CE9620AD302B005BFA8C /* GBAImplementor.m in Sources */,
 				1FEB21C52047943A00051366 /* Person.m in Sources */,
@@ -1760,6 +1813,8 @@
 				1251B8DF2063E92D00034787 /* JZYIView.m in Sources */,
 				12C0CE3620AA8E66005BFA8C /* JZYIDecorateDemoVC.m in Sources */,
 				1251B8872063DF1F00034787 /* AdapterDemoVC.m in Sources */,
+				04AD259C20AEC5C300663FA8 /* AbstractExcute.m in Sources */,
+				04AD259820AEC52000663FA8 /* AbstractProxy.m in Sources */,
 				12C0CE2B20A047D6005BFA8C /* Rectangle.m in Sources */,
 				1251B8D42063E92D00034787 /* JZYIPickerView.m in Sources */,
 				12C0CE4420AA99A0005BFA8C /* CoinGamePadDecorator.m in Sources */,
@@ -1767,6 +1822,7 @@
 				1241A33E2095951E00388A0B /* JZYIHomeRowModel.m in Sources */,
 				1FF25333204E7EFB005BBDAB /* UIImage+JZYITool.m in Sources */,
 				1251B8EF2063F99100034787 /* JZYICardModelAdapter.m in Sources */,
+				04AD259120AEA72000663FA8 /* Customer.m in Sources */,
 				1251B88120629B8700034787 /* AnimationView.m in Sources */,
 				1FF25307204E6A78005BBDAB /* UIColor+JZYITool.m in Sources */,
 				1251B8DD2063E92D00034787 /* JZYITextView.m in Sources */,
@@ -1775,6 +1831,7 @@
 				1FF2530A204E6A90005BBDAB /* UIFont+JZYITool.m in Sources */,
 				F42C38C3205A50B50073B899 /* JZYISystemPromptManagement.m in Sources */,
 				1FF25311204E6ED3005BBDAB /* UIColor+JZYIApp.m in Sources */,
+				04AD25A220AEC7DE00663FA8 /* ConcreteProxy.m in Sources */,
 				12C0CE8C20AD2DFF005BFA8C /* AbstractSystem.m in Sources */,
 				123D3CAF20727AD000395F93 /* JZYIStrategyDemoVC.m in Sources */,
 				12C0CE0E20A03A90005BFA8C /* JZYIPrototypeDemoVC.m in Sources */,
@@ -1820,6 +1877,7 @@
 				12C0CE5E20ABD943005BFA8C /* AndroidDevice.m in Sources */,
 				1251B8DE2063E92D00034787 /* JZYIToolbar.m in Sources */,
 				1251B8D72063E92D00034787 /* JZYISwitch.m in Sources */,
+				04AD258E20AEA56300663FA8 /* JZYIDelegateDemoVC.m in Sources */,
 				12C0CE8F20AD2E55005BFA8C /* AbstractImplementor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

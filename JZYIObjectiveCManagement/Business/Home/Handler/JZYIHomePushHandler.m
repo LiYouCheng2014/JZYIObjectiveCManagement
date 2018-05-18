@@ -24,6 +24,7 @@
 #import "JZYIFactoryDemoVC.h"
 #import "JZYIAbstractFactoryDemoVC.h"
 #import "JZYIBridgingDemoVC.h"
+#import "JZYIDelegateDemoVC.h"
 
 @implementation JZYIHomePushHandler
 
@@ -102,8 +103,15 @@
             break;
         case JZYIHomePushTypeDesignBridging:
         {
-            //抽象工厂模式
+            //桥接模式
             JZYIBridgingDemoVC *vc = [JZYIBridgingDemoVC new];
+            [target.navigationController pushViewController:vc animated:true];
+        }
+            break;
+        case JZYIHomePushTypeDesignDelegate:
+        {
+            //抽象工厂模式
+            JZYIDelegateDemoVC *vc = [JZYIDelegateDemoVC new];
             [target.navigationController pushViewController:vc animated:true];
         }
             break;
