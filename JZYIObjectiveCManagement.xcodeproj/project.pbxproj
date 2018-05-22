@@ -109,6 +109,10 @@
 		12C0CE9620AD302B005BFA8C /* GBAImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9520AD302B005BFA8C /* GBAImplementor.m */; };
 		12C0CE9920AD32B5005BFA8C /* PSPImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9820AD32B5005BFA8C /* PSPImplementor.m */; };
 		12C0CE9C20AD32CD005BFA8C /* PSPSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9B20AD32CD005BFA8C /* PSPSystem.m */; };
+		1737ED9020B3FAE000693FC5 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1737ED8420B3FAE000693FC5 /* HomeModel.m */; };
+		1737ED9120B3FAE000693FC5 /* HomeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1737ED8620B3FAE000693FC5 /* HomeService.m */; };
+		1737ED9220B3FAE000693FC5 /* HomePresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1737ED8920B3FAE000693FC5 /* HomePresent.m */; };
+		1737ED9320B3FAE000693FC5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1737ED8F20B3FAE000693FC5 /* HomeViewController.m */; };
 		1FBC17172046593900DED02D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17162046593900DED02D /* AppDelegate.m */; };
 		1FBC171A2046593900DED02D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17192046593900DED02D /* ViewController.m */; };
 		1FBC171D2046593900DED02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC171B2046593900DED02D /* Main.storyboard */; };
@@ -376,6 +380,16 @@
 		12C0CE9820AD32B5005BFA8C /* PSPImplementor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPImplementor.m; sourceTree = "<group>"; };
 		12C0CE9A20AD32CD005BFA8C /* PSPSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSPSystem.h; sourceTree = "<group>"; };
 		12C0CE9B20AD32CD005BFA8C /* PSPSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPSystem.m; sourceTree = "<group>"; };
+		1737ED8320B3FAE000693FC5 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		1737ED8420B3FAE000693FC5 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		1737ED8520B3FAE000693FC5 /* HomeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeService.h; sourceTree = "<group>"; };
+		1737ED8620B3FAE000693FC5 /* HomeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeService.m; sourceTree = "<group>"; };
+		1737ED8820B3FAE000693FC5 /* HomePresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePresent.h; sourceTree = "<group>"; };
+		1737ED8920B3FAE000693FC5 /* HomePresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePresent.m; sourceTree = "<group>"; };
+		1737ED8B20B3FAE000693FC5 /* NetWorkingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkingState.h; sourceTree = "<group>"; };
+		1737ED8D20B3FAE000693FC5 /* HomeLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeLogic.h; sourceTree = "<group>"; };
+		1737ED8E20B3FAE000693FC5 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1737ED8F20B3FAE000693FC5 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		1FBC17122046593900DED02D /* JZYIObjectiveCManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZYIObjectiveCManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBC17152046593900DED02D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FBC17162046593900DED02D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -612,6 +626,7 @@
 		1251B86C206292F100034787 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				1737ED8120B3FAE000693FC5 /* MVP编程 */,
 				04AD258A20AEA52700663FA8 /* 代理模式 */,
 				12C0CE8520AD2963005BFA8C /* 桥接模式 */,
 				12C0CE5F20ABE087005BFA8C /* 抽象工厂模式 */,
@@ -1080,6 +1095,55 @@
 				12C0CE8E20AD2E55005BFA8C /* AbstractImplementor.m */,
 			);
 			path = Abstract;
+			sourceTree = "<group>";
+		};
+		1737ED8120B3FAE000693FC5 /* MVP编程 */ = {
+			isa = PBXGroup;
+			children = (
+				1737ED8220B3FAE000693FC5 /* M */,
+				1737ED8C20B3FAE000693FC5 /* V */,
+				1737ED8720B3FAE000693FC5 /* P */,
+				1737ED8A20B3FAE000693FC5 /* SuperProtocol */,
+			);
+			path = "MVP编程";
+			sourceTree = "<group>";
+		};
+		1737ED8220B3FAE000693FC5 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				1737ED8320B3FAE000693FC5 /* HomeModel.h */,
+				1737ED8420B3FAE000693FC5 /* HomeModel.m */,
+				1737ED8520B3FAE000693FC5 /* HomeService.h */,
+				1737ED8620B3FAE000693FC5 /* HomeService.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		1737ED8720B3FAE000693FC5 /* P */ = {
+			isa = PBXGroup;
+			children = (
+				1737ED8820B3FAE000693FC5 /* HomePresent.h */,
+				1737ED8920B3FAE000693FC5 /* HomePresent.m */,
+			);
+			path = P;
+			sourceTree = "<group>";
+		};
+		1737ED8A20B3FAE000693FC5 /* SuperProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				1737ED8B20B3FAE000693FC5 /* NetWorkingState.h */,
+			);
+			path = SuperProtocol;
+			sourceTree = "<group>";
+		};
+		1737ED8C20B3FAE000693FC5 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				1737ED8D20B3FAE000693FC5 /* HomeLogic.h */,
+				1737ED8E20B3FAE000693FC5 /* HomeViewController.h */,
+				1737ED8F20B3FAE000693FC5 /* HomeViewController.m */,
+			);
+			path = V;
 			sourceTree = "<group>";
 		};
 		1FBC17092046593900DED02D = {
@@ -1768,6 +1832,7 @@
 				1251B874206296F600034787 /* BaseAnimationView.m in Sources */,
 				1FBC171A2046593900DED02D /* ViewController.m in Sources */,
 				1251B8DB2063E92D00034787 /* JZYIInputValidator.m in Sources */,
+				1737ED9220B3FAE000693FC5 /* HomePresent.m in Sources */,
 				1241A34420959A3F00388A0B /* JZYIBlockVC.m in Sources */,
 				12C0CE3E20AA9327005BFA8C /* GamePadDecorate.m in Sources */,
 				12C0CE1520A03E31005BFA8C /* StudentModel.m in Sources */,
@@ -1827,6 +1892,7 @@
 				1FF25307204E6A78005BBDAB /* UIColor+JZYITool.m in Sources */,
 				1251B8DD2063E92D00034787 /* JZYITextView.m in Sources */,
 				1FF2534F204E8EC5005BBDAB /* Caculator.m in Sources */,
+				1737ED9320B3FAE000693FC5 /* HomeViewController.m in Sources */,
 				12C0CE6C20ABE3B4005BFA8C /* BasePhone.m in Sources */,
 				1FF2530A204E6A90005BBDAB /* UIFont+JZYITool.m in Sources */,
 				F42C38C3205A50B50073B899 /* JZYISystemPromptManagement.m in Sources */,
@@ -1840,6 +1906,7 @@
 				1FF25336204E85F5005BBDAB /* JZYIMyVC.m in Sources */,
 				1FF25304204E6A5A005BBDAB /* NSString+JZYITool.m in Sources */,
 				12C0CE1C20A0409C005BFA8C /* JZYIStudentModel.m in Sources */,
+				1737ED9020B3FAE000693FC5 /* HomeModel.m in Sources */,
 				123D3CAC20727AA200395F93 /* JZYICustomTextField.m in Sources */,
 				12C0CE4120AA979F005BFA8C /* CheatGamePadDecorator.m in Sources */,
 				12C0CE4A20AA9A8D005BFA8C /* GamePad+Coin.m in Sources */,
@@ -1860,6 +1927,7 @@
 				1251B8EB2063F8BD00034787 /* JZYIBusinessCardAdapter.m in Sources */,
 				12C0CE7B20ABE518005BFA8C /* iWatch.m in Sources */,
 				12C0CE2820A047BB005BFA8C /* Shape.m in Sources */,
+				1737ED9120B3FAE000693FC5 /* HomeService.m in Sources */,
 				1251B8D92063E92D00034787 /* JZYITableViewCell.m in Sources */,
 				12C0CE5220ABD74B005BFA8C /* BaseDevice.m in Sources */,
 				1251B8CE2063E92D00034787 /* JZYICollectionView.m in Sources */,
