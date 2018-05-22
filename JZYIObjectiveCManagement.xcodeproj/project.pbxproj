@@ -109,6 +109,13 @@
 		12C0CE9620AD302B005BFA8C /* GBAImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9520AD302B005BFA8C /* GBAImplementor.m */; };
 		12C0CE9920AD32B5005BFA8C /* PSPImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9820AD32B5005BFA8C /* PSPImplementor.m */; };
 		12C0CE9C20AD32CD005BFA8C /* PSPSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9B20AD32CD005BFA8C /* PSPSystem.m */; };
+		12C0CEB320B45429005BFA8C /* JZYISingleCaseDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CEB220B45429005BFA8C /* JZYISingleCaseDemoVC.m */; };
+		12C0CEB720B45622005BFA8C /* UserInfoManagerCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CEB620B45622005BFA8C /* UserInfoManagerCenter.m */; };
+		12C0CEBA20B458DC005BFA8C /* NewUserInfoManagerCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CEB920B458DC005BFA8C /* NewUserInfoManagerCenter.m */; };
+		12C0CEBE20B45C6B005BFA8C /* StoreValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CEBD20B45C6B005BFA8C /* StoreValue.m */; };
+		12C0CEC420B46219005BFA8C /* TestStudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CEC320B46219005BFA8C /* TestStudentModel.m */; };
+		12C0CEC720B46270005BFA8C /* InfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CEC620B46270005BFA8C /* InfoModel.m */; };
+		12C0CECA20B46386005BFA8C /* NSObject+StoreValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CEC920B46386005BFA8C /* NSObject+StoreValue.m */; };
 		1737ED9020B3FAE000693FC5 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1737ED8420B3FAE000693FC5 /* HomeModel.m */; };
 		1737ED9120B3FAE000693FC5 /* HomeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1737ED8620B3FAE000693FC5 /* HomeService.m */; };
 		1737ED9220B3FAE000693FC5 /* HomePresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1737ED8920B3FAE000693FC5 /* HomePresent.m */; };
@@ -380,6 +387,21 @@
 		12C0CE9820AD32B5005BFA8C /* PSPImplementor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPImplementor.m; sourceTree = "<group>"; };
 		12C0CE9A20AD32CD005BFA8C /* PSPSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSPSystem.h; sourceTree = "<group>"; };
 		12C0CE9B20AD32CD005BFA8C /* PSPSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPSystem.m; sourceTree = "<group>"; };
+		12C0CEB120B45429005BFA8C /* JZYISingleCaseDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYISingleCaseDemoVC.h; sourceTree = "<group>"; };
+		12C0CEB220B45429005BFA8C /* JZYISingleCaseDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYISingleCaseDemoVC.m; sourceTree = "<group>"; };
+		12C0CEB420B4545C005BFA8C /* 单例模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "单例模式.md"; sourceTree = "<group>"; };
+		12C0CEB520B45622005BFA8C /* UserInfoManagerCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoManagerCenter.h; sourceTree = "<group>"; };
+		12C0CEB620B45622005BFA8C /* UserInfoManagerCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoManagerCenter.m; sourceTree = "<group>"; };
+		12C0CEB820B458DC005BFA8C /* NewUserInfoManagerCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewUserInfoManagerCenter.h; sourceTree = "<group>"; };
+		12C0CEB920B458DC005BFA8C /* NewUserInfoManagerCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewUserInfoManagerCenter.m; sourceTree = "<group>"; };
+		12C0CEBC20B45C6B005BFA8C /* StoreValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreValue.h; sourceTree = "<group>"; };
+		12C0CEBD20B45C6B005BFA8C /* StoreValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreValue.m; sourceTree = "<group>"; };
+		12C0CEC220B46219005BFA8C /* TestStudentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestStudentModel.h; sourceTree = "<group>"; };
+		12C0CEC320B46219005BFA8C /* TestStudentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestStudentModel.m; sourceTree = "<group>"; };
+		12C0CEC520B46270005BFA8C /* InfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoModel.h; sourceTree = "<group>"; };
+		12C0CEC620B46270005BFA8C /* InfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoModel.m; sourceTree = "<group>"; };
+		12C0CEC820B46386005BFA8C /* NSObject+StoreValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+StoreValue.h"; sourceTree = "<group>"; };
+		12C0CEC920B46386005BFA8C /* NSObject+StoreValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+StoreValue.m"; sourceTree = "<group>"; };
 		1737ED8320B3FAE000693FC5 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
 		1737ED8420B3FAE000693FC5 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		1737ED8520B3FAE000693FC5 /* HomeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeService.h; sourceTree = "<group>"; };
@@ -626,7 +648,7 @@
 		1251B86C206292F100034787 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				1737ED8120B3FAE000693FC5 /* MVP编程 */,
+				12C0CEB020B453AD005BFA8C /* 单例模式 */,
 				04AD258A20AEA52700663FA8 /* 代理模式 */,
 				12C0CE8520AD2963005BFA8C /* 桥接模式 */,
 				12C0CE5F20ABE087005BFA8C /* 抽象工厂模式 */,
@@ -1097,6 +1119,36 @@
 			path = Abstract;
 			sourceTree = "<group>";
 		};
+		12C0CEB020B453AD005BFA8C /* 单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				12C0CEB120B45429005BFA8C /* JZYISingleCaseDemoVC.h */,
+				12C0CEB220B45429005BFA8C /* JZYISingleCaseDemoVC.m */,
+				12C0CEB520B45622005BFA8C /* UserInfoManagerCenter.h */,
+				12C0CEB620B45622005BFA8C /* UserInfoManagerCenter.m */,
+				12C0CEB820B458DC005BFA8C /* NewUserInfoManagerCenter.h */,
+				12C0CEB920B458DC005BFA8C /* NewUserInfoManagerCenter.m */,
+				12C0CEBB20B45C54005BFA8C /* StoreValue */,
+				12C0CEB420B4545C005BFA8C /* 单例模式.md */,
+			);
+			path = "单例模式";
+			sourceTree = "<group>";
+		};
+		12C0CEBB20B45C54005BFA8C /* StoreValue */ = {
+			isa = PBXGroup;
+			children = (
+				12C0CEBC20B45C6B005BFA8C /* StoreValue.h */,
+				12C0CEBD20B45C6B005BFA8C /* StoreValue.m */,
+				12C0CEC820B46386005BFA8C /* NSObject+StoreValue.h */,
+				12C0CEC920B46386005BFA8C /* NSObject+StoreValue.m */,
+				12C0CEC220B46219005BFA8C /* TestStudentModel.h */,
+				12C0CEC320B46219005BFA8C /* TestStudentModel.m */,
+				12C0CEC520B46270005BFA8C /* InfoModel.h */,
+				12C0CEC620B46270005BFA8C /* InfoModel.m */,
+			);
+			path = StoreValue;
+			sourceTree = "<group>";
+		};
 		1737ED8120B3FAE000693FC5 /* MVP编程 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1341,6 +1393,7 @@
 		1FF25324204E7977005BBDAB /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				1737ED8120B3FAE000693FC5 /* MVP编程 */,
 				1241A32120958BDD00388A0B /* Block */,
 				1251B86C206292F100034787 /* DesignPattern */,
 			);
@@ -1825,8 +1878,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				12C0CE3120A048E4005BFA8C /* ShapeMaker.m in Sources */,
+				12C0CEC420B46219005BFA8C /* TestStudentModel.m in Sources */,
+				12C0CEC720B46270005BFA8C /* InfoModel.m in Sources */,
 				1241A33520958EFE00388A0B /* JZYIHomeFooterView.m in Sources */,
 				1241A319208F0A5200388A0B /* JZYIObserverVC.m in Sources */,
+				12C0CEB720B45622005BFA8C /* UserInfoManagerCenter.m in Sources */,
 				12C0CE6920ABE398005BFA8C /* BaseFactory.m in Sources */,
 				1251B8CF2063E92D00034787 /* JZYICollectionViewCell.m in Sources */,
 				1251B874206296F600034787 /* BaseAnimationView.m in Sources */,
@@ -1863,6 +1919,8 @@
 				1251B8E72063F6ED00034787 /* JZYINewCardModel.m in Sources */,
 				12C0CE9320AD2F7F005BFA8C /* GBASystem.m in Sources */,
 				1FF25343204E8774005BBDAB /* JZYITabBarController.m in Sources */,
+				12C0CEB320B45429005BFA8C /* JZYISingleCaseDemoVC.m in Sources */,
+				12C0CECA20B46386005BFA8C /* NSObject+StoreValue.m in Sources */,
 				1251B8D32063E92D00034787 /* JZYILabel.m in Sources */,
 				1241A32C20958EC500388A0B /* JZYIHomeModel.m in Sources */,
 				1251B8D22063E92D00034787 /* UIImageView+JZYICornerRadius.m in Sources */,
@@ -1883,6 +1941,7 @@
 				12C0CE2B20A047D6005BFA8C /* Rectangle.m in Sources */,
 				1251B8D42063E92D00034787 /* JZYIPickerView.m in Sources */,
 				12C0CE4420AA99A0005BFA8C /* CoinGamePadDecorator.m in Sources */,
+				12C0CEBE20B45C6B005BFA8C /* StoreValue.m in Sources */,
 				12C0CE2020A0417E005BFA8C /* JZYIClassModel.m in Sources */,
 				1241A33E2095951E00388A0B /* JZYIHomeRowModel.m in Sources */,
 				1FF25333204E7EFB005BBDAB /* UIImage+JZYITool.m in Sources */,
@@ -1940,6 +1999,7 @@
 				1FF25339204E8601005BBDAB /* JZYIFindVC.m in Sources */,
 				12C0CE2E20A0483D005BFA8C /* Circle.m in Sources */,
 				1241A33820958F1000388A0B /* JZYIHomeCell.m in Sources */,
+				12C0CEBA20B458DC005BFA8C /* NewUserInfoManagerCenter.m in Sources */,
 				1FF2531C204E73E6005BBDAB /* JZYIBaseVC.m in Sources */,
 				12C0CE4720AA9A49005BFA8C /* GamePad+Cheat.m in Sources */,
 				12C0CE5E20ABD943005BFA8C /* AndroidDevice.m in Sources */,

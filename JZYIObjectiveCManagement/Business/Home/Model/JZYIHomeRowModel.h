@@ -22,6 +22,7 @@ typedef NS_ENUM(NSUInteger, JZYIHomePushType) {
     JZYIHomePushTypeDesignAbstractFactory = 38,//抽象工厂模式
     JZYIHomePushTypeDesignBridging = 39,//桥接模式
     JZYIHomePushTypeDesignDelegate = 40, //代理模式
+    JZYIHomePushTypeDesignSigle = 41,//单例模式
 };
 
 @interface JZYIHomeRowModel : NSObject
