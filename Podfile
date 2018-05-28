@@ -15,7 +15,7 @@ pod 'MJExtension', '~> 3.0.13'
 #结合函数式和响应式编程，函数响应式编程RAC
 pod 'ReactiveObjC', '~> 3.1.0'
 #数据存储
-pod 'FastCoding', '~> 3.3'
+pod 'FastCoding', '3.3'
   # Pods for JZYIObjectiveCManagement
 
   target 'JZYIObjectiveCManagementTests' do

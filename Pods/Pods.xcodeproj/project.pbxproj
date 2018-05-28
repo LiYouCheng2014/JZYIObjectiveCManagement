@@ -67,7 +67,6 @@
 		2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE8FC9FA516A5BD855BA31126B6D310 /* MASViewConstraint.m */; };
 		2DCE111439D6105EFCF4C76EEE55ECAC /* NSIndexSet+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A28E01DA710A9117F5D8D1B82B5D9E0 /* NSIndexSet+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2DF6449DE0430F3139AD68460A90FDAE /* RACSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD29C22F5A5F5506C1BA0828C02399A /* RACSubject.m */; };
-		2DF8E5CBA04591F0B2C57047ECA4591F /* Pods-JZYIObjectiveCManagementUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45022F5721281F5AA1AA82A4D050E650 /* Pods-JZYIObjectiveCManagementUITests-dummy.m */; };
 		2E0368CB5E43DF5325FAD0D62C1402E4 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6241D00D2A117671CC488C0EA0B67477 /* NSObject+MJCoding.m */; };
 		2E9AFAFB73BE447F942CF258D5B12133 /* RACEagerSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = E54362C664F58BD3AE6C022A82303D7A /* RACEagerSequence.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2F1E63F70D50F51FBD9E2D437D222228 /* RACScheduler+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3E7809A577583F5FEA4445FDEFFAAC /* RACScheduler+Subclass.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -78,6 +77,7 @@
 		33291154A8044EF6F8E0245D60DC751D /* RACMulticastConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F6DCA9A68CCE28DE62777DDFC95FBA /* RACMulticastConnection.m */; };
 		33935DAA16016237043D40CC7991F5C5 /* RACSignalSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 029E5F9A2F1CEF85F8BC5110F6E16D3D /* RACSignalSequence.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		341A4BCFB7B1E78548ECD00869FE22B3 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0392C908C6C82D657F9C5FE0BADB30 /* MJRefreshStateHeader.m */; };
+		34AB603377427C18B8CB45D4405999B1 /* Pods-JZYIObjectiveCManagementTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE338210AF4CB93E37D274C9C5B7387 /* Pods-JZYIObjectiveCManagementTests-dummy.m */; };
 		3730C83514BCF9AE10A6E0B9665D57A9 /* UISlider+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFC41F5C8E6B88D02C41F024CD41BD5 /* UISlider+RACSignalSupport.m */; };
 		3947092B2C4D56945BCC8E7648A7A468 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */; };
 		39A2EE95E4CDFA63BE9CAD76E13639E9 /* UIActionSheet+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E45E893B7E6E7774234EADC7399FF8 /* UIActionSheet+RACSignalSupport.m */; };
@@ -151,7 +151,6 @@
 		6FBEF9BEF976F73220F5EA0246FA6674 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 34362CC7BDB68734CBECB40A9B40ACF5 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		717468C9A77A51F7D94FAAF909F68611 /* UIDatePicker+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 215251658CF8F85FFCDA2C9888874837 /* UIDatePicker+RACSignalSupport.m */; };
 		73811DA312BCB537D44D62EC6AD15766 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E50B9D83AA5CEF5F8F8665A1E2939B7 /* AFHTTPSessionManager.m */; };
-		74697D2C1A413C0D87BC2798DCC2E07D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */; };
 		7482DD9AE507E2E744A01F061D7C9266 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B72B93D048D134CD39DD9FF90279DF8D /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		74C9ECF87562F9423C2A1D7702447352 /* NSObject+RACDeallocating.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E818220B50A486FF3D6B23CD9FD1276 /* NSObject+RACDeallocating.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		75D4D1F473F6DA208001A46179BAEB7A /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 94420864FBD2A3FFC227CE632B63B630 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -160,6 +159,7 @@
 		774BFE769BB534897F384F894EF4DC82 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F22B08743F27AE07586013253DE57 /* NSString+MJExtension.m */; };
 		775CE7A8107457BDE59F113D40020839 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C58E4745B81572084921B14207F89 /* AFAutoPurgingImageCache.m */; };
 		784CC05EB828DB35D1AE9A89A3F66E37 /* MKAnnotationView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D86AA81E3ACA60BDE71B6234C07407 /* MKAnnotationView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		791BAEFBA137DE672DE661B5E951AD2E /* Pods-JZYIObjectiveCManagementUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45022F5721281F5AA1AA82A4D050E650 /* Pods-JZYIObjectiveCManagementUITests-dummy.m */; };
 		79AA4B636CA2466455B0F0588DE0A9A0 /* RACStringSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CD70535A36F9FC7603B502928EDA61 /* RACStringSequence.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		79D9280036309B9B897B251698A44FF3 /* RACReturnSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AE5E27B4AD523F83AB05B10BB690A4 /* RACReturnSignal.m */; };
 		7A280FE75902B76A63E5910A740A551E /* RACSubscriptingAssignmentTrampoline.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF79E5800F623BA7421F421F5BD0E69 /* RACSubscriptingAssignmentTrampoline.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -197,6 +197,7 @@
 		9180720068359021A1DF693B7B1F6BFF /* RACArraySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 667255A39A750E1BDBDB2B2D7D569B13 /* RACArraySequence.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		92711327ED7920702A69A828271279AE /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB7A993381B8DD5BCFC230FD64F5481 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		93B333927AA0A2FD0B4212B8EA17915A /* RACDynamicSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = C09CE72B6BCECB21AAC948F2DFF1ADD8 /* RACDynamicSequence.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		944A0827CDD2A771255751B3CD3568D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */; };
 		945F691AD18DC2361A75C6621E42461C /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 116716E7C700129289AA364D448C5E64 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		948731885E2E0AC728A3EDA69B7388A9 /* RACStream+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 41CE78DC4A738D728565F9FEF54C2616 /* RACStream+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E7525D15186BD7D4EC736E101900A7 /* MASLayoutConstraint.m */; };
@@ -211,6 +212,7 @@
 		9D81A95544000AA1B6DC1F9B7F14A1E3 /* RACReturnSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = A595A50F4A266858E6C50ED51C601933 /* RACReturnSignal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9DB6A1AAB4D1657E2862C5A680B795E7 /* UIControl+RACSignalSupportPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33722147C08E039EDA51E7B93003760A /* UIControl+RACSignalSupportPrivate.m */; };
 		9ED36D73584E73C391D18580D2ACED20 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45541CBC49F31AC5B4E1B9BADDD44AC9 /* MJFoundation.m */; };
+		9EE898CCE14AE48214FF8BD21A5213F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */; };
 		9F06B13BAA0376EAD4E125DA78456B3B /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 61550785A1CECEAD53FBF7828625A36D /* MJRefreshHeader.m */; };
 		9F29E611CA955DDCA92820F465E11673 /* NSData+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = F577D593F543DDBF8CBCF5B2E9679321 /* NSData+RACSupport.m */; };
 		9F5BB6B4995BA4A3B2C6AEBA6C31A6DB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3AE8E5AACD2FBFACA569653CBCFECA /* AFURLSessionManager.m */; };
@@ -301,7 +303,6 @@
 		E4F74702528A7EF7CA954C1BD787E9EA /* NSDictionary+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC449054EABAC5EFCC0168CAB60B838 /* NSDictionary+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E519A124535B4FB7C8E3584539C7650E /* RACEXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B1815A1450D8797597CD1C65707254 /* RACEXTScope.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E593F83FED368B3F66B57D080C470271 /* RACUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3151F1750942B531D8525B5CC9718ABA /* RACUnit.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E64DC0152BB2EE04D7B2671A28367D7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339164673A5C75C5E4018F798CE5EEE /* Foundation.framework */; };
 		E66EDE92DE4B13E4853191475509CDFB /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C40E7CE2A3BBCFE55547635BC4DD9FD /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E7DB8E73645EF804B938595DDD864EA1 /* RACSubscriptionScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5ED164E445A25E07AC1F6FED81F390 /* RACSubscriptionScheduler.m */; };
 		E7FA008E96CF99E93D2F596722662B83 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C07F0188D7CF692ECA0499F1614207DD /* MJRefreshAutoGifFooter.m */; };
@@ -332,7 +333,6 @@
 		F9D58A06E93294F2F80210BA322B6C93 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = A4FE3AA129914EC3AB7ABF4981C2384D /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FA081FD24CB4283858AB7F051A396950 /* NSSet+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7FCC42DF70F2169B45E64F80AB2107 /* NSSet+RACSequenceAdditions.m */; };
 		FA48336F4733401589D78D416EEB0B04 /* RACCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4793CFAF095707626E66C00E0B61C016 /* RACCommand.m */; };
-		FA6F53C684D7C0727D708800842CFA72 /* Pods-JZYIObjectiveCManagementTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE338210AF4CB93E37D274C9C5B7387 /* Pods-JZYIObjectiveCManagementTests-dummy.m */; };
 		FB415F79751F1A1F2203183C3CEE0723 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F84CFFECC1699990CDB5E932568C597 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FC091A4266DB8F2CED4F0629F8AE59F2 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA7B406FB237C103DD99D726AF5409 /* MJRefreshConst.m */; };
 		FC0BDC904394B55C2E9C3A8C308E8EB6 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCC10B65B31BEAA650D9A6BA58A152C /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -342,6 +342,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4ACCC82A9E4A09F58C70F6382B820FCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE194696C05E7B582E94853C4C0921E8;
+			remoteInfo = "Pods-JZYIObjectiveCManagement";
+		};
 		64A643D931AD06A265B792E3B8CF2E97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -355,6 +362,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9DC8D9E02903E93BD0B2FEC9D846EA20;
 			remoteInfo = Masonry;
+		};
+		89C70524D505AADBB805C033835FDE3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE194696C05E7B582E94853C4C0921E8;
+			remoteInfo = "Pods-JZYIObjectiveCManagement";
 		};
 		B3D23E069123AFB33FD6A07C3032F31A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -763,14 +777,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57002E0F12D80586A5ED55F55FED8D7C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74697D2C1A413C0D87BC2798DCC2E07D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -796,6 +802,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C14F196B8392A4884784DE8E5581195E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944A0827CDD2A771255751B3CD3568D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D87A1E334DD2AA94D3B7E6D9292C5C8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -812,6 +826,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECD4F819CDCB51D3D437AE8F9E2392E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE898CCE14AE48214FF8BD21A5213F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3284DBE3CA8932733932AD2A48445B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -821,14 +843,6 @@
 				F8DCA6C3C05A59B2C95A1B5F1CBD8C99 /* MobileCoreServices.framework in Frameworks */,
 				DE825B8F32AB823F4BE5492CAC6FCB4B /* Security.framework in Frameworks */,
 				903158692A045396106CA22C0DD13BA6 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F952FB95031DC65E3270388BC7773BD9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E64DC0152BB2EE04D7B2671A28367D7F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1658,36 +1672,21 @@
 			productReference = 8AF4D6BFB48F69E2E533C0CAD0A6EF72 /* libMJRefresh.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		080D2F50029279212F0B3F0EAAF2C7C1 /* Pods-JZYIObjectiveCManagementUITests */ = {
+		52B91E89E8E5B5EEBB3FAF533BF591D8 /* Pods-JZYIObjectiveCManagementUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E00D68B8525269FF2C93170D1995B539 /* Build configuration list for PBXNativeTarget "Pods-JZYIObjectiveCManagementUITests" */;
+			buildConfigurationList = 839FA331E0F986B7925A1F230DE3D7A6 /* Build configuration list for PBXNativeTarget "Pods-JZYIObjectiveCManagementUITests" */;
 			buildPhases = (
-				B9D5FE8259D4054FE3E42C50EA84B0CB /* Sources */,
-				57002E0F12D80586A5ED55F55FED8D7C /* Frameworks */,
+				C37932129003F331279054214B4A22BF /* Sources */,
+				ECD4F819CDCB51D3D437AE8F9E2392E4 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8E0E1883E429476A25C5E28EA47985D5 /* PBXTargetDependency */,
 			);
 			name = "Pods-JZYIObjectiveCManagementUITests";
 			productName = "Pods-JZYIObjectiveCManagementUITests";
 			productReference = 7004D64A993B2761D4F739E1ADE0DBFF /* libPods-JZYIObjectiveCManagementUITests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		1350D885BCBE80538F158C4CF47FB595 /* Pods-JZYIObjectiveCManagementTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 803DB49BC502AA115E56C222C1E629B9 /* Build configuration list for PBXNativeTarget "Pods-JZYIObjectiveCManagementTests" */;
-			buildPhases = (
-				641E2962C8155F8ED92D8A02739E1F59 /* Sources */,
-				F952FB95031DC65E3270388BC7773BD9 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-JZYIObjectiveCManagementTests";
-			productName = "Pods-JZYIObjectiveCManagementTests";
-			productReference = F044AED7618CF1B9EFB862115B1B5DE0 /* libPods-JZYIObjectiveCManagementTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		73EF2FA5D001149C49CCA84E3AC5B143 /* ReactiveObjC */ = {
@@ -1775,6 +1774,23 @@
 			productReference = 852929E18AFCCF726BAD030AD37E421B /* libFastCoding.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		CDBE5C036B766E5A534665C4B87ED70A /* Pods-JZYIObjectiveCManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F708CC138D7B407252029A94737C9D2 /* Build configuration list for PBXNativeTarget "Pods-JZYIObjectiveCManagementTests" */;
+			buildPhases = (
+				9A7DC7A6A819C6CBA5097929E4027C51 /* Sources */,
+				C14F196B8392A4884784DE8E5581195E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A2C529B6A9839F4E069E88FD62488D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-JZYIObjectiveCManagementTests";
+			productName = "Pods-JZYIObjectiveCManagementTests";
+			productReference = F044AED7618CF1B9EFB862115B1B5DE0 /* libPods-JZYIObjectiveCManagementTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		FE194696C05E7B582E94853C4C0921E8 /* Pods-JZYIObjectiveCManagement */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2584CF95BD0EA94B15DD77925CE7A2DF /* Build configuration list for PBXNativeTarget "Pods-JZYIObjectiveCManagement" */;
@@ -1824,8 +1840,8 @@
 				A316B54C67E947D23CECD230FA5BFAEF /* MJExtension */,
 				04CF549EBEEE7BC87AEAE35397184D94 /* MJRefresh */,
 				FE194696C05E7B582E94853C4C0921E8 /* Pods-JZYIObjectiveCManagement */,
-				1350D885BCBE80538F158C4CF47FB595 /* Pods-JZYIObjectiveCManagementTests */,
-				080D2F50029279212F0B3F0EAAF2C7C1 /* Pods-JZYIObjectiveCManagementUITests */,
+				CDBE5C036B766E5A534665C4B87ED70A /* Pods-JZYIObjectiveCManagementTests */,
+				52B91E89E8E5B5EEBB3FAF533BF591D8 /* Pods-JZYIObjectiveCManagementUITests */,
 				73EF2FA5D001149C49CCA84E3AC5B143 /* ReactiveObjC */,
 			);
 		};
@@ -1863,11 +1879,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		641E2962C8155F8ED92D8A02739E1F59 /* Sources */ = {
+		9A7DC7A6A819C6CBA5097929E4027C51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA6F53C684D7C0727D708800842CFA72 /* Pods-JZYIObjectiveCManagementTests-dummy.m in Sources */,
+				34AB603377427C18B8CB45D4405999B1 /* Pods-JZYIObjectiveCManagementTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1895,14 +1911,6 @@
 				F53754CAAB10BB3C954169DE35007A65 /* UIScrollView+MJExtension.m in Sources */,
 				4982F6A38E149A01137311B533591DD5 /* UIScrollView+MJRefresh.m in Sources */,
 				7CE298FC4680B93B3A466613E565BA0B /* UIView+MJExtension.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9D5FE8259D4054FE3E42C50EA84B0CB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DF8E5CBA04591F0B2C57047ECA4591F /* Pods-JZYIObjectiveCManagementUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2004,6 +2012,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C37932129003F331279054214B4A22BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791BAEFBA137DE672DE661B5E951AD2E /* Pods-JZYIObjectiveCManagementUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C4BE2DC1E815E7367562323223772531 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2070,6 +2086,18 @@
 			target = 04CF549EBEEE7BC87AEAE35397184D94 /* MJRefresh */;
 			targetProxy = BF24A8E9B8DC7351CDC022F7DB786690 /* PBXContainerItemProxy */;
 		};
+		6A2C529B6A9839F4E069E88FD62488D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JZYIObjectiveCManagement";
+			target = FE194696C05E7B582E94853C4C0921E8 /* Pods-JZYIObjectiveCManagement */;
+			targetProxy = 89C70524D505AADBB805C033835FDE3B /* PBXContainerItemProxy */;
+		};
+		8E0E1883E429476A25C5E28EA47985D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JZYIObjectiveCManagement";
+			target = FE194696C05E7B582E94853C4C0921E8 /* Pods-JZYIObjectiveCManagement */;
+			targetProxy = 4ACCC82A9E4A09F58C70F6382B820FCB /* PBXContainerItemProxy */;
+		};
 		BA1CE6694527A19141738D9BC944809B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FastCoding;
@@ -2091,307 +2119,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03FEDD0C8C4D53A4D1191C84BF703782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50946DF8152F06B6FC74E0452FB795F1 /* ReactiveObjC.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ReactiveObjC/ReactiveObjC-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		044989DBD58CB08A4C06FDF4F7598ADF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC860D65F926E679EC2EA518DDF83B78 /* Pods-JZYIObjectiveCManagementUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		17B3B421EDF47FDE5AA77DA2960AD3EF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35153DBDB24A914276D44E57E48B6C92 /* FastCoding.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/FastCoding/FastCoding-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		1DF1814EA155ABCAD57DE2F592563346 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35153DBDB24A914276D44E57E48B6C92 /* FastCoding.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/FastCoding/FastCoding-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		23D61C1D45BC0F2823F2E043E31B098A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C8C8A7BBF2FA85D74351C49F4022207 /* MJExtension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2A5B4A04D70899AA19017034306E3B60 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51A2BF905881799BC942A3EA69215E18 /* Pods-JZYIObjectiveCManagement.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3009569709848BE2C3C56FA7EEA7A5E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C8C8A7BBF2FA85D74351C49F4022207 /* MJExtension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3A9A30249BAB4E47C699F5BBEF0C385D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33FE3A74BC4E05B0DEC336DF13899D4E /* Pods-JZYIObjectiveCManagement.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		512684F026D6025FD7AB9E44AA4C5178 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B8E17EDCD50C8E2F676E759EB41C444 /* Pods-JZYIObjectiveCManagementTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5403CB947ED72BD789353EE9D9D58376 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22EAAC9F105D4D872808C28E559E4581 /* AFNetworking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		669600FB866D0C959E3F4A56E0093994 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50946DF8152F06B6FC74E0452FB795F1 /* ReactiveObjC.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ReactiveObjC/ReactiveObjC-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6EAD1EC555C61077A7755C45C8205542 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ADDFF7C6F825BC9DFA7FDD5CA6F26B8 /* Pods-JZYIObjectiveCManagementUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		7C246F7AA69D78A801B26483203E4806 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22EAAC9F105D4D872808C28E559E4581 /* AFNetworking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		7E735C2672630DDA5A31F639BD6FB96C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 583AEA47900C81993B6AAC5AC469BDF3 /* MJRefresh.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A54FF6FE6615824C470EED4706537A37 /* Release */ = {
+		0D47405747D9A440439DD34262353191 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3349DDF6B3AF0B6AFEBC662A7799D0D8 /* Pods-JZYIObjectiveCManagementTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2409,29 +2141,30 @@
 			};
 			name = Release;
 		};
-		AA4B1B7999CB4C7305F3F36F6DB4311B /* Release */ = {
+		0F7C8FA9E7C93902AFF9AD768B7FD0BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 583AEA47900C81993B6AAC5AC469BDF3 /* MJRefresh.xcconfig */;
+			baseConfigurationReference = 50946DF8152F06B6FC74E0452FB795F1 /* ReactiveObjC.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				GCC_PREFIX_HEADER = "Target Support Files/ReactiveObjC/ReactiveObjC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ReactiveObjC;
+				PRODUCT_NAME = ReactiveObjC;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2463,6 +2196,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -2487,14 +2221,381 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+		2946D24682D665FA8DB64B5E6F799787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22EAAC9F105D4D872808C28E559E4581 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36E781C50A126DAB9ADFECA143D5EE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8E17EDCD50C8E2F676E759EB41C444 /* Pods-JZYIObjectiveCManagementTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CE679FD843B74A294B71CB9AABED4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8C8A7BBF2FA85D74351C49F4022207 /* MJExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MJExtension;
+				PRODUCT_NAME = MJExtension;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6033A2127E806DD5C86A515742F7445E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E63C24C1BE08D43F2F32746C901F0932 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61EC0CE3960458E8811E7507D6A816B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35153DBDB24A914276D44E57E48B6C92 /* FastCoding.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FastCoding/FastCoding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FastCoding;
+				PRODUCT_NAME = FastCoding;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63E6ACF8EE6EF2620CD6B5E5FC4C0738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A2BF905881799BC942A3EA69215E18 /* Pods-JZYIObjectiveCManagement.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64683A353CE0974F581F3D464BE7BF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583AEA47900C81993B6AAC5AC469BDF3 /* MJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		660BDE401F3FA2516A7C6B9CDCCE5B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC860D65F926E679EC2EA518DDF83B78 /* Pods-JZYIObjectiveCManagementUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6681B1A324732F8264BB932595DFA69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E63C24C1BE08D43F2F32746C901F0932 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FB2DDE7E44BD89E8D70D3520CA43CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50946DF8152F06B6FC74E0452FB795F1 /* ReactiveObjC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ReactiveObjC/ReactiveObjC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ReactiveObjC;
+				PRODUCT_NAME = ReactiveObjC;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78405BE3F4F38C38A0CFABFEED47C451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35153DBDB24A914276D44E57E48B6C92 /* FastCoding.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FastCoding/FastCoding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FastCoding;
+				PRODUCT_NAME = FastCoding;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87DBBCF89A4895DBFD7BD7E1E76F5057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583AEA47900C81993B6AAC5AC469BDF3 /* MJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA15F93A6EE481A97D5CF02C057766A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADDFF7C6F825BC9DFA7FDD5CA6F26B8 /* Pods-JZYIObjectiveCManagementUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACE410664EE024F26A311D0A4A98E29F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FE3A74BC4E05B0DEC336DF13899D4E /* Pods-JZYIObjectiveCManagement.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3601C47E18C0AE6EC866511CF8ADFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22EAAC9F105D4D872808C28E559E4581 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F18965E66C96EC345999A513B73E4E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8C8A7BBF2FA85D74351C49F4022207 /* MJExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MJExtension;
+				PRODUCT_NAME = MJExtension;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2526,6 +2627,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -2546,54 +2648,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		DB4AA09D6A87734975482BB05CC1F54A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E63C24C1BE08D43F2F32746C901F0932 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E2EB527A037E509A0FEFD78B70F3433D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E63C24C1BE08D43F2F32746C901F0932 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -2601,8 +2659,8 @@
 		1AE9D1BE683517EADAA0645A473C3E67 /* Build configuration list for PBXNativeTarget "ReactiveObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03FEDD0C8C4D53A4D1191C84BF703782 /* Debug */,
-				669600FB866D0C959E3F4A56E0093994 /* Release */,
+				0F7C8FA9E7C93902AFF9AD768B7FD0BB /* Debug */,
+				6FB2DDE7E44BD89E8D70D3520CA43CFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2610,8 +2668,8 @@
 		2584CF95BD0EA94B15DD77925CE7A2DF /* Build configuration list for PBXNativeTarget "Pods-JZYIObjectiveCManagement" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A5B4A04D70899AA19017034306E3B60 /* Debug */,
-				3A9A30249BAB4E47C699F5BBEF0C385D /* Release */,
+				63E6ACF8EE6EF2620CD6B5E5FC4C0738 /* Debug */,
+				ACE410664EE024F26A311D0A4A98E29F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2619,8 +2677,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
-				DA03565BE765DB55C6448FB363A44481 /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2628,8 +2686,8 @@
 		34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2EB527A037E509A0FEFD78B70F3433D /* Debug */,
-				DB4AA09D6A87734975482BB05CC1F54A /* Release */,
+				6033A2127E806DD5C86A515742F7445E /* Debug */,
+				6681B1A324732F8264BB932595DFA69B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2637,8 +2695,8 @@
 		35FA3F9D780F0A57E55222615ED55C72 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E735C2672630DDA5A31F639BD6FB96C /* Debug */,
-				AA4B1B7999CB4C7305F3F36F6DB4311B /* Release */,
+				87DBBCF89A4895DBFD7BD7E1E76F5057 /* Debug */,
+				64683A353CE0974F581F3D464BE7BF2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2646,8 +2704,17 @@
 		483FBC4A668BF7F1A8767452E7E188AC /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C246F7AA69D78A801B26483203E4806 /* Debug */,
-				5403CB947ED72BD789353EE9D9D58376 /* Release */,
+				2946D24682D665FA8DB64B5E6F799787 /* Debug */,
+				C3601C47E18C0AE6EC866511CF8ADFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F708CC138D7B407252029A94737C9D2 /* Build configuration list for PBXNativeTarget "Pods-JZYIObjectiveCManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E781C50A126DAB9ADFECA143D5EE58 /* Debug */,
+				0D47405747D9A440439DD34262353191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2655,8 +2722,8 @@
 		64EE246612F53A73C8FBFCEC3A61508A /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3009569709848BE2C3C56FA7EEA7A5E2 /* Debug */,
-				23D61C1D45BC0F2823F2E043E31B098A /* Release */,
+				F18965E66C96EC345999A513B73E4E00 /* Debug */,
+				5CE679FD843B74A294B71CB9AABED4FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2664,26 +2731,17 @@
 		7F32672E8A414E5B4A10DE1BF5474F1B /* Build configuration list for PBXNativeTarget "FastCoding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17B3B421EDF47FDE5AA77DA2960AD3EF /* Debug */,
-				1DF1814EA155ABCAD57DE2F592563346 /* Release */,
+				61EC0CE3960458E8811E7507D6A816B8 /* Debug */,
+				78405BE3F4F38C38A0CFABFEED47C451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		803DB49BC502AA115E56C222C1E629B9 /* Build configuration list for PBXNativeTarget "Pods-JZYIObjectiveCManagementTests" */ = {
+		839FA331E0F986B7925A1F230DE3D7A6 /* Build configuration list for PBXNativeTarget "Pods-JZYIObjectiveCManagementUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				512684F026D6025FD7AB9E44AA4C5178 /* Debug */,
-				A54FF6FE6615824C470EED4706537A37 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E00D68B8525269FF2C93170D1995B539 /* Build configuration list for PBXNativeTarget "Pods-JZYIObjectiveCManagementUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6EAD1EC555C61077A7755C45C8205542 /* Debug */,
-				044989DBD58CB08A4C06FDF4F7598ADF /* Release */,
+				AA15F93A6EE481A97D5CF02C057766A4 /* Debug */,
+				660BDE401F3FA2516A7C6B9CDCCE5B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

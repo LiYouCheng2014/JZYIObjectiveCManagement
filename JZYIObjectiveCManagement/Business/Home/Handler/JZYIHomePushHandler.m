@@ -26,6 +26,7 @@
 #import "JZYIBridgingDemoVC.h"
 #import "JZYIDelegateDemoVC.h"
 #import "JZYISingleCaseDemoVC.h"
+#import "JZYIMemoDemoVC.h"
 
 @implementation JZYIHomePushHandler
 
@@ -120,6 +121,13 @@
         {
             //单例模式
             JZYISingleCaseDemoVC *vc = [JZYISingleCaseDemoVC new];
+            [target.navigationController pushViewController:vc animated:true];
+        }
+            break;
+        case JZYIHomePushTypeDesignMemo:
+        {
+            //备忘录模式
+            JZYIMemoDemoVC *vc = [JZYIMemoDemoVC new];
             [target.navigationController pushViewController:vc animated:true];
         }
             break;

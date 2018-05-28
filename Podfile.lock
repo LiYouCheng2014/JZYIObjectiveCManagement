@@ -17,25 +17,34 @@ PODS:
   - FastCoding (3.3)
   - Masonry (1.1.0)
   - MJExtension (3.0.13)
-  - MJRefresh (3.1.15.2)
+  - MJRefresh (3.1.15.3)
   - ReactiveObjC (3.1.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
-  - FastCoding (~> 3.3)
+  - FastCoding (= 3.3)
   - Masonry (~> 1.1.0)
   - MJExtension (~> 3.0.13)
   - MJRefresh (~> 3.1.15.2)
   - ReactiveObjC (~> 3.1.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - FastCoding
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - ReactiveObjC
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   FastCoding: 3b590f7143a229780fa744b35084d85d9461587e
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
-  MJRefresh: f845c1a10f0309233fb352425475897a5c50e9f0
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
 
-PODFILE CHECKSUM: 4d34489da76e9490a12059fd2a3031a20f080132
+PODFILE CHECKSUM: a90af2cee986207931611bc38c1333773d3d9a40
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0
