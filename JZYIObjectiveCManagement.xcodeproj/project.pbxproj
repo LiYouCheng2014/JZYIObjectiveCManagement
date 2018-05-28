@@ -30,6 +30,8 @@
 		04C6981320BC1F1F00F5D2F8 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6981220BC1F1F00F5D2F8 /* Apple.m */; };
 		04C6981920BC23DB00F5D2F8 /* NSObject+MemoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6981820BC23DB00F5D2F8 /* NSObject+MemoCenter.m */; };
 		04C6981C20BC266500F5D2F8 /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6981B20BC266500F5D2F8 /* DemoView.m */; };
+		04C6982020BC29E500F5D2F8 /* JZYIBuilderDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6981F20BC29E500F5D2F8 /* JZYIBuilderDemoVC.m */; };
+		04C6982420BC2E0900F5D2F8 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6982320BC2E0900F5D2F8 /* Builder.m */; };
 		123D3CA9207278E500395F93 /* 策略模式.md in Resources */ = {isa = PBXBuildFile; fileRef = 123D3CA8207278E500395F93 /* 策略模式.md */; };
 		123D3CAC20727AA200395F93 /* JZYICustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 123D3CAB20727AA200395F93 /* JZYICustomTextField.m */; };
 		123D3CAF20727AD000395F93 /* JZYIStrategyDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 123D3CAE20727AD000395F93 /* JZYIStrategyDemoVC.m */; };
@@ -229,6 +231,14 @@
 		04C6981820BC23DB00F5D2F8 /* NSObject+MemoCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MemoCenter.m"; sourceTree = "<group>"; };
 		04C6981A20BC266500F5D2F8 /* DemoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoView.h; sourceTree = "<group>"; };
 		04C6981B20BC266500F5D2F8 /* DemoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
+		04C6981E20BC29E500F5D2F8 /* JZYIBuilderDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIBuilderDemoVC.h; sourceTree = "<group>"; };
+		04C6981F20BC29E500F5D2F8 /* JZYIBuilderDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIBuilderDemoVC.m; sourceTree = "<group>"; };
+		04C6982120BC2AF800F5D2F8 /* 生成器模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "生成器模式.md"; sourceTree = "<group>"; };
+		04C6982220BC2E0900F5D2F8 /* Builder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
+		04C6982320BC2E0900F5D2F8 /* Builder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
+		04C6982520BC2E2300F5D2F8 /* BuilderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuilderProtocol.h; sourceTree = "<group>"; };
+		04C6982620BC2E7900F5D2F8 /* AbstractPartOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractPartOne.h; sourceTree = "<group>"; };
+		04C6982720BC2E8900F5D2F8 /* AbstractPartTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractPartTwo.h; sourceTree = "<group>"; };
 		0E2509C07F5956679D5F8ECE /* libPods-JZYIObjectiveCManagementTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JZYIObjectiveCManagementTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		123D3CA8207278E500395F93 /* 策略模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "策略模式.md"; sourceTree = "<group>"; };
 		123D3CAA20727AA200395F93 /* JZYICustomTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYICustomTextField.h; sourceTree = "<group>"; };
@@ -656,6 +666,14 @@
 		04C6981D20BC29A300F5D2F8 /* 生成器模式 */ = {
 			isa = PBXGroup;
 			children = (
+				04C6981E20BC29E500F5D2F8 /* JZYIBuilderDemoVC.h */,
+				04C6981F20BC29E500F5D2F8 /* JZYIBuilderDemoVC.m */,
+				04C6982220BC2E0900F5D2F8 /* Builder.h */,
+				04C6982320BC2E0900F5D2F8 /* Builder.m */,
+				04C6982520BC2E2300F5D2F8 /* BuilderProtocol.h */,
+				04C6982620BC2E7900F5D2F8 /* AbstractPartOne.h */,
+				04C6982720BC2E8900F5D2F8 /* AbstractPartTwo.h */,
+				04C6982120BC2AF800F5D2F8 /* 生成器模式.md */,
 			);
 			path = "生成器模式";
 			sourceTree = "<group>";
@@ -1900,8 +1918,10 @@
 				12C0CE4420AA99A0005BFA8C /* CoinGamePadDecorator.m in Sources */,
 				12C0CE2020A0417E005BFA8C /* JZYIClassModel.m in Sources */,
 				1241A33E2095951E00388A0B /* JZYIHomeRowModel.m in Sources */,
+				04C6982420BC2E0900F5D2F8 /* Builder.m in Sources */,
 				1FF25333204E7EFB005BBDAB /* UIImage+JZYITool.m in Sources */,
 				1251B8EF2063F99100034787 /* JZYICardModelAdapter.m in Sources */,
+				04C6982020BC29E500F5D2F8 /* JZYIBuilderDemoVC.m in Sources */,
 				04C6981920BC23DB00F5D2F8 /* NSObject+MemoCenter.m in Sources */,
 				04AD259120AEA72000663FA8 /* Customer.m in Sources */,
 				1251B88120629B8700034787 /* AnimationView.m in Sources */,
