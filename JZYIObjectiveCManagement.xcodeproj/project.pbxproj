@@ -128,6 +128,9 @@
 		12C0CE9620AD302B005BFA8C /* GBAImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9520AD302B005BFA8C /* GBAImplementor.m */; };
 		12C0CE9920AD32B5005BFA8C /* PSPImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9820AD32B5005BFA8C /* PSPImplementor.m */; };
 		12C0CE9C20AD32CD005BFA8C /* PSPSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9B20AD32CD005BFA8C /* PSPSystem.m */; };
+		12F8707F20BE4BE30011E6AB /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F8707E20BE4BE30011E6AB /* Engine.m */; };
+		12F8708220BE4D530011E6AB /* Wheels.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F8708120BE4D530011E6AB /* Wheels.m */; };
+		12F8708520BE4D620011E6AB /* Door.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F8708420BE4D620011E6AB /* Door.m */; };
 		1FBC17172046593900DED02D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17162046593900DED02D /* AppDelegate.m */; };
 		1FBC171A2046593900DED02D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC17192046593900DED02D /* ViewController.m */; };
 		1FBC171D2046593900DED02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC171B2046593900DED02D /* Main.storyboard */; };
@@ -440,6 +443,15 @@
 		12C0CE9820AD32B5005BFA8C /* PSPImplementor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPImplementor.m; sourceTree = "<group>"; };
 		12C0CE9A20AD32CD005BFA8C /* PSPSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSPSystem.h; sourceTree = "<group>"; };
 		12C0CE9B20AD32CD005BFA8C /* PSPSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPSystem.m; sourceTree = "<group>"; };
+		12F8707A20BE42320011E6AB /* AbstractEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractEngine.h; sourceTree = "<group>"; };
+		12F8707B20BE42C00011E6AB /* AbstractWheels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractWheels.h; sourceTree = "<group>"; };
+		12F8707C20BE45520011E6AB /* AbstractDoor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractDoor.h; sourceTree = "<group>"; };
+		12F8707D20BE4BE30011E6AB /* Engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		12F8707E20BE4BE30011E6AB /* Engine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		12F8708020BE4D530011E6AB /* Wheels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wheels.h; sourceTree = "<group>"; };
+		12F8708120BE4D530011E6AB /* Wheels.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wheels.m; sourceTree = "<group>"; };
+		12F8708320BE4D620011E6AB /* Door.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Door.h; sourceTree = "<group>"; };
+		12F8708420BE4D620011E6AB /* Door.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Door.m; sourceTree = "<group>"; };
 		1FBC17122046593900DED02D /* JZYIObjectiveCManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZYIObjectiveCManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBC17152046593900DED02D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FBC17162046593900DED02D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -666,6 +678,13 @@
 		04C6981D20BC29A300F5D2F8 /* 生成器模式 */ = {
 			isa = PBXGroup;
 			children = (
+				12F8707D20BE4BE30011E6AB /* Engine.h */,
+				12F8707E20BE4BE30011E6AB /* Engine.m */,
+				12F8708020BE4D530011E6AB /* Wheels.h */,
+				12F8708120BE4D530011E6AB /* Wheels.m */,
+				12F8708320BE4D620011E6AB /* Door.h */,
+				12F8708420BE4D620011E6AB /* Door.m */,
+				12F8707620BE41700011E6AB /* AbstractParts */,
 				04C6981E20BC29E500F5D2F8 /* JZYIBuilderDemoVC.h */,
 				04C6981F20BC29E500F5D2F8 /* JZYIBuilderDemoVC.m */,
 				04C6982220BC2E0900F5D2F8 /* Builder.h */,
@@ -1260,6 +1279,16 @@
 				12C0CE8E20AD2E55005BFA8C /* AbstractImplementor.m */,
 			);
 			path = Abstract;
+			sourceTree = "<group>";
+		};
+		12F8707620BE41700011E6AB /* AbstractParts */ = {
+			isa = PBXGroup;
+			children = (
+				12F8707A20BE42320011E6AB /* AbstractEngine.h */,
+				12F8707B20BE42C00011E6AB /* AbstractWheels.h */,
+				12F8707C20BE45520011E6AB /* AbstractDoor.h */,
+			);
+			path = AbstractParts;
 			sourceTree = "<group>";
 		};
 		1FBC17092046593900DED02D = {
@@ -1881,6 +1910,7 @@
 				1241A341209599DA00388A0B /* JZYIHomePushHandler.m in Sources */,
 				1251B8D62063E92D00034787 /* JZYIScrollView.m in Sources */,
 				1241A32F20958ED500388A0B /* JZYIHomeHandler.m in Sources */,
+				12F8708220BE4D530011E6AB /* Wheels.m in Sources */,
 				12C0CE9920AD32B5005BFA8C /* PSPImplementor.m in Sources */,
 				04C6980820BC195000F5D2F8 /* HomeModel.m in Sources */,
 				123D3CB220727CC800395F93 /* JZYICustomInputValidator.m in Sources */,
@@ -1888,8 +1918,10 @@
 				1251B8D82063E92D00034787 /* JZYITableView.m in Sources */,
 				1251B8CC2063E92D00034787 /* JZYIButton.m in Sources */,
 				12C0CE2420A0458F005BFA8C /* JZYIAppearanceDemoVC.m in Sources */,
+				12F8707F20BE4BE30011E6AB /* Engine.m in Sources */,
 				1251B8D02063E92D00034787 /* JZYIDatePicker.m in Sources */,
 				1251B87B2062995900034787 /* DesignPatternVC.m in Sources */,
+				12F8708520BE4D620011E6AB /* Door.m in Sources */,
 				1251B8E72063F6ED00034787 /* JZYINewCardModel.m in Sources */,
 				12C0CE9320AD2F7F005BFA8C /* GBASystem.m in Sources */,
 				1FF25343204E8774005BBDAB /* JZYITabBarController.m in Sources */,

@@ -10,13 +10,29 @@
 
 @implementation Builder
 
-- (id)builderAll
+- (void)buildAllParts
 {
-    Builder *builder = [[[self class] alloc] init];
-    [builder.partOne build];
-    [builder.partTwo build];
+    //创建部件
+    [self.engine build];
+    [self.wheels build];
+    [self.door build];
     
-    return builder;
+    //组装产品
+    NSMutableDictionary *dataDict = [NSMutableDictionary dictionary];
+    dataDict[@"engine"] = [self.engine infomation];
+    dataDict[@"wheels"] = [self.wheels infomation];
+    dataDict[@"door"] = [self.door infomation];
+    
+    self.productsInfo = dataDict;
 }
+
+//- (id)builderAll
+//{
+//    Builder *builder = [[[self class] alloc] init];
+//    [builder.partOne build];
+//    [builder.partTwo build];
+//
+//    return builder;
+//}
 
 @end
