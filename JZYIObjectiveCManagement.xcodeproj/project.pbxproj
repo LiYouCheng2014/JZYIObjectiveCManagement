@@ -133,6 +133,13 @@
 		12DA3F0320BF916C00D6715C /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DA3F0220BF916C00D6715C /* Invoker.m */; };
 		12DA3F0620BF95B100D6715C /* DarkCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DA3F0520BF95B100D6715C /* DarkCommand.m */; };
 		12DA3F0920BF95BD00D6715C /* LightCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DA3F0820BF95BD00D6715C /* LightCommand.m */; };
+		12DA3F0E20BFA01700D6715C /* JZYICombinationDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DA3F0D20BFA01700D6715C /* JZYICombinationDemoVC.m */; };
+		12DA3F1120BFA1AC00D6715C /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DA3F1020BFA1AC00D6715C /* Node.m */; };
+		12DA3F1420BFAD3F00D6715C /* FileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DA3F1320BFAD3F00D6715C /* FileCell.m */; };
+		12DA3F1720BFAF9200D6715C /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DA3F1620BFAF9200D6715C /* File.m */; };
+		12DA3F1A20BFAFDF00D6715C /* JZYIFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DA3F1920BFAFDF00D6715C /* JZYIFileVC.m */; };
+		12DA3F1D20BFB09F00D6715C /* File@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12DA3F1B20BFB09C00D6715C /* File@2x.png */; };
+		12DA3F1E20BFB09F00D6715C /* Folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12DA3F1C20BFB09D00D6715C /* Folder@2x.png */; };
 		12F8707F20BE4BE30011E6AB /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F8707E20BE4BE30011E6AB /* Engine.m */; };
 		12F8708220BE4D530011E6AB /* Wheels.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F8708120BE4D530011E6AB /* Wheels.m */; };
 		12F8708520BE4D620011E6AB /* Door.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F8708420BE4D620011E6AB /* Door.m */; };
@@ -460,6 +467,19 @@
 		12DA3F0520BF95B100D6715C /* DarkCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkCommand.m; sourceTree = "<group>"; };
 		12DA3F0720BF95BD00D6715C /* LightCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightCommand.h; sourceTree = "<group>"; };
 		12DA3F0820BF95BD00D6715C /* LightCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightCommand.m; sourceTree = "<group>"; };
+		12DA3F0B20BF9FDD00D6715C /* 组合模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "组合模式.md"; sourceTree = "<group>"; };
+		12DA3F0C20BFA01700D6715C /* JZYICombinationDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYICombinationDemoVC.h; sourceTree = "<group>"; };
+		12DA3F0D20BFA01700D6715C /* JZYICombinationDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYICombinationDemoVC.m; sourceTree = "<group>"; };
+		12DA3F0F20BFA1AC00D6715C /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		12DA3F1020BFA1AC00D6715C /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		12DA3F1220BFAD3F00D6715C /* FileCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileCell.h; sourceTree = "<group>"; };
+		12DA3F1320BFAD3F00D6715C /* FileCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileCell.m; sourceTree = "<group>"; };
+		12DA3F1520BFAF9200D6715C /* File.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		12DA3F1620BFAF9200D6715C /* File.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		12DA3F1820BFAFDF00D6715C /* JZYIFileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYIFileVC.h; sourceTree = "<group>"; };
+		12DA3F1920BFAFDF00D6715C /* JZYIFileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYIFileVC.m; sourceTree = "<group>"; };
+		12DA3F1B20BFB09C00D6715C /* File@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "File@2x.png"; sourceTree = "<group>"; };
+		12DA3F1C20BFB09D00D6715C /* Folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Folder@2x.png"; sourceTree = "<group>"; };
 		12F8707A20BE42320011E6AB /* AbstractEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractEngine.h; sourceTree = "<group>"; };
 		12F8707B20BE42C00011E6AB /* AbstractWheels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractWheels.h; sourceTree = "<group>"; };
 		12F8707C20BE45520011E6AB /* AbstractDoor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractDoor.h; sourceTree = "<group>"; };
@@ -825,6 +845,7 @@
 		1251B86C206292F100034787 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				12DA3F0A20BF9FC800D6715C /* 组合模式 */,
 				12DA3EF820BF8D6B00D6715C /* 命令模式 */,
 				04C6981D20BC29A300F5D2F8 /* 生成器模式 */,
 				04C697DA20BC183000F5D2F8 /* 备忘录模式 */,
@@ -1316,6 +1337,26 @@
 				12DA3EFC20BF8DA900D6715C /* 命令模式.md */,
 			);
 			path = "命令模式";
+			sourceTree = "<group>";
+		};
+		12DA3F0A20BF9FC800D6715C /* 组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				12DA3F0B20BF9FDD00D6715C /* 组合模式.md */,
+				12DA3F0C20BFA01700D6715C /* JZYICombinationDemoVC.h */,
+				12DA3F0D20BFA01700D6715C /* JZYICombinationDemoVC.m */,
+				12DA3F1820BFAFDF00D6715C /* JZYIFileVC.h */,
+				12DA3F1920BFAFDF00D6715C /* JZYIFileVC.m */,
+				12DA3F1220BFAD3F00D6715C /* FileCell.h */,
+				12DA3F1320BFAD3F00D6715C /* FileCell.m */,
+				12DA3F1520BFAF9200D6715C /* File.h */,
+				12DA3F1620BFAF9200D6715C /* File.m */,
+				12DA3F1B20BFB09C00D6715C /* File@2x.png */,
+				12DA3F1C20BFB09D00D6715C /* Folder@2x.png */,
+				12DA3F0F20BFA1AC00D6715C /* Node.h */,
+				12DA3F1020BFA1AC00D6715C /* Node.m */,
+			);
+			path = "组合模式";
 			sourceTree = "<group>";
 		};
 		12F8707620BE41700011E6AB /* AbstractParts */ = {
@@ -1811,8 +1852,10 @@
 				1FEB21CD2047DBB700051366 /* 1.png in Resources */,
 				04C697F720BC193E00F5D2F8 /* 单例模式.md in Resources */,
 				1FBC171F2046593900DED02D /* Assets.xcassets in Resources */,
+				12DA3F1D20BFB09F00D6715C /* File@2x.png in Resources */,
 				1FF25345204E884A005BBDAB /* tabbar.plist in Resources */,
 				1FBC171D2046593900DED02D /* Main.storyboard in Resources */,
+				12DA3F1E20BFB09F00D6715C /* Folder@2x.png in Resources */,
 				12C0CE1120A03AC2005BFA8C /* 原型模式.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1922,6 +1965,7 @@
 				1251B8CF2063E92D00034787 /* JZYICollectionViewCell.m in Sources */,
 				1251B874206296F600034787 /* BaseAnimationView.m in Sources */,
 				1FBC171A2046593900DED02D /* ViewController.m in Sources */,
+				12DA3F0E20BFA01700D6715C /* JZYICombinationDemoVC.m in Sources */,
 				1251B8DB2063E92D00034787 /* JZYIInputValidator.m in Sources */,
 				1241A34420959A3F00388A0B /* JZYIBlockVC.m in Sources */,
 				12C0CE3E20AA9327005BFA8C /* GamePadDecorate.m in Sources */,
@@ -1931,6 +1975,7 @@
 				04C697DD20BC18D200F5D2F8 /* JZYIMemoDemoVC.m in Sources */,
 				04C6981C20BC266500F5D2F8 /* DemoView.m in Sources */,
 				04C697F820BC193E00F5D2F8 /* JZYISingleCaseDemoVC.m in Sources */,
+				12DA3F1720BFAF9200D6715C /* File.m in Sources */,
 				12C0CE9620AD302B005BFA8C /* GBAImplementor.m in Sources */,
 				1FEB21C52047943A00051366 /* Person.m in Sources */,
 				04C697F620BC193E00F5D2F8 /* InfoModel.m in Sources */,
@@ -1969,6 +2014,7 @@
 				1251B8D22063E92D00034787 /* UIImageView+JZYICornerRadius.m in Sources */,
 				12C0CE5B20ABD880005BFA8C /* iPhoneDevice.m in Sources */,
 				1251B87E206299E700034787 /* ScaleAnimationView.m in Sources */,
+				12DA3F1A20BFAFDF00D6715C /* JZYIFileVC.m in Sources */,
 				1FF25316204E7111005BBDAB /* UIButton+JZYITool.m in Sources */,
 				1251B8772062980700034787 /* FadeAnimationView.m in Sources */,
 				12C0CE3B20AA9236005BFA8C /* GamePad.m in Sources */,
@@ -2013,6 +2059,7 @@
 				1FF25304204E6A5A005BBDAB /* NSString+JZYITool.m in Sources */,
 				12C0CE1C20A0409C005BFA8C /* JZYIStudentModel.m in Sources */,
 				12DA3F0920BF95BD00D6715C /* LightCommand.m in Sources */,
+				12DA3F1420BFAD3F00D6715C /* FileCell.m in Sources */,
 				123D3CAC20727AA200395F93 /* JZYICustomTextField.m in Sources */,
 				12C0CE4120AA979F005BFA8C /* CheatGamePadDecorator.m in Sources */,
 				04C697F320BC193E00F5D2F8 /* TestStudentModel.m in Sources */,
@@ -2040,6 +2087,7 @@
 				1251B8D92063E92D00034787 /* JZYITableViewCell.m in Sources */,
 				12C0CE5220ABD74B005BFA8C /* BaseDevice.m in Sources */,
 				1251B8CE2063E92D00034787 /* JZYICollectionView.m in Sources */,
+				12DA3F1120BFA1AC00D6715C /* Node.m in Sources */,
 				12C0CE8820AD29A9005BFA8C /* JZYIBridgingDemoVC.m in Sources */,
 				123D3CB8207280B600395F93 /* JZYICustomPasswordValidator.m in Sources */,
 				1241A33B2095950E00388A0B /* JZYIHomeSectionModel.m in Sources */,
