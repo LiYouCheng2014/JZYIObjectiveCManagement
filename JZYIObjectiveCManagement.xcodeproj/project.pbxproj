@@ -128,6 +128,11 @@
 		12C0CE9620AD302B005BFA8C /* GBAImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9520AD302B005BFA8C /* GBAImplementor.m */; };
 		12C0CE9920AD32B5005BFA8C /* PSPImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9820AD32B5005BFA8C /* PSPImplementor.m */; };
 		12C0CE9C20AD32CD005BFA8C /* PSPSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0CE9B20AD32CD005BFA8C /* PSPSystem.m */; };
+		12DA3EFB20BF8D9300D6715C /* JZYICommandDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DA3EFA20BF8D9300D6715C /* JZYICommandDemoVC.m */; };
+		12DA3EFF20BF903100D6715C /* Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DA3EFE20BF903100D6715C /* Receiver.m */; };
+		12DA3F0320BF916C00D6715C /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DA3F0220BF916C00D6715C /* Invoker.m */; };
+		12DA3F0620BF95B100D6715C /* DarkCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DA3F0520BF95B100D6715C /* DarkCommand.m */; };
+		12DA3F0920BF95BD00D6715C /* LightCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DA3F0820BF95BD00D6715C /* LightCommand.m */; };
 		12F8707F20BE4BE30011E6AB /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F8707E20BE4BE30011E6AB /* Engine.m */; };
 		12F8708220BE4D530011E6AB /* Wheels.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F8708120BE4D530011E6AB /* Wheels.m */; };
 		12F8708520BE4D620011E6AB /* Door.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F8708420BE4D620011E6AB /* Door.m */; };
@@ -443,6 +448,18 @@
 		12C0CE9820AD32B5005BFA8C /* PSPImplementor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPImplementor.m; sourceTree = "<group>"; };
 		12C0CE9A20AD32CD005BFA8C /* PSPSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSPSystem.h; sourceTree = "<group>"; };
 		12C0CE9B20AD32CD005BFA8C /* PSPSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPSystem.m; sourceTree = "<group>"; };
+		12DA3EF920BF8D9300D6715C /* JZYICommandDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZYICommandDemoVC.h; sourceTree = "<group>"; };
+		12DA3EFA20BF8D9300D6715C /* JZYICommandDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZYICommandDemoVC.m; sourceTree = "<group>"; };
+		12DA3EFC20BF8DA900D6715C /* 命令模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "命令模式.md"; sourceTree = "<group>"; };
+		12DA3EFD20BF903100D6715C /* Receiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
+		12DA3EFE20BF903100D6715C /* Receiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Receiver.m; sourceTree = "<group>"; };
+		12DA3F0020BF90F000D6715C /* CommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandProtocol.h; sourceTree = "<group>"; };
+		12DA3F0120BF916C00D6715C /* Invoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		12DA3F0220BF916C00D6715C /* Invoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
+		12DA3F0420BF95B100D6715C /* DarkCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkCommand.h; sourceTree = "<group>"; };
+		12DA3F0520BF95B100D6715C /* DarkCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkCommand.m; sourceTree = "<group>"; };
+		12DA3F0720BF95BD00D6715C /* LightCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightCommand.h; sourceTree = "<group>"; };
+		12DA3F0820BF95BD00D6715C /* LightCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightCommand.m; sourceTree = "<group>"; };
 		12F8707A20BE42320011E6AB /* AbstractEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractEngine.h; sourceTree = "<group>"; };
 		12F8707B20BE42C00011E6AB /* AbstractWheels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractWheels.h; sourceTree = "<group>"; };
 		12F8707C20BE45520011E6AB /* AbstractDoor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractDoor.h; sourceTree = "<group>"; };
@@ -808,6 +825,7 @@
 		1251B86C206292F100034787 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				12DA3EF820BF8D6B00D6715C /* 命令模式 */,
 				04C6981D20BC29A300F5D2F8 /* 生成器模式 */,
 				04C697DA20BC183000F5D2F8 /* 备忘录模式 */,
 				04C697E020BC193E00F5D2F8 /* 单例模式 */,
@@ -1279,6 +1297,25 @@
 				12C0CE8E20AD2E55005BFA8C /* AbstractImplementor.m */,
 			);
 			path = Abstract;
+			sourceTree = "<group>";
+		};
+		12DA3EF820BF8D6B00D6715C /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				12DA3EF920BF8D9300D6715C /* JZYICommandDemoVC.h */,
+				12DA3EFA20BF8D9300D6715C /* JZYICommandDemoVC.m */,
+				12DA3EFD20BF903100D6715C /* Receiver.h */,
+				12DA3EFE20BF903100D6715C /* Receiver.m */,
+				12DA3F0020BF90F000D6715C /* CommandProtocol.h */,
+				12DA3F0420BF95B100D6715C /* DarkCommand.h */,
+				12DA3F0520BF95B100D6715C /* DarkCommand.m */,
+				12DA3F0720BF95BD00D6715C /* LightCommand.h */,
+				12DA3F0820BF95BD00D6715C /* LightCommand.m */,
+				12DA3F0120BF916C00D6715C /* Invoker.h */,
+				12DA3F0220BF916C00D6715C /* Invoker.m */,
+				12DA3EFC20BF8DA900D6715C /* 命令模式.md */,
+			);
+			path = "命令模式";
 			sourceTree = "<group>";
 		};
 		12F8707620BE41700011E6AB /* AbstractParts */ = {
@@ -1924,6 +1961,7 @@
 				12F8708520BE4D620011E6AB /* Door.m in Sources */,
 				1251B8E72063F6ED00034787 /* JZYINewCardModel.m in Sources */,
 				12C0CE9320AD2F7F005BFA8C /* GBASystem.m in Sources */,
+				12DA3EFF20BF903100D6715C /* Receiver.m in Sources */,
 				1FF25343204E8774005BBDAB /* JZYITabBarController.m in Sources */,
 				1251B8D32063E92D00034787 /* JZYILabel.m in Sources */,
 				1241A32C20958EC500388A0B /* JZYIHomeModel.m in Sources */,
@@ -1942,6 +1980,7 @@
 				12C0CE3620AA8E66005BFA8C /* JZYIDecorateDemoVC.m in Sources */,
 				1251B8872063DF1F00034787 /* AdapterDemoVC.m in Sources */,
 				04AD259C20AEC5C300663FA8 /* AbstractExcute.m in Sources */,
+				12DA3F0320BF916C00D6715C /* Invoker.m in Sources */,
 				04C6980F20BC1E0400F5D2F8 /* MemoCenter.m in Sources */,
 				04C6981320BC1F1F00F5D2F8 /* Apple.m in Sources */,
 				04AD259820AEC52000663FA8 /* AbstractProxy.m in Sources */,
@@ -1973,6 +2012,7 @@
 				1FF25336204E85F5005BBDAB /* JZYIMyVC.m in Sources */,
 				1FF25304204E6A5A005BBDAB /* NSString+JZYITool.m in Sources */,
 				12C0CE1C20A0409C005BFA8C /* JZYIStudentModel.m in Sources */,
+				12DA3F0920BF95BD00D6715C /* LightCommand.m in Sources */,
 				123D3CAC20727AA200395F93 /* JZYICustomTextField.m in Sources */,
 				12C0CE4120AA979F005BFA8C /* CheatGamePadDecorator.m in Sources */,
 				04C697F320BC193E00F5D2F8 /* TestStudentModel.m in Sources */,
@@ -1995,6 +2035,7 @@
 				1FF25321204E7646005BBDAB /* JZYINavigationController.m in Sources */,
 				1251B8EB2063F8BD00034787 /* JZYIBusinessCardAdapter.m in Sources */,
 				12C0CE7B20ABE518005BFA8C /* iWatch.m in Sources */,
+				12DA3F0620BF95B100D6715C /* DarkCommand.m in Sources */,
 				12C0CE2820A047BB005BFA8C /* Shape.m in Sources */,
 				1251B8D92063E92D00034787 /* JZYITableViewCell.m in Sources */,
 				12C0CE5220ABD74B005BFA8C /* BaseDevice.m in Sources */,
@@ -2009,6 +2050,7 @@
 				1FF25339204E8601005BBDAB /* JZYIFindVC.m in Sources */,
 				12C0CE2E20A0483D005BFA8C /* Circle.m in Sources */,
 				1241A33820958F1000388A0B /* JZYIHomeCell.m in Sources */,
+				12DA3EFB20BF8D9300D6715C /* JZYICommandDemoVC.m in Sources */,
 				1FF2531C204E73E6005BBDAB /* JZYIBaseVC.m in Sources */,
 				12C0CE4720AA9A49005BFA8C /* GamePad+Cheat.m in Sources */,
 				12C0CE5E20ABD943005BFA8C /* AndroidDevice.m in Sources */,
