@@ -8,7 +8,15 @@
 
 #import "JZYIBuilderDemoVC.h"
 
+#import "Builder.h"
+#import "Engine.h"
+#import "Wheels.h"
+#import "Door.h"
+
 @interface JZYIBuilderDemoVC ()
+
+@property (nonatomic, strong) Builder *builder; //!<
+
 
 @end
 
@@ -16,7 +24,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    //创建组装者
+    self.builder = [Builder new];
+    
+    //指定承包商
+    self.builder.engine = [Engine new];
+    self.builder.wheels = [Wheels new];
+    self.builder.door = [Door new];
+    
+    //构建所有的部件
+    [self.builder buildAllParts];
+    
+    //获取产品
+    NSLog(@"%@",self.builder.productsInfo);
+    
 }
 
 - (void)didReceiveMemoryWarning {

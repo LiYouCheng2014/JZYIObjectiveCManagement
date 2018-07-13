@@ -28,6 +28,8 @@
 #import "JZYISingleCaseDemoVC.h"
 #import "JZYIMemoDemoVC.h"
 #import "JZYIBuilderDemoVC.h"
+#import "JZYICommandDemoVC.h"
+#import "JZYICombinationDemoVC.h"
 
 @implementation JZYIHomePushHandler
 
@@ -139,7 +141,20 @@
             [target.navigationController pushViewController:vc animated:true];
         }
             break;
-            
+        case JZYIHomePushTypeDesignCommand:
+        {
+            //命令模式
+            JZYICommandDemoVC *vc = [JZYICommandDemoVC new];
+            [target.navigationController pushViewController:vc animated:true];
+        }
+            break;
+        case JZYIHomePushTypeDesignCombination:
+        {
+            //组合模式
+            JZYICombinationDemoVC *vc = [JZYICombinationDemoVC new];
+            [target.navigationController pushViewController:vc animated:true];
+        }
+            break;
     }
 }
 
