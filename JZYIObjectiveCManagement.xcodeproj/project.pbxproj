@@ -603,12 +603,12 @@
 			isa = PBXGroup;
 			children = (
 				04C697E620BC193E00F5D2F8 /* NSObject+StoreValue.h */,
-				04C697E720BC193E00F5D2F8 /* TestStudentModel.m */,
-				04C697E820BC193E00F5D2F8 /* StoreValue.m */,
-				04C697E920BC193E00F5D2F8 /* InfoModel.h */,
 				04C697EA20BC193E00F5D2F8 /* NSObject+StoreValue.m */,
-				04C697EB20BC193E00F5D2F8 /* InfoModel.m */,
+				04C697E820BC193E00F5D2F8 /* StoreValue.m */,
 				04C697EC20BC193E00F5D2F8 /* StoreValue.h */,
+				04C697E920BC193E00F5D2F8 /* InfoModel.h */,
+				04C697EB20BC193E00F5D2F8 /* InfoModel.m */,
+				04C697E720BC193E00F5D2F8 /* TestStudentModel.m */,
 				04C697ED20BC193E00F5D2F8 /* TestStudentModel.h */,
 			);
 			path = StoreValue;

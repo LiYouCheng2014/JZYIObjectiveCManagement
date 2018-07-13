@@ -25,6 +25,8 @@
     [super viewDidLoad];
     
     [self p_setTabBar];
+    
+    self.selectedIndex = 3;
 }
 
 - (void)didReceiveMemoryWarning {
