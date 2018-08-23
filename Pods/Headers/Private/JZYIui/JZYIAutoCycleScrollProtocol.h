@@ -1,0 +1,1 @@
+../../../JZYIui/Classes/JZYIAutoCycleScroll/BaseAutoScroll/JZYIAutoCycleScrollProtocol.h

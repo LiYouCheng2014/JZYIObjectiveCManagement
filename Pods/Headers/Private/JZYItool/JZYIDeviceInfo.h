@@ -1,0 +1,1 @@
+../../../JZYItool/Classes/JZYIBaseInfo/JZYIDeviceInfo.h

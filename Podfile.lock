@@ -1,50 +1,104 @@
 PODS:
-  - AFNetworking (3.1.0):
-    - AFNetworking/NSURLSession (= 3.1.0)
-    - AFNetworking/Reachability (= 3.1.0)
-    - AFNetworking/Security (= 3.1.0)
-    - AFNetworking/Serialization (= 3.1.0)
-    - AFNetworking/UIKit (= 3.1.0)
-  - AFNetworking/NSURLSession (3.1.0):
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.1.0)
-  - AFNetworking/Security (3.1.0)
-  - AFNetworking/Serialization (3.1.0)
-  - AFNetworking/UIKit (3.1.0):
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - FastCoding (3.3)
+  - JZYItool (0.0.2):
+    - JZYItool/JZYIBaseInfo (= 0.0.2)
+    - JZYItool/JZYICommon (= 0.0.2)
+  - JZYItool/JZYIBaseInfo (0.0.2)
+  - JZYItool/JZYICommon (0.0.2):
+    - FastCoding (~> 3.3)
+    - MJExtension (~> 3.0.15)
+    - SDWebImage (~> 4.4.1)
+  - JZYIui (0.0.9):
+    - JZYIui/JZYIAutoCycleScroll (= 0.0.9)
+    - JZYIui/JZYIBaseUI (= 0.0.9)
+    - JZYIui/JZYILoading (= 0.0.9)
+    - JZYIui/JZYILookPicture (= 0.0.9)
+    - JZYIui/JZYISelectPicture (= 0.0.9)
+  - JZYIui/JZYIAutoCycleScroll (0.0.9):
+    - JZYItool/JZYICommon
+    - JZYIui/JZYIBaseUI
+  - JZYIui/JZYIBaseUI (0.0.9):
+    - Masonry (~> 1.1.0)
+  - JZYIui/JZYILoading (0.0.9):
+    - MBProgressHUD (~> 1.1.0)
+    - MJRefresh (~> 3.1.15)
+    - SVProgressHUD (~> 2.2.5)
+  - JZYIui/JZYILookPicture (0.0.9):
+    - JZYItool/JZYIBaseInfo
+    - JZYIui/JZYIBaseUI
+  - JZYIui/JZYISelectPicture (0.0.9):
+    - JZYItool/JZYIBaseInfo
+    - JZYItool/JZYICommon
+    - JZYIui/JZYIBaseUI
+    - JZYIui/JZYILoading
+    - JZYIui/JZYILookPicture
+    - TZImagePickerController (~> 2.1.6)
   - Masonry (1.1.0)
-  - MJExtension (3.0.13)
-  - MJRefresh (3.1.15.3)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.6)
   - ReactiveObjC (3.1.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SVProgressHUD (2.2.5)
+  - TZImagePickerController (2.1.9)
+  - YTKNetwork (2.0.4):
+    - AFNetworking (~> 3.0)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.1.0)
-  - FastCoding (= 3.3)
-  - Masonry (~> 1.1.0)
-  - MJExtension (~> 3.0.13)
-  - MJRefresh (~> 3.1.15.2)
+  - JZYItool (~> 0.0.2)
+  - JZYIui (~> 0.0.8)
   - ReactiveObjC (~> 3.1.0)
+  - YTKNetwork (~> 2.0.4)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  "git@git.gigahome.cc:iOSPrivate/MySpecs.git":
+    - JZYItool
+    - JZYIui
+  https://github.com/cocoapods/specs.git:
     - AFNetworking
     - FastCoding
     - Masonry
+    - MBProgressHUD
     - MJExtension
     - MJRefresh
     - ReactiveObjC
+    - SDWebImage
+    - SVProgressHUD
+    - TZImagePickerController
+    - YTKNetwork
 
 SPEC CHECKSUMS:
-  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FastCoding: 3b590f7143a229780fa744b35084d85d9461587e
+  JZYItool: 2393d037d50cf9e8a4781749e3d778f0201209bb
+  JZYIui: b91be5f7e3b0570b51291da88af2d6158783ab8d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MJExtension: 5932755f451458eefa24239358817f8d291240c7
-  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TZImagePickerController: 6c9721783063edafc9ad42cd95acc82f1b648485
+  YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
 
-PODFILE CHECKSUM: a90af2cee986207931611bc38c1333773d3d9a40
+PODFILE CHECKSUM: fea0b2b5f8b94393a4ab11c3ed9d36d0ead30282
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
